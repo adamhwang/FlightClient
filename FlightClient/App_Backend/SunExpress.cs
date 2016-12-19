@@ -179,8 +179,8 @@ namespace SunExpress
                 ///////////////////////////////////////////////////////////////////////////////
 
                 //Create an asymmetric encrypted nonce using the public key 
-                //string rndStr = RandomString(40);
-                string rndStr = "1234567890123456789012345678901234567890";
+                string rndStr = RandomString(40);
+                //string rndStr = "1234567890123456789012345678901234567890";
 
                 UTF8Encoding UTF8 = new UTF8Encoding();
                 byte[] nonceByte = UTF8.GetBytes(rndStr);
