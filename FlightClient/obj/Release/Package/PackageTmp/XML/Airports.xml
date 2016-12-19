@@ -1,0 +1,1900 @@
+<Airports>
+<Airport><IATA>AAL</IATA><Name>Aalborg Airport</Name></Airport>
+<Airport><IATA>AAN</IATA><Name>Al Ain</Name></Airport>
+<Airport><IATA>AAQ</IATA><Name>Anapa</Name></Airport>
+<Airport><IATA>AAR</IATA><Name>Aarhus Airport</Name></Airport>
+<Airport><IATA>AAX</IATA><Name>Araxa Airport</Name></Airport>
+<Airport><IATA>ABA</IATA><Name>Abakan Intl</Name></Airport>
+<Airport><IATA>ABE</IATA><Name>Lehigh Valley Intl Airport</Name></Airport>
+<Airport><IATA>ABJ</IATA><Name>Abidjan Airport</Name></Airport>
+<Airport><IATA>ABQ</IATA><Name>Albuquerque Intl</Name></Airport>
+<Airport><IATA>ABR</IATA><Name>Aberdeen Regional Airport</Name></Airport>
+<Airport><IATA>ABV</IATA><Name>Abuja - Nnamdi Azikiwe Intl</Name></Airport>
+<Airport><IATA>ABX</IATA><Name>Albury</Name></Airport>
+<Airport><IATA>ABZ</IATA><Name>Aberdeen Airport</Name></Airport>
+<Airport><IATA>ACA</IATA><Name>Acapulco Intl Airport</Name></Airport>
+<Airport><IATA>ACB</IATA><Name>Bellaire - Antrim County</Name></Airport>
+<Airport><IATA>ACC</IATA><Name>Accra - Kotoka</Name></Airport>
+<Airport><IATA>ACE</IATA><Name>Arrecife - Lanzarote Airport</Name></Airport>
+<Airport><IATA>ACH</IATA><Name>Altenrhein - St Gallen Airport</Name></Airport>
+<Airport><IATA>ACI</IATA><Name>Alderney Airport</Name></Airport>
+<Airport><IATA>ACK</IATA><Name>Nantucket Memorial</Name></Airport>
+<Airport><IATA>ACT</IATA><Name>Waco Regional Airport</Name></Airport>
+<Airport><IATA>ACY</IATA><Name>Atlantic City Intl</Name></Airport>
+<Airport><IATA>ADA</IATA><Name>Adana - Sakirpasa Airport</Name></Airport>
+<Airport><IATA>ADB</IATA><Name>Izmir - Adnan Menderes Airport</Name></Airport>
+<Airport><IATA>ADD</IATA><Name>Addis Ababa Bole Intl</Name></Airport>
+<Airport><IATA>ADE</IATA><Name>Aden International Airport</Name></Airport>
+<Airport><IATA>ADK</IATA><Name>Adak Island</Name></Airport>
+<Airport><IATA>ADL</IATA><Name>Adelaide</Name></Airport>
+<Airport><IATA>ADQ</IATA><Name>Kodiak Airport</Name></Airport>
+<Airport><IATA>ADZ</IATA><Name>Gustavo Rojas Pinilla Intl Airport</Name></Airport>
+<Airport><IATA>AEP</IATA><Name>Aeroparque Jorge Newbery</Name></Airport>
+<Airport><IATA>AER</IATA><Name>Adler - Sochi Airport</Name></Airport>
+<Airport><IATA>AES</IATA><Name>Aalesund Vigra</Name></Airport>
+<Airport><IATA>AEY</IATA><Name>Akureyri Airport</Name></Airport>
+<Airport><IATA>AFL</IATA><Name>Alta Floresta (Mato Grosso)</Name></Airport>
+<Airport><IATA>AGA</IATA><Name>Agadir Almassira Airport</Name></Airport>
+<Airport><IATA>AGF</IATA><Name>Agen - La Garenne</Name></Airport>
+<Airport><IATA>AGH</IATA><Name>Helsingborg Angelholm Airport</Name></Airport>
+<Airport><IATA>AGP</IATA><Name>Malaga Airport</Name></Airport>
+<Airport><IATA>AGR</IATA><Name>Kheria</Name></Airport>
+<Airport><IATA>AGT</IATA><Name>Guarani Intl</Name></Airport>
+<Airport><IATA>AGX</IATA><Name>Agatti Island</Name></Airport>
+<Airport><IATA>AHB</IATA><Name>Abha Regional Airport</Name></Airport>
+<Airport><IATA>AHO</IATA><Name>Alghero Airport</Name></Airport>
+<Airport><IATA>AHU</IATA><Name>Al Hoceima - Al Charif Al Idrissi Airport</Name></Airport>
+<Airport><IATA>AIA</IATA><Name>Alliance Municipal Airport</Name></Airport>
+<Airport><IATA>AJA</IATA><Name>Campo Dell Oro Airport</Name></Airport>
+<Airport><IATA>AJL</IATA><Name>Aizawl Airport</Name></Airport>
+<Airport><IATA>AJR</IATA><Name>Arvidsjaur Airport</Name></Airport>
+<Airport><IATA>AJU</IATA><Name>Aracaju - Santa Maria</Name></Airport>
+<Airport><IATA>AKL</IATA><Name>Auckland Intl</Name></Airport>
+<Airport><IATA>ALA</IATA><Name>Almaty Intl Airport</Name></Airport>
+<Airport><IATA>ALB</IATA><Name>Albany Intl</Name></Airport>
+<Airport><IATA>ALC</IATA><Name>Alicante Airport</Name></Airport>
+<Airport><IATA>ALF</IATA><Name>Elvebakken Airport</Name></Airport>
+<Airport><IATA>ALG</IATA><Name>Algiers Intl Airport</Name></Airport>
+<Airport><IATA>ALH</IATA><Name>Albany</Name></Airport>
+<Airport><IATA>ALL</IATA><Name>Albenga</Name></Airport>
+<Airport><IATA>ALP</IATA><Name>Aleppo - Nejrab</Name></Airport>
+<Airport><IATA>ALS</IATA><Name>San Luis Valley Regional Airport</Name></Airport>
+<Airport><IATA>ALW</IATA><Name>Walla Walla Regional</Name></Airport>
+<Airport><IATA>ALY</IATA><Name>Alexandria - Al Nozha</Name></Airport>
+<Airport><IATA>AMA</IATA><Name>Rick Husband Amarillo Intl</Name></Airport>
+<Airport><IATA>AMD</IATA><Name>Ahmedabad</Name></Airport>
+<Airport><IATA>AMI</IATA><Name>Selaparang, Mataram - Lombok</Name></Airport>
+<Airport><IATA>AMM</IATA><Name>Queen Alia Intl Airport</Name></Airport>
+<Airport><IATA>AMQ</IATA><Name>Pattimura - Uliasers</Name></Airport>
+<Airport><IATA>AMS</IATA><Name>Amsterdam - Schiphol Airport</Name></Airport>
+<Airport><IATA>ANC</IATA><Name>Anchorage Intl</Name></Airport>
+<Airport><IATA>ANE</IATA><Name>Angers - Marce Airport</Name></Airport>
+<Airport><IATA>ANF</IATA><Name>Cerro Moreno Intl</Name></Airport>
+<Airport><IATA>ANG</IATA><Name>Angoulême - Brie-Champniers</Name></Airport>
+<Airport><IATA>ANK</IATA><Name>Ankara - Etimesgut</Name></Airport>
+<Airport><IATA>ANR</IATA><Name>Antwerp Intl Airport</Name></Airport>
+<Airport><IATA>ANU</IATA><Name>Antigua V C Bird Intl</Name></Airport>
+<Airport><IATA>ANX</IATA><Name>Andenes - Andøya</Name></Airport>
+<Airport><IATA>AOC</IATA><Name>Altenburg - Nobitz Airport</Name></Airport>
+<Airport><IATA>AOE</IATA><Name>Eskisehir Anadolu</Name></Airport>
+<Airport><IATA>AOI</IATA><Name>Ancona - Falconara Airport</Name></Airport>
+<Airport><IATA>AOK</IATA><Name>Karpathos Airport</Name></Airport>
+<Airport><IATA>AOR</IATA><Name>Alor Setar - Sultan Abdul Halim</Name></Airport>
+<Airport><IATA>APL</IATA><Name>Nampula Airport</Name></Airport>
+<Airport><IATA>APW</IATA><Name>Apia - Faleolo Intl</Name></Airport>
+<Airport><IATA>AQA</IATA><Name>Araraquara Airport</Name></Airport>
+<Airport><IATA>AQJ</IATA><Name>King Hussein Intl</Name></Airport>
+<Airport><IATA>AQP</IATA><Name>Rodriguez Ballon Intl</Name></Airport>
+<Airport><IATA>ARD</IATA><Name>Alor Island Apt</Name></Airport>
+<Airport><IATA>ARH</IATA><Name>Arkhangelsk - Talagi</Name></Airport>
+<Airport><IATA>ARI</IATA><Name>Chacalluta Intl</Name></Airport>
+<Airport><IATA>ARM</IATA><Name>Armidale</Name></Airport>
+<Airport><IATA>ARN</IATA><Name>Stockholm - Arlanda Airport</Name></Airport>
+<Airport><IATA>ARU</IATA><Name>Aracatuba Airport</Name></Airport>
+<Airport><IATA>ARW</IATA><Name>Arad Intl Airport</Name></Airport>
+<Airport><IATA>ASB</IATA><Name>Ashgabat</Name></Airport>
+<Airport><IATA>ASE</IATA><Name>Aspen - Pitkin County Airport</Name></Airport>
+<Airport><IATA>ASF</IATA><Name>Astrakhan - Narimanovo</Name></Airport>
+<Airport><IATA>ASM</IATA><Name>Asmara Intl Airport</Name></Airport>
+<Airport><IATA>ASP</IATA><Name>Alice Springs Airport</Name></Airport>
+<Airport><IATA>ASR</IATA><Name>Kayseri Erkilet Intl Airport</Name></Airport>
+<Airport><IATA>ASU</IATA><Name>Silvio Pettirossi Intl</Name></Airport>
+<Airport><IATA>ASW</IATA><Name>Aswan Intl</Name></Airport>
+<Airport><IATA>ATH</IATA><Name>Athens - Eleftherios Venizelos Intl</Name></Airport>
+<Airport><IATA>ATL</IATA><Name>Hartsfield Jackson Atlanta Intl Airport</Name></Airport>
+<Airport><IATA>ATM</IATA><Name>Altamira Airport</Name></Airport>
+<Airport><IATA>ATQ</IATA><Name>Amritsar Airport</Name></Airport>
+<Airport><IATA>ATZ</IATA><Name>Asyut</Name></Airport>
+<Airport><IATA>AUA</IATA><Name>Aruba Aeropuerto Intl Reina Beatrix</Name></Airport>
+<Airport><IATA>AUG</IATA><Name>Augusta State Airport</Name></Airport>
+<Airport><IATA>AUH</IATA><Name>Abu Dhabi Intl</Name></Airport>
+<Airport><IATA>AUR</IATA><Name>Aurillac</Name></Airport>
+<Airport><IATA>AUS</IATA><Name>Austin - Bergstrom Intl Airport</Name></Airport>
+<Airport><IATA>AUX</IATA><Name>Araguaina (Tocantins)</Name></Airport>
+<Airport><IATA>AVL</IATA><Name>Asheville Regional Airport</Name></Airport>
+<Airport><IATA>AVN</IATA><Name>Avignon - Caumont Airport</Name></Airport>
+<Airport><IATA>AVP</IATA><Name>Wilkes-Barre/Scranton Intl Airport</Name></Airport>
+<Airport><IATA>AVV</IATA><Name>Avalon Airport</Name></Airport>
+<Airport><IATA>AXA</IATA><Name>Clayton J Lloyd Intl Airport</Name></Airport>
+<Airport><IATA>AXD</IATA><Name>Alexandroupolis Dhmokritos National Airport</Name></Airport>
+<Airport><IATA>AXM</IATA><Name>Armenia - El Eden</Name></Airport>
+<Airport><IATA>AYQ</IATA><Name>Connellan - Ayers Rock - Uluru</Name></Airport>
+<Airport><IATA>AYT</IATA><Name>Antalya Airport</Name></Airport>
+<Airport><IATA>AZA</IATA><Name>Phoenix-Mesa Gateway</Name></Airport>
+<Airport><IATA>AZN</IATA><Name>Andizhan</Name></Airport>
+<Airport><IATA>AZS</IATA><Name>Samana El Catey Intl Airport</Name></Airport>
+<Airport><IATA>BAH</IATA><Name>Bahrain International</Name></Airport>
+<Airport><IATA>BAL</IATA><Name>Batman</Name></Airport>
+<Airport><IATA>BAQ</IATA><Name>Ernesto Cortissoz Intl</Name></Airport>
+<Airport><IATA>BAX</IATA><Name>Barnaul Airport</Name></Airport>
+<Airport><IATA>BAZ</IATA><Name>Barcelos Airport</Name></Airport>
+<Airport><IATA>BBA</IATA><Name>Balmaceda Airport</Name></Airport>
+<Airport><IATA>BBH</IATA><Name>Stralsund Barth Airport</Name></Airport>
+<Airport><IATA>BBI</IATA><Name>Bhubaneswar Airport</Name></Airport>
+<Airport><IATA>BBK</IATA><Name>Kasane Airport</Name></Airport>
+<Airport><IATA>BBU</IATA><Name>Bucharest - Baneasa Airport</Name></Airport>
+<Airport><IATA>BCD</IATA><Name>Bacolod - Silay Airport</Name></Airport>
+<Airport><IATA>BCM</IATA><Name>Bacau</Name></Airport>
+<Airport><IATA>BCN</IATA><Name>Barcelona Airport</Name></Airport>
+<Airport><IATA>BDA</IATA><Name>Bermuda Intl</Name></Airport>
+<Airport><IATA>BDB</IATA><Name>Bundaberg</Name></Airport>
+<Airport><IATA>BDJ</IATA><Name>Sjamsudin Noor</Name></Airport>
+<Airport><IATA>BDL</IATA><Name>Bradley Intl</Name></Airport>
+<Airport><IATA>BDO</IATA><Name>Bandung - Husein Sastranegara Intl</Name></Airport>
+<Airport><IATA>BDQ</IATA><Name>Vadodara</Name></Airport>
+<Airport><IATA>BDS</IATA><Name>Brindisi Airport</Name></Airport>
+<Airport><IATA>BDU</IATA><Name>Bardufoss</Name></Airport>
+<Airport><IATA>BEB</IATA><Name>Benbecula</Name></Airport>
+<Airport><IATA>BED</IATA><Name>Hanscom Field</Name></Airport>
+<Airport><IATA>BEG</IATA><Name>Belgrade - Nikola Tesla Intl Airport</Name></Airport>
+<Airport><IATA>BEL</IATA><Name>Val De Caes Intl</Name></Airport>
+<Airport><IATA>BER</IATA><Name>Berlin (All Airports)</Name></Airport>
+<Airport><IATA>BES</IATA><Name>Brest - Bretagne Airport</Name></Airport>
+<Airport><IATA>BET</IATA><Name>Bethel Airport</Name></Airport>
+<Airport><IATA>BEW</IATA><Name>Beira Airport</Name></Airport>
+<Airport><IATA>BEY</IATA><Name>Beirut Intl Airport</Name></Airport>
+<Airport><IATA>BFC</IATA><Name>Bloomfield</Name></Airport>
+<Airport><IATA>BFF</IATA><Name>Western Nebraska Regional Airport</Name></Airport>
+<Airport><IATA>BFI</IATA><Name>King County Intl Airport</Name></Airport>
+<Airport><IATA>BFL</IATA><Name>Meadows Field</Name></Airport>
+<Airport><IATA>BFN</IATA><Name>Bloemfontein Airport</Name></Airport>
+<Airport><IATA>BFS</IATA><Name>Belfast Intl Airport</Name></Airport>
+<Airport><IATA>BFV</IATA><Name>Buriram Airport</Name></Airport>
+<Airport><IATA>BGC</IATA><Name>Braganca Airport</Name></Airport>
+<Airport><IATA>BGF</IATA><Name>Bangui M'Poko Intl Airport</Name></Airport>
+<Airport><IATA>BGI</IATA><Name>Bridgetown Airport</Name></Airport>
+<Airport><IATA>BGO</IATA><Name>Bergen Flesland Airport</Name></Airport>
+<Airport><IATA>BGR</IATA><Name>Bangor, Maine Intl</Name></Airport>
+<Airport><IATA>BGW</IATA><Name>Baghdad Al Muthana Airport</Name></Airport>
+<Airport><IATA>BGY</IATA><Name>Milan-Bergamo Airport</Name></Airport>
+<Airport><IATA>BHB</IATA><Name>Harbor Airport</Name></Airport>
+<Airport><IATA>BHD</IATA><Name>Belfast City Airport</Name></Airport>
+<Airport><IATA>BHE</IATA><Name>Woodbourne Air Station</Name></Airport>
+<Airport><IATA>BHJ</IATA><Name>Rudra Mata</Name></Airport>
+<Airport><IATA>BHK</IATA><Name>Bukhara</Name></Airport>
+<Airport><IATA>BHM</IATA><Name>Birmingham</Name></Airport>
+<Airport><IATA>BHO</IATA><Name>Bhopal Airport</Name></Airport>
+<Airport><IATA>BHU</IATA><Name>Bhavnagar Airport</Name></Airport>
+<Airport><IATA>BHX</IATA><Name>Birmingham Intl Airport</Name></Airport>
+<Airport><IATA>BIA</IATA><Name>Aeroport de Bastia - Poretta</Name></Airport>
+<Airport><IATA>BIL</IATA><Name>Billings Logan Intl Airport</Name></Airport>
+<Airport><IATA>BIM</IATA><Name>South Bimini Bahamas</Name></Airport>
+<Airport><IATA>BIO</IATA><Name>Bilbao Airport</Name></Airport>
+<Airport><IATA>BIQ</IATA><Name>Biarritz - Anglet - Bayonne Airport</Name></Airport>
+<Airport><IATA>BJA</IATA><Name>Bejaia, Algeria Soummam – Abane Ramdane Airport</Name></Airport>
+<Airport><IATA>BJF</IATA><Name>Batsfjord</Name></Airport>
+<Airport><IATA>BJL</IATA><Name>Banjul Intl Airport</Name></Airport>
+<Airport><IATA>BJM</IATA><Name>Bujumbura Intl</Name></Airport>
+<Airport><IATA>BJV</IATA><Name>Bodrum Milas Airport</Name></Airport>
+<Airport><IATA>BKG</IATA><Name>Branson Airport</Name></Airport>
+<Airport><IATA>BKI</IATA><Name>Kota Kinabalu</Name></Airport>
+<Airport><IATA>BKK</IATA><Name>Bangkok Intl Airport</Name></Airport>
+<Airport><IATA>BKO</IATA><Name>Bamako - Sénou Intl Airport</Name></Airport>
+<Airport><IATA>BKS</IATA><Name>Padangkemiling</Name></Airport>
+<Airport><IATA>BKX</IATA><Name>Brookings Regional Airport</Name></Airport>
+<Airport><IATA>BLE</IATA><Name>Borlange Airport</Name></Airport>
+<Airport><IATA>BLK</IATA><Name>Blackpool Airport</Name></Airport>
+<Airport><IATA>BLL</IATA><Name>Billund Airport</Name></Airport>
+<Airport><IATA>BLQ</IATA><Name>Bologna - Guglielmo Marconi Airport</Name></Airport>
+<Airport><IATA>BLR</IATA><Name>Hal Bangalore Airport</Name></Airport>
+<Airport><IATA>BLZ</IATA><Name>Malawi Chileka Intl</Name></Airport>
+<Airport><IATA>BMA</IATA><Name>Stockholm - Bromma Airport</Name></Airport>
+<Airport><IATA>BME</IATA><Name>Broome</Name></Airport>
+<Airport><IATA>BMG</IATA><Name>Monroe County Airport</Name></Airport>
+<Airport><IATA>BMI</IATA><Name>Central Illinois Regional Airport</Name></Airport>
+<Airport><IATA>BMU</IATA><Name>Bima</Name></Airport>
+<Airport><IATA>BMV</IATA><Name>Phung - Duc</Name></Airport>
+<Airport><IATA>BNA</IATA><Name>Nashville Intl</Name></Airport>
+<Airport><IATA>BNE</IATA><Name>Brisbane Intl Airport</Name></Airport>
+<Airport><IATA>BNK</IATA><Name>Ballina Byron Gateway</Name></Airport>
+<Airport><IATA>BNN</IATA><Name>Bronnoy</Name></Airport>
+<Airport><IATA>BOD</IATA><Name>Bordeaux Airport</Name></Airport>
+<Airport><IATA>BOG</IATA><Name>Bogota - Eldorado Intl</Name></Airport>
+<Airport><IATA>BOH</IATA><Name>Bournemouth Airport</Name></Airport>
+<Airport><IATA>BOI</IATA><Name>Boise Gowen Field</Name></Airport>
+<Airport><IATA>BOJ</IATA><Name>Bourgas Airport</Name></Airport>
+<Airport><IATA>BOM</IATA><Name>Mumbai, Chhatrapati Shivaji Airport</Name></Airport>
+<Airport><IATA>BON</IATA><Name>Flamingo International</Name></Airport>
+<Airport><IATA>BOO</IATA><Name>Bodo Airport</Name></Airport>
+<Airport><IATA>BOS</IATA><Name>Boston Logan Intl Airport</Name></Airport>
+<Airport><IATA>BPN</IATA><Name>Sepingan</Name></Airport>
+<Airport><IATA>BPS</IATA><Name>Porto Seguro</Name></Airport>
+<Airport><IATA>BQB</IATA><Name>Busselton</Name></Airport>
+<Airport><IATA>BQL</IATA><Name>Boulia</Name></Airport>
+<Airport><IATA>BQN</IATA><Name>Rafael Hernández Airport</Name></Airport>
+<Airport><IATA>BRA</IATA><Name>Barreiras - Bahia</Name></Airport>
+<Airport><IATA>BRE</IATA><Name>Bremen Airport</Name></Airport>
+<Airport><IATA>BRG</IATA><Name>Whitesburg Municipal Airport</Name></Airport>
+<Airport><IATA>BRI</IATA><Name>Bari - Palese Airport</Name></Airport>
+<Airport><IATA>BRK</IATA><Name>Bourke</Name></Airport>
+<Airport><IATA>BRN</IATA><Name>Bern - Belp Airport</Name></Airport>
+<Airport><IATA>BRO</IATA><Name>South Padre Island Intl Airport</Name></Airport>
+<Airport><IATA>BRQ</IATA><Name>Brno - Turany Airport</Name></Airport>
+<Airport><IATA>BRR</IATA><Name>Barra North Bay</Name></Airport>
+<Airport><IATA>BRS</IATA><Name>Bristol Airport</Name></Airport>
+<Airport><IATA>BRU</IATA><Name>Brussels - Zaventem Intl Airport</Name></Airport>
+<Airport><IATA>BRW</IATA><Name>Barrow Alaska Wiley Post–Will Rogers Memorial</Name></Airport>
+<Airport><IATA>BSB</IATA><Name>Presidente Juscelino Kubitschek</Name></Airport>
+<Airport><IATA>BSL</IATA><Name>Basel - Mulhouse Freiburg</Name></Airport>
+<Airport><IATA>BSR</IATA><Name>Basra International Airport</Name></Airport>
+<Airport><IATA>BTH</IATA><Name>Hang Nadim</Name></Airport>
+<Airport><IATA>BTJ</IATA><Name>Blang Bintang</Name></Airport>
+<Airport><IATA>BTK</IATA><Name>Bratsk Airport</Name></Airport>
+<Airport><IATA>BTR</IATA><Name>Baton Rouge Metropolitan Airport</Name></Airport>
+<Airport><IATA>BTS</IATA><Name>Bratislava - Stefanik Airport</Name></Airport>
+<Airport><IATA>BTU</IATA><Name>Bintulu Airport</Name></Airport>
+<Airport><IATA>BTV</IATA><Name>Burlington Intl</Name></Airport>
+<Airport><IATA>BUD</IATA><Name>Budapest - Ferihegy Intl Airport</Name></Airport>
+<Airport><IATA>BUF</IATA><Name>Buffalo Niagara Intl</Name></Airport>
+<Airport><IATA>BUQ</IATA><Name>Bulawayo Joshua Mqabuko Nkomo Intl</Name></Airport>
+<Airport><IATA>BUR</IATA><Name>Bob Hope</Name></Airport>
+<Airport><IATA>BUS</IATA><Name>Batumi Intl</Name></Airport>
+<Airport><IATA>BUT</IATA><Name>Bathpalathang Airport</Name></Airport>
+<Airport><IATA>BUW</IATA><Name>Baubau</Name></Airport>
+<Airport><IATA>BVA</IATA><Name>Paris - Beauvais Airport</Name></Airport>
+<Airport><IATA>BVB</IATA><Name>Boa Vista Intl</Name></Airport>
+<Airport><IATA>BVC</IATA><Name>Rabil</Name></Airport>
+<Airport><IATA>BVE</IATA><Name>Laroche</Name></Airport>
+<Airport><IATA>BVG</IATA><Name>Berlevag</Name></Airport>
+<Airport><IATA>BVH</IATA><Name>Vilhena Airport</Name></Airport>
+<Airport><IATA>BWE</IATA><Name>Braunschweig</Name></Airport>
+<Airport><IATA>BWG</IATA><Name>Bowling Green - Warren County Regional Airport</Name></Airport>
+<Airport><IATA>BWI</IATA><Name>Baltimore - Washington Intl Airport</Name></Airport>
+<Airport><IATA>BWK</IATA><Name>Brac Airport</Name></Airport>
+<Airport><IATA>BWN</IATA><Name>Brunei - Bandar Seri Begawan</Name></Airport>
+<Airport><IATA>BXN</IATA><Name>Bodrum Imsik Airport</Name></Airport>
+<Airport><IATA>BXU</IATA><Name>Bancasi Airport</Name></Airport>
+<Airport><IATA>BYO</IATA><Name>Bonito Airport</Name></Airport>
+<Airport><IATA>BZE</IATA><Name>Philip S. W. Goldson International Airport</Name></Airport>
+<Airport><IATA>BZG</IATA><Name>Bydgoszcz Airport</Name></Airport>
+<Airport><IATA>BZN</IATA><Name>Gallatin Field Airport</Name></Airport>
+<Airport><IATA>BZO</IATA><Name>Bolzano</Name></Airport>
+<Airport><IATA>BZR</IATA><Name>Beziers Vias</Name></Airport>
+<Airport><IATA>BZV</IATA><Name>Maya-Maya Airport</Name></Airport>
+<Airport><IATA>CAC</IATA><Name>Cascavel Airport</Name></Airport>
+<Airport><IATA>CAE</IATA><Name>Columbia Metropolitan Airport</Name></Airport>
+<Airport><IATA>CAG</IATA><Name>Cagliari - Elmas</Name></Airport>
+<Airport><IATA>CAI</IATA><Name>Cairo Intl Airport</Name></Airport>
+<Airport><IATA>CAK</IATA><Name>Akron - Canton Regional Airport</Name></Airport>
+<Airport><IATA>CAL</IATA><Name>Machrihanish</Name></Airport>
+<Airport><IATA>CAN</IATA><Name>New Baiyun (Canton)</Name></Airport>
+<Airport><IATA>CAS</IATA><Name>Casablanca - Anfa</Name></Airport>
+<Airport><IATA>CAW</IATA><Name>Bartolomeu Lysandro Airport</Name></Airport>
+<Airport><IATA>CBB</IATA><Name>Jorge Wilstermann International Airport</Name></Airport>
+<Airport><IATA>CBG</IATA><Name>Cambridge Airport</Name></Airport>
+<Airport><IATA>CBO</IATA><Name>Awang Airport</Name></Airport>
+<Airport><IATA>CBR</IATA><Name>Canberra</Name></Airport>
+<Airport><IATA>CCC</IATA><Name>Cayo Coco Airport</Name></Airport>
+<Airport><IATA>CCF</IATA><Name>Carcassonne - Salvaza Airport</Name></Airport>
+<Airport><IATA>CCJ</IATA><Name>Kozhikode Airport</Name></Airport>
+<Airport><IATA>CCK</IATA><Name>Cocos Islands</Name></Airport>
+<Airport><IATA>CCM</IATA><Name>Criciuma Diomicio Freitas Airport</Name></Airport>
+<Airport><IATA>CCP</IATA><Name>Carriel Sur Intl</Name></Airport>
+<Airport><IATA>CCS</IATA><Name>Simon Bolivar International Airport</Name></Airport>
+<Airport><IATA>CCU</IATA><Name>Netaji Subhas Chandra</Name></Airport>
+<Airport><IATA>CDG</IATA><Name>Paris - Charles de Gaulle Intl Airport</Name></Airport>
+<Airport><IATA>CDR</IATA><Name>Chadron Municipal</Name></Airport>
+<Airport><IATA>CDV</IATA><Name>Cordova Alaska Merle K. (Mudhole) Smith</Name></Airport>
+<Airport><IATA>CEB</IATA><Name>Mactan-Cebu Intl Airport</Name></Airport>
+<Airport><IATA>CEI</IATA><Name>Chiang Rai</Name></Airport>
+<Airport><IATA>CEK</IATA><Name>Chelyabinsk Airport</Name></Airport>
+<Airport><IATA>CEQ</IATA><Name>Cannes - Mandelieu</Name></Airport>
+<Airport><IATA>CER</IATA><Name>Cherbourg - Maupertus Aeroport</Name></Airport>
+<Airport><IATA>CEZ</IATA><Name>Cortez Municipal</Name></Airport>
+<Airport><IATA>CFB</IATA><Name>Cabo Frio</Name></Airport>
+<Airport><IATA>CFC</IATA><Name>Cacador Airport</Name></Airport>
+<Airport><IATA>CFE</IATA><Name>Clermont-Ferrand Auvergne Airport</Name></Airport>
+<Airport><IATA>CFG</IATA><Name>Jaime González Airport</Name></Airport>
+<Airport><IATA>CFN</IATA><Name>Donegal Intl Airport</Name></Airport>
+<Airport><IATA>CFR</IATA><Name>Caen - Carpiquet</Name></Airport>
+<Airport><IATA>CFS</IATA><Name>Coffs Harbour</Name></Airport>
+<Airport><IATA>CFU</IATA><Name>Corfu Intl Airport</Name></Airport>
+<Airport><IATA>CGB</IATA><Name>Marechal Rondon Intl</Name></Airport>
+<Airport><IATA>CGF</IATA><Name>Cleveland Cuyahoga County Airport</Name></Airport>
+<Airport><IATA>CGH</IATA><Name>Congonhas Domestic</Name></Airport>
+<Airport><IATA>CGK</IATA><Name>Jakarta Soekarno Hatta Intl</Name></Airport>
+<Airport><IATA>CGM</IATA><Name>Camiguin Airport</Name></Airport>
+<Airport><IATA>CGN</IATA><Name>Cologne - Bonn Airport</Name></Airport>
+<Airport><IATA>CGO</IATA><Name>Zhengzhou</Name></Airport>
+<Airport><IATA>CGP</IATA><Name>Chittagong Shah Amanat Intl Airport</Name></Airport>
+<Airport><IATA>CGR</IATA><Name>Campo Grande Intl</Name></Airport>
+<Airport><IATA>CGY</IATA><Name>Lumbia Airport</Name></Airport>
+<Airport><IATA>CHA</IATA><Name>Lovell Field</Name></Airport>
+<Airport><IATA>CHC</IATA><Name>Christchurch Intl Airport</Name></Airport>
+<Airport><IATA>CHM</IATA><Name>Chimbote Airport</Name></Airport>
+<Airport><IATA>CHO</IATA><Name>Charlottesville-Albemarle Airport</Name></Airport>
+<Airport><IATA>CHQ</IATA><Name>Chania Intl Airport</Name></Airport>
+<Airport><IATA>CHS</IATA><Name>Charleston</Name></Airport>
+<Airport><IATA>CIA</IATA><Name>Rome - Ciampino Airport</Name></Airport>
+<Airport><IATA>CID</IATA><Name>The Eastern Iowa Airport</Name></Airport>
+<Airport><IATA>CIT</IATA><Name>Shymkent</Name></Airport>
+<Airport><IATA>CIX</IATA><Name>Chiclayo Cap. FAP Jose A. Quinones Gonzales Intl</Name></Airport>
+<Airport><IATA>CIY</IATA><Name>Comiso Ragusa Airport</Name></Airport>
+<Airport><IATA>CIZ</IATA><Name>Coari Airport</Name></Airport>
+<Airport><IATA>CJB</IATA><Name>Peelamedu</Name></Airport>
+<Airport><IATA>CJC</IATA><Name>El Loa Airport</Name></Airport>
+<Airport><IATA>CJM</IATA><Name>Chumphon</Name></Airport>
+<Airport><IATA>CJU</IATA><Name>Jeju International Airport</Name></Airport>
+<Airport><IATA>CKB</IATA><Name>North Central West Virginia Airport</Name></Airport>
+<Airport><IATA>CKG</IATA><Name>Chongqing Jiangbei Intl Airport</Name></Airport>
+<Airport><IATA>CKS</IATA><Name>Carajas-Parauapebas - Pará</Name></Airport>
+<Airport><IATA>CKY</IATA><Name>Conakry Intl Airport</Name></Airport>
+<Airport><IATA>CKZ</IATA><Name>Canakkale</Name></Airport>
+<Airport><IATA>CLE</IATA><Name>Cleveland - Hopkins Intl</Name></Airport>
+<Airport><IATA>CLJ</IATA><Name>Cluj Napoca Intl Airport</Name></Airport>
+<Airport><IATA>CLL</IATA><Name>College Station Airport</Name></Airport>
+<Airport><IATA>CLO</IATA><Name>Alfonso Bonilla Aragon Intl</Name></Airport>
+<Airport><IATA>CLT</IATA><Name>Charlotte Douglas</Name></Airport>
+<Airport><IATA>CLV</IATA><Name>Caldas Novas Airport</Name></Airport>
+<Airport><IATA>CLY</IATA><Name>Calvi Ste Catherine Airport</Name></Airport>
+<Airport><IATA>CMB</IATA><Name>Bandaranaike Intl Airport</Name></Airport>
+<Airport><IATA>CMF</IATA><Name>Chambery - Aix les Bains Airport</Name></Airport>
+<Airport><IATA>CMG</IATA><Name>Corumba Intl</Name></Airport>
+<Airport><IATA>CMH</IATA><Name>Port Columbus Intl</Name></Airport>
+<Airport><IATA>CMI</IATA><Name>University of Illinois Willard Airport</Name></Airport>
+<Airport><IATA>CMN</IATA><Name>Casablanca Airport</Name></Airport>
+<Airport><IATA>CMW</IATA><Name>Ignacio Agramonte International Airport</Name></Airport>
+<Airport><IATA>CND</IATA><Name>Constanta Airport</Name></Airport>
+<Airport><IATA>CNF</IATA><Name>Tancredo Neves Intl</Name></Airport>
+<Airport><IATA>CNJ</IATA><Name>Cloncurry Airport</Name></Airport>
+<Airport><IATA>CNS</IATA><Name>Cairns Intl Airport</Name></Airport>
+<Airport><IATA>CNX</IATA><Name>Chiang Mai Intl</Name></Airport>
+<Airport><IATA>COK</IATA><Name>Kochi</Name></Airport>
+<Airport><IATA>COO</IATA><Name>Cadjehoun Airport</Name></Airport>
+<Airport><IATA>COR</IATA><Name>Ing Ambrosio L V Taravella</Name></Airport>
+<Airport><IATA>COS</IATA><Name>Colorado Springs Airport</Name></Airport>
+<Airport><IATA>COU</IATA><Name>Columbia Regional Airport</Name></Airport>
+<Airport><IATA>CPH</IATA><Name>Copenhagen Airport</Name></Airport>
+<Airport><IATA>CPO</IATA><Name>Desierto de Atacama Airport</Name></Airport>
+<Airport><IATA>CPQ</IATA><Name>Campo dos Amarais (Campinas)</Name></Airport>
+<Airport><IATA>CPT</IATA><Name>Cape Town Intl Airport</Name></Airport>
+<Airport><IATA>CPV</IATA><Name>Presidente Joao Suassuna</Name></Airport>
+<Airport><IATA>CPX</IATA><Name>Benjamin Rivera Noriega Airport</Name></Airport>
+<Airport><IATA>CQM</IATA><Name>Ciudad Real</Name></Airport>
+<Airport><IATA>CRA</IATA><Name>Craiova Airport</Name></Airport>
+<Airport><IATA>CRD</IATA><Name>Comodoro Rivadavia General Enrique Mosconi Intl</Name></Airport>
+<Airport><IATA>CRK</IATA><Name>Clark Intl Airport</Name></Airport>
+<Airport><IATA>CRL</IATA><Name>Brussels South - Charleroi</Name></Airport>
+<Airport><IATA>CRM</IATA><Name>Catarman National Airport</Name></Airport>
+<Airport><IATA>CRP</IATA><Name>Corpus Christi</Name></Airport>
+<Airport><IATA>CRV</IATA><Name>Aeroporto di Santa Anna - Crotone</Name></Airport>
+<Airport><IATA>CRW</IATA><Name>Yeager</Name></Airport>
+<Airport><IATA>CSG</IATA><Name>Columbus Airport (Georgia)</Name></Airport>
+<Airport><IATA>CSO</IATA><Name>Magdeburg-Cochsted</Name></Airport>
+<Airport><IATA>CSX</IATA><Name>Changsha Huanghua Intl Airport</Name></Airport>
+<Airport><IATA>CTA</IATA><Name>Catania - Fontanarossa Intl Airport</Name></Airport>
+<Airport><IATA>CTG</IATA><Name>Cartagena - Rafael Nuñez</Name></Airport>
+<Airport><IATA>CTS</IATA><Name>New Chitose</Name></Airport>
+<Airport><IATA>CTU</IATA><Name>Chengdu - Shuangliu Airport</Name></Airport>
+<Airport><IATA>CUF</IATA><Name>Cuneo - Levaldigi Airport</Name></Airport>
+<Airport><IATA>CUN</IATA><Name>Cancun Intl Airport</Name></Airport>
+<Airport><IATA>CUR</IATA><Name>Curacao - Hato Intl Airport</Name></Airport>
+<Airport><IATA>CUZ</IATA><Name>Alejandro Velasco Astete Intl</Name></Airport>
+<Airport><IATA>CVG</IATA><Name>Cincinnati Intl Airport</Name></Airport>
+<Airport><IATA>CVN</IATA><Name>Clovis Municipal Airport</Name></Airport>
+<Airport><IATA>CVQ</IATA><Name>Carnarvon</Name></Airport>
+<Airport><IATA>CVT</IATA><Name>Coventry West Midlands Intl Airport</Name></Airport>
+<Airport><IATA>CWB</IATA><Name>Afonso Pena Intl</Name></Airport>
+<Airport><IATA>CWC</IATA><Name>Chernovtsy Airport</Name></Airport>
+<Airport><IATA>CWL</IATA><Name>Cardiff Intl Airport</Name></Airport>
+<Airport><IATA>CXJ</IATA><Name>Campo Dos Bugres</Name></Airport>
+<Airport><IATA>CXR</IATA><Name>Cam Ranh</Name></Airport>
+<Airport><IATA>CYO</IATA><Name>Vilo Acuña Airport</Name></Airport>
+<Airport><IATA>CYP</IATA><Name>Calbayog</Name></Airport>
+<Airport><IATA>CYS</IATA><Name>Cheyenne Regional Airport</Name></Airport>
+<Airport><IATA>CYZ</IATA><Name>Cauayan Airport</Name></Airport>
+<Airport><IATA>CZM</IATA><Name>Cozumel Intl Airport</Name></Airport>
+<Airport><IATA>CZS</IATA><Name>Cruzeiro do Sul Intl</Name></Airport>
+<Airport><IATA>DAB</IATA><Name>Daytona Beach</Name></Airport>
+<Airport><IATA>DAC</IATA><Name>Dhaka - Zia Intl Airport</Name></Airport>
+<Airport><IATA>DAD</IATA><Name>Da Nang</Name></Airport>
+<Airport><IATA>DAL</IATA><Name>Dallas Love Field</Name></Airport>
+<Airport><IATA>DAM</IATA><Name>Damascus International</Name></Airport>
+<Airport><IATA>DAR</IATA><Name>Dar Es Salam Int</Name></Airport>
+<Airport><IATA>DAY</IATA><Name>Dayton Intl Airport</Name></Airport>
+<Airport><IATA>DBB</IATA><Name>Alalamain - Dabaa Intl</Name></Airport>
+<Airport><IATA>DBO</IATA><Name>Dubbo</Name></Airport>
+<Airport><IATA>DBV</IATA><Name>Dubrovnik Intl Airport</Name></Airport>
+<Airport><IATA>DCA</IATA><Name>Ronald Reagan National Airport</Name></Airport>
+<Airport><IATA>DCM</IATA><Name>Castres - Mazamet</Name></Airport>
+<Airport><IATA>DCN</IATA><Name>Derby, Western Australia RAAF Curtin</Name></Airport>
+<Airport><IATA>DDC</IATA><Name>Dodge City Regional Airport</Name></Airport>
+<Airport><IATA>DEB</IATA><Name>Debrecen</Name></Airport>
+<Airport><IATA>DED</IATA><Name>Dehradun Airport</Name></Airport>
+<Airport><IATA>DEL</IATA><Name>Delhi Indira Gandhi Intl</Name></Airport>
+<Airport><IATA>DEN</IATA><Name>Denver Intl Airport</Name></Airport>
+<Airport><IATA>DET</IATA><Name>Coleman A Young</Name></Airport>
+<Airport><IATA>DEZ</IATA><Name>Deir Ezzor</Name></Airport>
+<Airport><IATA>DFW</IATA><Name>Dallas - Fort Worth Airport</Name></Airport>
+<Airport><IATA>DGT</IATA><Name>Sibulan Airport</Name></Airport>
+<Airport><IATA>DHM</IATA><Name>Gaggal</Name></Airport>
+<Airport><IATA>DHR</IATA><Name>Den Helder - De Kooy Airfield</Name></Airport>
+<Airport><IATA>DIB</IATA><Name>Dibrugarh</Name></Airport>
+<Airport><IATA>DIJ</IATA><Name>Dijon Air Base</Name></Airport>
+<Airport><IATA>DIK</IATA><Name>Dickinson Theodore Roosevelt Regional Airport</Name></Airport>
+<Airport><IATA>DIL</IATA><Name>Dili Comoro</Name></Airport>
+<Airport><IATA>DIU</IATA><Name>Diu Airport</Name></Airport>
+<Airport><IATA>DIY</IATA><Name>Diyarbakir</Name></Airport>
+<Airport><IATA>DJB</IATA><Name>Sultan Taha Syarifudn</Name></Airport>
+<Airport><IATA>DJE</IATA><Name>Djerba - Zarzis Airport</Name></Airport>
+<Airport><IATA>DJJ</IATA><Name>Sentani/Jayapura, West Papu</Name></Airport>
+<Airport><IATA>DKR</IATA><Name>Dakar-Yoff - Leopol Sedar Senghor Intl Airport</Name></Airport>
+<Airport><IATA>DLA</IATA><Name>Douala Airport</Name></Airport>
+<Airport><IATA>DLC</IATA><Name>Dalian Zhoushuizi Intl</Name></Airport>
+<Airport><IATA>DLE</IATA><Name>Aeroport de Dole - Jura</Name></Airport>
+<Airport><IATA>DLG</IATA><Name>Dillingham Airport</Name></Airport>
+<Airport><IATA>DLI</IATA><Name>Dalat - Lien Khuong</Name></Airport>
+<Airport><IATA>DLM</IATA><Name>Dalaman Airport</Name></Airport>
+<Airport><IATA>DME</IATA><Name>Moscow - Domodedovo Intl Airport</Name></Airport>
+<Airport><IATA>DMK</IATA><Name>Don Mueang Intl Bangkok</Name></Airport>
+<Airport><IATA>DMM</IATA><Name>King Fahd International Airport</Name></Airport>
+<Airport><IATA>DMU</IATA><Name>Dimapur</Name></Airport>
+<Airport><IATA>DND</IATA><Name>Dundee Airport</Name></Airport>
+<Airport><IATA>DNK</IATA><Name>Dnepropetrovsk Airport</Name></Airport>
+<Airport><IATA>DNR</IATA><Name>St Malo Airport</Name></Airport>
+<Airport><IATA>DNZ</IATA><Name>Denizli Cardak Airport</Name></Airport>
+<Airport><IATA>DOH</IATA><Name>Doha International</Name></Airport>
+<Airport><IATA>DOK</IATA><Name>Donetsk</Name></Airport>
+<Airport><IATA>DOL</IATA><Name>Deauville Saint Gatien Airport</Name></Airport>
+<Airport><IATA>DOM</IATA><Name>Roseau Dominica</Name></Airport>
+<Airport><IATA>DOU</IATA><Name>Dourados Airport</Name></Airport>
+<Airport><IATA>DPL</IATA><Name>Dipolog</Name></Airport>
+<Airport><IATA>DPO</IATA><Name>Devonport</Name></Airport>
+<Airport><IATA>DPS</IATA><Name>Denpasar(Bali), Ngurah Rai Intl</Name></Airport>
+<Airport><IATA>DRO</IATA><Name>Durango-La Plata County Airport</Name></Airport>
+<Airport><IATA>DRS</IATA><Name>Dresden Airport</Name></Airport>
+<Airport><IATA>DRW</IATA><Name>Darwin Intl Airport</Name></Airport>
+<Airport><IATA>DSA</IATA><Name>Robin Hood Airport Doncaster Sheffield</Name></Airport>
+<Airport><IATA>DSM</IATA><Name>Des Moines Intl Airport</Name></Airport>
+<Airport><IATA>DTI</IATA><Name>Diamantina Airport</Name></Airport>
+<Airport><IATA>DTM</IATA><Name>Dortmund Airport</Name></Airport>
+<Airport><IATA>DTW</IATA><Name>Metropolitan Wayne County Airport</Name></Airport>
+<Airport><IATA>DUB</IATA><Name>Dublin Intl Airport</Name></Airport>
+<Airport><IATA>DUD</IATA><Name>Dunedin Intl</Name></Airport>
+<Airport><IATA>DUR</IATA><Name>Durban Intl</Name></Airport>
+<Airport><IATA>DUS</IATA><Name>Düsseldorf Intl Airport</Name></Airport>
+<Airport><IATA>DVO</IATA><Name>Francisco Bangoy Intl Airport</Name></Airport>
+<Airport><IATA>DWC</IATA><Name>Dubai World Central Al Maktoum Intl</Name></Airport>
+<Airport><IATA>DXB</IATA><Name>Dubai Intl Airport</Name></Airport>
+<Airport><IATA>DYU</IATA><Name>Dushanbe Airport</Name></Airport>
+<Airport><IATA>EAR</IATA><Name>Kearney Regional Airport</Name></Airport>
+<Airport><IATA>EAS</IATA><Name>Donostia - San Sebastian</Name></Airport>
+<Airport><IATA>EAT</IATA><Name>Wenatchee Pangborn Memorial</Name></Airport>
+<Airport><IATA>EBA</IATA><Name>Elba - Marina Di Campo Airport</Name></Airport>
+<Airport><IATA>EBB</IATA><Name>Entebbe Airport</Name></Airport>
+<Airport><IATA>EBJ</IATA><Name>Esbjerg Airport</Name></Airport>
+<Airport><IATA>EBL</IATA><Name>Erbil</Name></Airport>
+<Airport><IATA>EBU</IATA><Name>St Etienne Airport</Name></Airport>
+<Airport><IATA>ECN</IATA><Name>Lefkosa - Ercan</Name></Airport>
+<Airport><IATA>ECP</IATA><Name>Northwest Florida Beaches Intl</Name></Airport>
+<Airport><IATA>EDI</IATA><Name>Edinburgh Airport</Name></Airport>
+<Airport><IATA>EDO</IATA><Name>Edremit - Korfez</Name></Airport>
+<Airport><IATA>EFL</IATA><Name>Kefalonia Argostoli Airport</Name></Airport>
+<Airport><IATA>EGC</IATA><Name>Bergerac - Roumaniere Airport</Name></Airport>
+<Airport><IATA>EGE</IATA><Name>Eagle County Regional Airport</Name></Airport>
+<Airport><IATA>EGO</IATA><Name>Belgorod</Name></Airport>
+<Airport><IATA>EGS</IATA><Name>Egilsstadir Airport</Name></Airport>
+<Airport><IATA>EIN</IATA><Name>Eindhoven Airport</Name></Airport>
+<Airport><IATA>EIS</IATA><Name>Terrance B. Lettsome Intl. Airport</Name></Airport>
+<Airport><IATA>ELH</IATA><Name>North Eleuthera Airport</Name></Airport>
+<Airport><IATA>ELP</IATA><Name>El Paso Intl</Name></Airport>
+<Airport><IATA>ELQ</IATA><Name>Qassim Regional Airport</Name></Airport>
+<Airport><IATA>ELS</IATA><Name>East-London - Ben Schoeman</Name></Airport>
+<Airport><IATA>ELY</IATA><Name>Ely Airport</Name></Airport>
+<Airport><IATA>EMA</IATA><Name>Nottingham - East Midlands Airport</Name></Airport>
+<Airport><IATA>EMD</IATA><Name>Emerald</Name></Airport>
+<Airport><IATA>ENE</IATA><Name>Ende</Name></Airport>
+<Airport><IATA>ENF</IATA><Name>Enontekio</Name></Airport>
+<Airport><IATA>EPR</IATA><Name>Esperance</Name></Airport>
+<Airport><IATA>EPS</IATA><Name>El Portillo Airport</Name></Airport>
+<Airport><IATA>EPU</IATA><Name>Parnu</Name></Airport>
+<Airport><IATA>ERC</IATA><Name>Erzincan</Name></Airport>
+<Airport><IATA>ERF</IATA><Name>Erfurt Airport</Name></Airport>
+<Airport><IATA>ERH</IATA><Name>Moulay Ali Cherif Airport</Name></Airport>
+<Airport><IATA>ERM</IATA><Name>Erechim Airport</Name></Airport>
+<Airport><IATA>ERN</IATA><Name>Eirunepe Airport</Name></Airport>
+<Airport><IATA>ERZ</IATA><Name>Erzurum Airport</Name></Airport>
+<Airport><IATA>ESB</IATA><Name>Ankara Esenboga Airport</Name></Airport>
+<Airport><IATA>ESC</IATA><Name>Escanaba, Michigan Delta County Airport</Name></Airport>
+<Airport><IATA>ESH</IATA><Name>Brighton Shoreham Airport</Name></Airport>
+<Airport><IATA>ESK</IATA><Name>Eskisehir Airport</Name></Airport>
+<Airport><IATA>ESP</IATA><Name>East Stroudsburg</Name></Airport>
+<Airport><IATA>ESR</IATA><Name>Ricardo Garcia Posada Airport</Name></Airport>
+<Airport><IATA>ESU</IATA><Name>Essaouira</Name></Airport>
+<Airport><IATA>ETZ</IATA><Name>Metz-Nancy Airport</Name></Airport>
+<Airport><IATA>EUG</IATA><Name>Eugene Airport</Name></Airport>
+<Airport><IATA>EUN</IATA><Name>Hassan I Airport</Name></Airport>
+<Airport><IATA>EVE</IATA><Name>Harstad - Narvik Airport</Name></Airport>
+<Airport><IATA>EVG</IATA><Name>Sveg Airport</Name></Airport>
+<Airport><IATA>EVN</IATA><Name>Yerevan - Zvartnots Airport</Name></Airport>
+<Airport><IATA>EVV</IATA><Name>Evansville Regional Airport</Name></Airport>
+<Airport><IATA>EWB</IATA><Name>New Bedford Regional Airport</Name></Airport>
+<Airport><IATA>EWR</IATA><Name>New York Newark Intl Airport</Name></Airport>
+<Airport><IATA>EXT</IATA><Name>Exeter Intl Airport</Name></Airport>
+<Airport><IATA>EYW</IATA><Name>Key West Intl Airport</Name></Airport>
+<Airport><IATA>EZE</IATA><Name>Ezeiza Ministro Pistarini</Name></Airport>
+<Airport><IATA>EZS</IATA><Name>Elazig Airport</Name></Airport>
+<Airport><IATA>FAA</IATA><Name>Faranah</Name></Airport>
+<Airport><IATA>FAE</IATA><Name>Faroe Vagar Airport</Name></Airport>
+<Airport><IATA>FAI</IATA><Name>Fairbanks Intl</Name></Airport>
+<Airport><IATA>FAO</IATA><Name>Faro Intl Airport</Name></Airport>
+<Airport><IATA>FAR</IATA><Name>Hector Intl Airport</Name></Airport>
+<Airport><IATA>FAT</IATA><Name>Fresno Air Terminal Airport</Name></Airport>
+<Airport><IATA>FAY</IATA><Name>Fayetteville Regional Airport</Name></Airport>
+<Airport><IATA>FBA</IATA><Name>Fonte Boa Airport</Name></Airport>
+<Airport><IATA>FBE</IATA><Name>Francisco Beltrao Airport</Name></Airport>
+<Airport><IATA>FBM</IATA><Name>Lubumbashi Intl</Name></Airport>
+<Airport><IATA>FCA</IATA><Name>Glacier Park Intl Airport</Name></Airport>
+<Airport><IATA>FCO</IATA><Name>Rome - L da Vinci-Fiumicino Airport</Name></Airport>
+<Airport><IATA>FDE</IATA><Name>Bringeland</Name></Airport>
+<Airport><IATA>FDF</IATA><Name>Fort-de-France Martinique</Name></Airport>
+<Airport><IATA>FDH</IATA><Name>Friedrichshafen Airport</Name></Airport>
+<Airport><IATA>FEG</IATA><Name>Fergana</Name></Airport>
+<Airport><IATA>FEN</IATA><Name>Fernando de Noronha Airport</Name></Airport>
+<Airport><IATA>FEZ</IATA><Name>Fes Saiss Intl Airport</Name></Airport>
+<Airport><IATA>FIH</IATA><Name>Kinshasa - N Djili Airport</Name></Airport>
+<Airport><IATA>FKB</IATA><Name>Baden Airpark</Name></Airport>
+<Airport><IATA>FKQ</IATA><Name>Fak Fak</Name></Airport>
+<Airport><IATA>FLL</IATA><Name>Fort Lauderdale - Hollywood Intl Airport</Name></Airport>
+<Airport><IATA>FLN</IATA><Name>Hercílio Luz Intl</Name></Airport>
+<Airport><IATA>FLR</IATA><Name>Florence - Amerigo Vespucci Airport</Name></Airport>
+<Airport><IATA>FMM</IATA><Name>Allgäu Airport</Name></Airport>
+<Airport><IATA>FMN</IATA><Name>Four Corners Regional Airport</Name></Airport>
+<Airport><IATA>FMO</IATA><Name>Münster - Osnabrück Intl Airport</Name></Airport>
+<Airport><IATA>FMY</IATA><Name>Page Field</Name></Airport>
+<Airport><IATA>FNA</IATA><Name>Freetown Airport</Name></Airport>
+<Airport><IATA>FNC</IATA><Name>Funchal Airport</Name></Airport>
+<Airport><IATA>FNI</IATA><Name>Nimes Airport</Name></Airport>
+<Airport><IATA>FNT</IATA><Name>Bishop Intl Airport</Name></Airport>
+<Airport><IATA>FOC</IATA><Name>Fuzhou Changle International Airport</Name></Airport>
+<Airport><IATA>FOE</IATA><Name>Forbes Field (airport)</Name></Airport>
+<Airport><IATA>FOG</IATA><Name>Foggia, Gino Lisa</Name></Airport>
+<Airport><IATA>FOR</IATA><Name>Pinto Martins Intl</Name></Airport>
+<Airport><IATA>FPO</IATA><Name>Freeport Intl</Name></Airport>
+<Airport><IATA>FRA</IATA><Name>Frankfurt Intl Airport</Name></Airport>
+<Airport><IATA>FRC</IATA><Name>Tenente Lund Presotto Franca Airport</Name></Airport>
+<Airport><IATA>FRL</IATA><Name>Bologna - Forli Intl Airport</Name></Airport>
+<Airport><IATA>FRO</IATA><Name>Floro</Name></Airport>
+<Airport><IATA>FRU</IATA><Name>Bishkek - Manas Intl</Name></Airport>
+<Airport><IATA>FSC</IATA><Name>Figari Sud Corse Airport</Name></Airport>
+<Airport><IATA>FTE</IATA><Name>El Calafate Comandante Armando Tola Intl</Name></Airport>
+<Airport><IATA>FUE</IATA><Name>Fuerteventura</Name></Airport>
+<Airport><IATA>FUK</IATA><Name>Fukuoka</Name></Airport>
+<Airport><IATA>FYV</IATA><Name>Drake Field</Name></Airport>
+<Airport><IATA>GAN</IATA><Name>Gan Domestic Airport</Name></Airport>
+<Airport><IATA>GAU</IATA><Name>Borjhar</Name></Airport>
+<Airport><IATA>GAY</IATA><Name>Gaya Airport</Name></Airport>
+<Airport><IATA>GBE</IATA><Name>Sir Seretse Khama Intl Airport</Name></Airport>
+<Airport><IATA>GCC</IATA><Name>Gillette-Campbell County Airport</Name></Airport>
+<Airport><IATA>GCI</IATA><Name>Guernsey Airport</Name></Airport>
+<Airport><IATA>GCK</IATA><Name>Garden City Regional Airport</Name></Airport>
+<Airport><IATA>GCM</IATA><Name>Owen Roberts Intl</Name></Airport>
+<Airport><IATA>GDL</IATA><Name>Guadalajara</Name></Airport>
+<Airport><IATA>GDN</IATA><Name>Gdansk - Trojmiasto Airport</Name></Airport>
+<Airport><IATA>GDX</IATA><Name>Magadan Sokol Airport</Name></Airport>
+<Airport><IATA>GEG</IATA><Name>Spokane Intl</Name></Airport>
+<Airport><IATA>GEL</IATA><Name>Sepe Tiaraju Airport</Name></Airport>
+<Airport><IATA>GES</IATA><Name>General Santos Intl Airport</Name></Airport>
+<Airport><IATA>GET</IATA><Name>Geraldton</Name></Airport>
+<Airport><IATA>GEV</IATA><Name>Gällivare Airport</Name></Airport>
+<Airport><IATA>GGT</IATA><Name>Great Exuma Bahamas</Name></Airport>
+<Airport><IATA>GHB</IATA><Name>Governor's Harbour Airport</Name></Airport>
+<Airport><IATA>GIB</IATA><Name>Gibraltar North Front Airport</Name></Airport>
+<Airport><IATA>GIG</IATA><Name>Antônio Carlos Jobim Intl</Name></Airport>
+<Airport><IATA>GIS</IATA><Name>Gisborne</Name></Airport>
+<Airport><IATA>GIZ</IATA><Name>Jizan Regional</Name></Airport>
+<Airport><IATA>GJT</IATA><Name>Grand Junction Regional Airport</Name></Airport>
+<Airport><IATA>GLA</IATA><Name>Glasgow Intl Airport</Name></Airport>
+<Airport><IATA>GLH</IATA><Name>Mid Delta Regional Airport</Name></Airport>
+<Airport><IATA>GLN</IATA><Name>Guelmim Airport</Name></Airport>
+<Airport><IATA>GLO</IATA><Name>Gloucestershire</Name></Airport>
+<Airport><IATA>GLT</IATA><Name>Gladstone</Name></Airport>
+<Airport><IATA>GME</IATA><Name>Gomel</Name></Airport>
+<Airport><IATA>GMP</IATA><Name>Gimpo International Airport</Name></Airport>
+<Airport><IATA>GMZ</IATA><Name>La Gomera</Name></Airport>
+<Airport><IATA>GNB</IATA><Name>Grenoble Saint - Geoirs Airport</Name></Airport>
+<Airport><IATA>GND</IATA><Name>Grenada - Point Salines Intl Airport</Name></Airport>
+<Airport><IATA>GNS</IATA><Name>Binaka</Name></Airport>
+<Airport><IATA>GNV</IATA><Name>Gainesville</Name></Airport>
+<Airport><IATA>GNY</IATA><Name>Sanliurfa Gap</Name></Airport>
+<Airport><IATA>GOA</IATA><Name>Genoa - C Colombo Airport</Name></Airport>
+<Airport><IATA>GOI</IATA><Name>Goa - Dabolim Airport</Name></Airport>
+<Airport><IATA>GOJ</IATA><Name>Nizhny Novgorod Airport</Name></Airport>
+<Airport><IATA>GOP</IATA><Name>Gorakhpur Airport</Name></Airport>
+<Airport><IATA>GOT</IATA><Name>Goteborg - Landvetter Airport</Name></Airport>
+<Airport><IATA>GPA</IATA><Name>Patras Araxos Airport</Name></Airport>
+<Airport><IATA>GPB</IATA><Name>Guarapuava Airport</Name></Airport>
+<Airport><IATA>GPT</IATA><Name>Gulfport-Biloxi Intl Airport</Name></Airport>
+<Airport><IATA>GRB</IATA><Name>Austin Straubel Intl Airport</Name></Airport>
+<Airport><IATA>GRI</IATA><Name>Central Nebraska Regional Airport</Name></Airport>
+<Airport><IATA>GRJ</IATA><Name>George Airport</Name></Airport>
+<Airport><IATA>GRK</IATA><Name>Killeen-Fort Hood Regional Airport</Name></Airport>
+<Airport><IATA>GRO</IATA><Name>Barcelona - Gerona Airport</Name></Airport>
+<Airport><IATA>GRQ</IATA><Name>Groningen - Eelde Airport</Name></Airport>
+<Airport><IATA>GRR</IATA><Name>Gerald R. Ford International</Name></Airport>
+<Airport><IATA>GRU</IATA><Name>Guarulhos Gov Andre Franco Montouro</Name></Airport>
+<Airport><IATA>GRX</IATA><Name>Granada Airport</Name></Airport>
+<Airport><IATA>GRZ</IATA><Name>Graz Airport</Name></Airport>
+<Airport><IATA>GSE</IATA><Name>Goteborg - City Airport</Name></Airport>
+<Airport><IATA>GSO</IATA><Name>Piedmont Triad Intl</Name></Airport>
+<Airport><IATA>GSP</IATA><Name>Greenville-Spartanburg Intl Airport</Name></Airport>
+<Airport><IATA>GTO</IATA><Name>Jalaluddin-Gorontalo</Name></Airport>
+<Airport><IATA>GTR</IATA><Name>Golden Triangle Regional Airport</Name></Airport>
+<Airport><IATA>GUA</IATA><Name>Guatemala-City</Name></Airport>
+<Airport><IATA>GUP</IATA><Name>Gallup Municipal Airport</Name></Airport>
+<Airport><IATA>GVA</IATA><Name>Geneva Intl Airport</Name></Airport>
+<Airport><IATA>GVR</IATA><Name>Governador Valadares Airport</Name></Airport>
+<Airport><IATA>GWD</IATA><Name>Gwadar</Name></Airport>
+<Airport><IATA>GWL</IATA><Name>Gwalior</Name></Airport>
+<Airport><IATA>GWT</IATA><Name>Westerland Airport</Name></Airport>
+<Airport><IATA>GWY</IATA><Name>Galway Carnmore Airport</Name></Airport>
+<Airport><IATA>GYD</IATA><Name>Heydar Aliyev Intl Airport</Name></Airport>
+<Airport><IATA>GYE</IATA><Name>José Joaquín de Olmedo Intl Airport</Name></Airport>
+<Airport><IATA>GYN</IATA><Name>Santa Genoveva</Name></Airport>
+<Airport><IATA>GZP</IATA><Name>Gazipasa Airport</Name></Airport>
+<Airport><IATA>GZT</IATA><Name>Gaziantep</Name></Airport>
+<Airport><IATA>HAA</IATA><Name>Hasvik</Name></Airport>
+<Airport><IATA>HAD</IATA><Name>Halmstad</Name></Airport>
+<Airport><IATA>HAJ</IATA><Name>Hannover Airport</Name></Airport>
+<Airport><IATA>HAK</IATA><Name>Haikou Meilan Intl Airport</Name></Airport>
+<Airport><IATA>HAM</IATA><Name>Hamburg Intl Airport</Name></Airport>
+<Airport><IATA>HAN</IATA><Name>Hanoi, Noi Bai Intl</Name></Airport>
+<Airport><IATA>HAS</IATA><Name>Hail Regional Airport</Name></Airport>
+<Airport><IATA>HAU</IATA><Name>Haugesund Airport</Name></Airport>
+<Airport><IATA>HAV</IATA><Name>La Havana - Jose Marti Airport</Name></Airport>
+<Airport><IATA>HBA</IATA><Name>Hobart Intl Airport</Name></Airport>
+<Airport><IATA>HBE</IATA><Name>Amiryah West</Name></Airport>
+<Airport><IATA>HBX</IATA><Name>Hubli</Name></Airport>
+<Airport><IATA>HDF</IATA><Name>Heringsdorf - Garz</Name></Airport>
+<Airport><IATA>HDN</IATA><Name>Yampa Valley Airport</Name></Airport>
+<Airport><IATA>HDS</IATA><Name>Hoedspruit Airport</Name></Airport>
+<Airport><IATA>HDY</IATA><Name>Hat Yai</Name></Airport>
+<Airport><IATA>HEL</IATA><Name>Helsinki - Vantaa Intl Airport</Name></Airport>
+<Airport><IATA>HER</IATA><Name>Heraklion Intl Airport</Name></Airport>
+<Airport><IATA>HET</IATA><Name>Hohhot Baita International Airport</Name></Airport>
+<Airport><IATA>HFD</IATA><Name>Hartford-Brainard Airport</Name></Airport>
+<Airport><IATA>HFE</IATA><Name>Hefei Luogang Intl Airport</Name></Airport>
+<Airport><IATA>HFS</IATA><Name>Hagfors Airport</Name></Airport>
+<Airport><IATA>HFT</IATA><Name>Hammerfest (Kvaløya)</Name></Airport>
+<Airport><IATA>HGA</IATA><Name>Hargeisa Intl</Name></Airport>
+<Airport><IATA>HGH</IATA><Name>Hangzhou</Name></Airport>
+<Airport><IATA>HGN</IATA><Name>Mae Hong Son</Name></Airport>
+<Airport><IATA>HHN</IATA><Name>Frankfurt - Hahn Airport</Name></Airport>
+<Airport><IATA>HHQ</IATA><Name>Hua Hin</Name></Airport>
+<Airport><IATA>HIJ</IATA><Name>Hiroshima Intl</Name></Airport>
+<Airport><IATA>HIR</IATA><Name>Henderson Intl</Name></Airport>
+<Airport><IATA>HIS</IATA><Name>Hayman Island</Name></Airport>
+<Airport><IATA>HJR</IATA><Name>Khajuraho</Name></Airport>
+<Airport><IATA>HKG</IATA><Name>Hong Kong</Name></Airport>
+<Airport><IATA>HKK</IATA><Name>Hokitika</Name></Airport>
+<Airport><IATA>HKT</IATA><Name>Phuket, Khon Kaen Intl.</Name></Airport>
+<Airport><IATA>HLD</IATA><Name>Hulunbuir Hailar Airport</Name></Airport>
+<Airport><IATA>HLN</IATA><Name>Helena Regional Airport</Name></Airport>
+<Airport><IATA>HLP</IATA><Name>Jakarta Halim Airport</Name></Airport>
+<Airport><IATA>HLZ</IATA><Name>Hamilton</Name></Airport>
+<Airport><IATA>HMB</IATA><Name>Mubarak Intl Airport</Name></Airport>
+<Airport><IATA>HMV</IATA><Name>Hemavan - Tarneby</Name></Airport>
+<Airport><IATA>HND</IATA><Name>Tokyo Haneda International</Name></Airport>
+<Airport><IATA>HNL</IATA><Name>Honolulu Intl</Name></Airport>
+<Airport><IATA>HOF</IATA><Name>Hofuf (Al-Asha) Al-Ahsa Domestic Airport</Name></Airport>
+<Airport><IATA>HOG</IATA><Name>Holguin - Frank Pais Intl Airport</Name></Airport>
+<Airport><IATA>HON</IATA><Name>Huron Regional Airport</Name></Airport>
+<Airport><IATA>HOQ</IATA><Name>Hof - Plauen</Name></Airport>
+<Airport><IATA>HOU</IATA><Name>William P Hobby Airport</Name></Airport>
+<Airport><IATA>HOV</IATA><Name>Hovden</Name></Airport>
+<Airport><IATA>HPH</IATA><Name>Cat Bi</Name></Airport>
+<Airport><IATA>HPN</IATA><Name>White Plains - Westchester County</Name></Airport>
+<Airport><IATA>HRB</IATA><Name>Harbin Taiping Intl Airport</Name></Airport>
+<Airport><IATA>HRE</IATA><Name>Harare Intl Airport</Name></Airport>
+<Airport><IATA>HRG</IATA><Name>Hurghada Intl Airport</Name></Airport>
+<Airport><IATA>HRI</IATA><Name>Hambantota Mattala Rajapaksa Intl</Name></Airport>
+<Airport><IATA>HRK</IATA><Name>Kharkov</Name></Airport>
+<Airport><IATA>HRL</IATA><Name>Rio Grande Valley Intl Harlingen</Name></Airport>
+<Airport><IATA>HSK</IATA><Name>Huesca-Pirineos</Name></Airport>
+<Airport><IATA>HSV</IATA><Name>Huntsville International</Name></Airport>
+<Airport><IATA>HTA</IATA><Name>Chita Kadala Airport</Name></Airport>
+<Airport><IATA>HTI</IATA><Name>Hamilton Island</Name></Airport>
+<Airport><IATA>HTY</IATA><Name>Hatay Airport</Name></Airport>
+<Airport><IATA>HUF</IATA><Name>Terre Haute Intl Airport</Name></Airport>
+<Airport><IATA>HUG</IATA><Name>Huehuetenango Airport</Name></Airport>
+<Airport><IATA>HUI</IATA><Name>Hue - Phu Bai</Name></Airport>
+<Airport><IATA>HUW</IATA><Name>Humaita Airport</Name></Airport>
+<Airport><IATA>HUX</IATA><Name>Huatulco Intl Airport</Name></Airport>
+<Airport><IATA>HUY</IATA><Name>Humberside Intl Airport</Name></Airport>
+<Airport><IATA>HVB</IATA><Name>Hervey Bay</Name></Airport>
+<Airport><IATA>HVG</IATA><Name>Valan Honningsvag-Nordkapp</Name></Airport>
+<Airport><IATA>HYA</IATA><Name>Hyannis - Barnstable</Name></Airport>
+<Airport><IATA>HYD</IATA><Name>Rajiv Gandhi Airport</Name></Airport>
+<Airport><IATA>HYS</IATA><Name>Hays Regional Airport</Name></Airport>
+<Airport><IATA>IAD</IATA><Name>Washington - Dulles International Airport</Name></Airport>
+<Airport><IATA>IAG</IATA><Name>Niagara Falls Intl</Name></Airport>
+<Airport><IATA>IAH</IATA><Name>George Bush Intercontinental Airport</Name></Airport>
+<Airport><IATA>IAO</IATA><Name>Sayak Airport</Name></Airport>
+<Airport><IATA>IAS</IATA><Name>Iasi Intl Airport</Name></Airport>
+<Airport><IATA>IBZ</IATA><Name>Ibiza Airport</Name></Airport>
+<Airport><IATA>ICN</IATA><Name>Incheon International</Name></Airport>
+<Airport><IATA>ICT</IATA><Name>Wichita Mid-Continent Airport</Name></Airport>
+<Airport><IATA>IDR</IATA><Name>Indore</Name></Airport>
+<Airport><IATA>IEG</IATA><Name>Zielona Góra-Babimost Airport</Name></Airport>
+<Airport><IATA>IEV</IATA><Name>Kiev - Zhulhany</Name></Airport>
+<Airport><IATA>IFN</IATA><Name>Isfahan Intl Airport</Name></Airport>
+<Airport><IATA>IFO</IATA><Name>Ivano - Frankivsk Airport</Name></Airport>
+<Airport><IATA>IGA</IATA><Name>Inagua Airport</Name></Airport>
+<Airport><IATA>IGD</IATA><Name>Igdir Airport</Name></Airport>
+<Airport><IATA>IGM</IATA><Name>Kingman Airport (Arizona)</Name></Airport>
+<Airport><IATA>IGU</IATA><Name>Cataratas del Iguazú Intl</Name></Airport>
+<Airport><IATA>IKA</IATA><Name>Imam Khomeini Intl Airport</Name></Airport>
+<Airport><IATA>IKT</IATA><Name>Irkutsk Airport</Name></Airport>
+<Airport><IATA>ILD</IATA><Name>Lleida-Alguaire</Name></Airport>
+<Airport><IATA>ILM</IATA><Name>Wilmington International Airport</Name></Airport>
+<Airport><IATA>ILO</IATA><Name>Iloilo Intl Airport</Name></Airport>
+<Airport><IATA>ILY</IATA><Name>Glenegedale</Name></Airport>
+<Airport><IATA>IMF</IATA><Name>Imphal</Name></Airport>
+<Airport><IATA>IMP</IATA><Name>Prefeito Renato Moreira</Name></Airport>
+<Airport><IATA>IND</IATA><Name>Indianapolis Intl Airport</Name></Airport>
+<Airport><IATA>INI</IATA><Name>Nis - Constantin</Name></Airport>
+<Airport><IATA>INN</IATA><Name>Innsbruck Airport</Name></Airport>
+<Airport><IATA>INT</IATA><Name>Smith Reynolds Airport</Name></Airport>
+<Airport><IATA>INV</IATA><Name>Inverness - Dalcross Airport</Name></Airport>
+<Airport><IATA>IOA</IATA><Name>Ioannina Airport</Name></Airport>
+<Airport><IATA>IOM</IATA><Name>Isle of Man Ronaldsway Airport</Name></Airport>
+<Airport><IATA>IOS</IATA><Name>Jorge Amado</Name></Airport>
+<Airport><IATA>IPH</IATA><Name>Ipoh - Sultan Azlan Shah</Name></Airport>
+<Airport><IATA>IPN</IATA><Name>Usiminas Airport</Name></Airport>
+<Airport><IATA>IQQ</IATA><Name>Diego Aracena Intl</Name></Airport>
+<Airport><IATA>IQT</IATA><Name>Crnl. FAP Francisco Secada Vignetta Intl</Name></Airport>
+<Airport><IATA>IRZ</IATA><Name>Santa Isabel do Rio Negro Tapuruquara Airport</Name></Airport>
+<Airport><IATA>ISA</IATA><Name>Mount ISA</Name></Airport>
+<Airport><IATA>ISB</IATA><Name>Islamabad Intl</Name></Airport>
+<Airport><IATA>ISE</IATA><Name>Isparta</Name></Airport>
+<Airport><IATA>ISG</IATA><Name>Ishigaki, Okinawa, Japan Ishigaki Airport</Name></Airport>
+<Airport><IATA>ISK</IATA><Name>Gandhinagar Airport</Name></Airport>
+<Airport><IATA>ISN</IATA><Name>Sloulin Field Intl Airport</Name></Airport>
+<Airport><IATA>ISP</IATA><Name>"Mac Arthur	Long Island"</Name></Airport>
+<Airport><IATA>IST</IATA><Name>Istanbul - Ataturk Intl Airport</Name></Airport>
+<Airport><IATA>ISU</IATA><Name>Sulaimaniyah Intl Airport</Name></Airport>
+<Airport><IATA>ITB</IATA><Name>Itaituba Airport</Name></Airport>
+<Airport><IATA>ITH</IATA><Name>Ithaca Tompkins Regional Airport</Name></Airport>
+<Airport><IATA>ITM</IATA><Name>Itami</Name></Airport>
+<Airport><IATA>ITO</IATA><Name>Hilo Intl</Name></Airport>
+<Airport><IATA>IVC</IATA><Name>Invercargill</Name></Airport>
+<Airport><IATA>IVL</IATA><Name>Ivalo</Name></Airport>
+<Airport><IATA>IXA</IATA><Name>Singerbhil Agartala</Name></Airport>
+<Airport><IATA>IXB</IATA><Name>Baghdogra Airport</Name></Airport>
+<Airport><IATA>IXC</IATA><Name>Chandigarh Airport</Name></Airport>
+<Airport><IATA>IXD</IATA><Name>Allahabad Airport</Name></Airport>
+<Airport><IATA>IXE</IATA><Name>Mangalore</Name></Airport>
+<Airport><IATA>IXG</IATA><Name>Sambre Belgaum Airport</Name></Airport>
+<Airport><IATA>IXI</IATA><Name>Lilabari</Name></Airport>
+<Airport><IATA>IXJ</IATA><Name>Satwari</Name></Airport>
+<Airport><IATA>IXL</IATA><Name>Leh</Name></Airport>
+<Airport><IATA>IXM</IATA><Name>Madurai</Name></Airport>
+<Airport><IATA>IXP</IATA><Name>Pathankot</Name></Airport>
+<Airport><IATA>IXR</IATA><Name>Ranchi</Name></Airport>
+<Airport><IATA>IXS</IATA><Name>Silchar</Name></Airport>
+<Airport><IATA>IXU</IATA><Name>Chikkalthana Aurangabad Airport</Name></Airport>
+<Airport><IATA>IXW</IATA><Name>Sonari - Jamshedpur</Name></Airport>
+<Airport><IATA>IXY</IATA><Name>Kandla</Name></Airport>
+<Airport><IATA>IXZ</IATA><Name>Port Blair</Name></Airport>
+<Airport><IATA>IZA</IATA><Name>Juiz de Fora Zona da Mata Regional Airport</Name></Airport>
+<Airport><IATA>JAC</IATA><Name>Jackson Hole Airport</Name></Airport>
+<Airport><IATA>JAI</IATA><Name>Sanganeer</Name></Airport>
+<Airport><IATA>JAN</IATA><Name>Jackson - Evers Intl</Name></Airport>
+<Airport><IATA>JAX</IATA><Name>Jacksonville Intl Airport</Name></Airport>
+<Airport><IATA>JCB</IATA><Name>Joacaba Airport</Name></Airport>
+<Airport><IATA>JDF</IATA><Name>Juiz de Fora Airport</Name></Airport>
+<Airport><IATA>JDH</IATA><Name>Jodhpur</Name></Airport>
+<Airport><IATA>JDO</IATA><Name>Do Cariri Regional</Name></Airport>
+<Airport><IATA>JDR</IATA><Name>Sao Joao del-Rei Airport</Name></Airport>
+<Airport><IATA>JED</IATA><Name>Jiddah International Airport</Name></Airport>
+<Airport><IATA>JER</IATA><Name>Jersey Airport</Name></Airport>
+<Airport><IATA>JFK</IATA><Name>John F Kennedy Intl Airport</Name></Airport>
+<Airport><IATA>JGA</IATA><Name>Jamnagar</Name></Airport>
+<Airport><IATA>JHB</IATA><Name>Johor Bahru - Sultan Ismail Intl</Name></Airport>
+<Airport><IATA>JHG</IATA><Name>Gasa</Name></Airport>
+<Airport><IATA>JHM</IATA><Name>Kapalua West Maui</Name></Airport>
+<Airport><IATA>JIB</IATA><Name>Djibouti</Name></Airport>
+<Airport><IATA>JJN</IATA><Name>Quanzhou Jinjiang Airport</Name></Airport>
+<Airport><IATA>JKG</IATA><Name>Jönköping Airport</Name></Airport>
+<Airport><IATA>JKH</IATA><Name>Chios Airport</Name></Airport>
+<Airport><IATA>JLR</IATA><Name>Jabalpur</Name></Airport>
+<Airport><IATA>JMK</IATA><Name>Mykonos Airport</Name></Airport>
+<Airport><IATA>JNB</IATA><Name>Johannesburg - Jan Smuts Airport</Name></Airport>
+<Airport><IATA>JNU</IATA><Name>Juneau Intl. Alaska</Name></Airport>
+<Airport><IATA>JOG</IATA><Name>Adisutjipto</Name></Airport>
+<Airport><IATA>JOI</IATA><Name>Lauro Carneiro De Loyola</Name></Airport>
+<Airport><IATA>JOL</IATA><Name>Jolo Airport</Name></Airport>
+<Airport><IATA>JPA</IATA><Name>Presidente Castro Pinto Intl</Name></Airport>
+<Airport><IATA>JPR</IATA><Name>Ji-Parana - Rondônia</Name></Airport>
+<Airport><IATA>JQF</IATA><Name>Concord Regional Airport</Name></Airport>
+<Airport><IATA>JRH</IATA><Name>Rowriah</Name></Airport>
+<Airport><IATA>JRO</IATA><Name>Kilimanjaro</Name></Airport>
+<Airport><IATA>JSA</IATA><Name>Jaisalmer</Name></Airport>
+<Airport><IATA>JSH</IATA><Name>Sitia Airport</Name></Airport>
+<Airport><IATA>JSI</IATA><Name>Skiathos Airport</Name></Airport>
+<Airport><IATA>JTC</IATA><Name>Bauru-Arealva</Name></Airport>
+<Airport><IATA>JTR</IATA><Name>Santorini - Thira Airport</Name></Airport>
+<Airport><IATA>JUB</IATA><Name>Juba Airport</Name></Airport>
+<Airport><IATA>JUL</IATA><Name>Inca Manco Capac Intl</Name></Airport>
+<Airport><IATA>JYV</IATA><Name>Jyväskylä Airport</Name></Airport>
+<Airport><IATA>KAJ</IATA><Name>Kajaani Airport</Name></Airport>
+<Airport><IATA>KAN</IATA><Name>Mallam Aminu Kano Intl Airport</Name></Airport>
+<Airport><IATA>KAO</IATA><Name>Kuusamo</Name></Airport>
+<Airport><IATA>KAT</IATA><Name>Kaitaia</Name></Airport>
+<Airport><IATA>KBL</IATA><Name>Kabul International</Name></Airport>
+<Airport><IATA>KBP</IATA><Name>Kiev Boryspil State Intl Airport</Name></Airport>
+<Airport><IATA>KBR</IATA><Name>Kota Bharu - Sultan Ismail Petra</Name></Airport>
+<Airport><IATA>KBV</IATA><Name>Krabi</Name></Airport>
+<Airport><IATA>KCH</IATA><Name>Kuching</Name></Airport>
+<Airport><IATA>KCM</IATA><Name>Kahramanmaras</Name></Airport>
+<Airport><IATA>KDH</IATA><Name>Kandahar International Airport</Name></Airport>
+<Airport><IATA>KDI</IATA><Name>Wolter Monginsidi</Name></Airport>
+<Airport><IATA>KEF</IATA><Name>Reykjavik - Keflavic Airport</Name></Airport>
+<Airport><IATA>KEJ</IATA><Name>Kemerovo International Airport</Name></Airport>
+<Airport><IATA>KEM</IATA><Name>Kemi-Tornio Airport</Name></Airport>
+<Airport><IATA>KGD</IATA><Name>Kaliningrad</Name></Airport>
+<Airport><IATA>KGF</IATA><Name>Sary-Arka Airport</Name></Airport>
+<Airport><IATA>KGI</IATA><Name>Kalgoorlie</Name></Airport>
+<Airport><IATA>KGL</IATA><Name>Kigali Intl Airport</Name></Airport>
+<Airport><IATA>KGS</IATA><Name>Kos - Ippokratis Airport</Name></Airport>
+<Airport><IATA>KHH</IATA><Name>Kaoshiung International Airport</Name></Airport>
+<Airport><IATA>KHI</IATA><Name>Quaid-E-Azam Intl</Name></Airport>
+<Airport><IATA>KHV</IATA><Name>Khabarovsk Novy Airport</Name></Airport>
+<Airport><IATA>KID</IATA><Name>Kristianstad</Name></Airport>
+<Airport><IATA>KIM</IATA><Name>Kimberley Airport</Name></Airport>
+<Airport><IATA>KIN</IATA><Name>Kingston - Norman Manley</Name></Airport>
+<Airport><IATA>KIR</IATA><Name>Kerry Airport</Name></Airport>
+<Airport><IATA>KIS</IATA><Name>Kismu Airport</Name></Airport>
+<Airport><IATA>KIT</IATA><Name>Kythira Kithira Island National Airport</Name></Airport>
+<Airport><IATA>KIV</IATA><Name>Chisinau</Name></Airport>
+<Airport><IATA>KIX</IATA><Name>Osaka</Name></Airport>
+<Airport><IATA>KJA</IATA><Name>Krasnoyarsk Yemelyanovo Intl</Name></Airport>
+<Airport><IATA>KKC</IATA><Name>Khon Kaen</Name></Airport>
+<Airport><IATA>KKE</IATA><Name>Kerikeri/Bay of Islands</Name></Airport>
+<Airport><IATA>KKN</IATA><Name>Kirkenes Airport</Name></Airport>
+<Airport><IATA>KLH</IATA><Name>Kolhapur</Name></Airport>
+<Airport><IATA>KLO</IATA><Name>Kalibo Intl Airport</Name></Airport>
+<Airport><IATA>KLR</IATA><Name>Kalmar Airport</Name></Airport>
+<Airport><IATA>KLU</IATA><Name>Klagenfurt Airport</Name></Airport>
+<Airport><IATA>KLX</IATA><Name>Kalamata National Airport</Name></Airport>
+<Airport><IATA>KMG</IATA><Name>Kunming</Name></Airport>
+<Airport><IATA>KNG</IATA><Name>Kaimana</Name></Airport>
+<Airport><IATA>KNO</IATA><Name>Medan Kuala Namu Intl</Name></Airport>
+<Airport><IATA>KNU</IATA><Name>Kanpur Airport</Name></Airport>
+<Airport><IATA>KNX</IATA><Name>Kununurra</Name></Airport>
+<Airport><IATA>KOA</IATA><Name>Kona - Keahole</Name></Airport>
+<Airport><IATA>KOI</IATA><Name>Kirkwall Airport</Name></Airport>
+<Airport><IATA>KOJ</IATA><Name>Kagoshima Airport</Name></Airport>
+<Airport><IATA>KOK</IATA><Name>Kruunupyy Airport</Name></Airport>
+<Airport><IATA>KOP</IATA><Name>Nakhon Phanom</Name></Airport>
+<Airport><IATA>KRF</IATA><Name>Kramfors-Solleftea Airport</Name></Airport>
+<Airport><IATA>KRK</IATA><Name>Krakow - Balice John Paul II Intl Airport</Name></Airport>
+<Airport><IATA>KRN</IATA><Name>Kiruna Airport</Name></Airport>
+<Airport><IATA>KRP</IATA><Name>Karup Airport</Name></Airport>
+<Airport><IATA>KRR</IATA><Name>Krasnodar Airport</Name></Airport>
+<Airport><IATA>KRS</IATA><Name>Kristiansand Airport</Name></Airport>
+<Airport><IATA>KRT</IATA><Name>Civil - Khartoum</Name></Airport>
+<Airport><IATA>KRW</IATA><Name>Turkmenbashy Airport</Name></Airport>
+<Airport><IATA>KSC</IATA><Name>Kosice Airport</Name></Airport>
+<Airport><IATA>KSD</IATA><Name>Karlstad Airport</Name></Airport>
+<Airport><IATA>KSF</IATA><Name>Kassel Calden Airport</Name></Airport>
+<Airport><IATA>KSN</IATA><Name>Kostanay Airport</Name></Airport>
+<Airport><IATA>KSQ</IATA><Name>Karshi</Name></Airport>
+<Airport><IATA>KSU</IATA><Name>Kristiansund Airport</Name></Airport>
+<Airport><IATA>KSY</IATA><Name>Kars</Name></Airport>
+<Airport><IATA>KTA</IATA><Name>Karratha</Name></Airport>
+<Airport><IATA>KTE</IATA><Name>Kerteh</Name></Airport>
+<Airport><IATA>KTM</IATA><Name>Kathmandu Tribhuvan Intl Airport</Name></Airport>
+<Airport><IATA>KTN</IATA><Name>Ketchikan Alaska Ketchikan Intl</Name></Airport>
+<Airport><IATA>KTT</IATA><Name>Kittilä Airport</Name></Airport>
+<Airport><IATA>KTW</IATA><Name>Katowice Intl Airport</Name></Airport>
+<Airport><IATA>KUA</IATA><Name>Kuantan</Name></Airport>
+<Airport><IATA>KUF</IATA><Name>Samara Airport</Name></Airport>
+<Airport><IATA>KUL</IATA><Name>Kuala Lumpur Intl Airport</Name></Airport>
+<Airport><IATA>KUN</IATA><Name>Kaunas Airport</Name></Airport>
+<Airport><IATA>KUO</IATA><Name>Kuopio Airport</Name></Airport>
+<Airport><IATA>KUT</IATA><Name>Kutaisi Intl Airport</Name></Airport>
+<Airport><IATA>KUU</IATA><Name>Kullu Manali</Name></Airport>
+<Airport><IATA>KVA</IATA><Name>Kavala Megas Alexandros Intl Airport</Name></Airport>
+<Airport><IATA>KVK</IATA><Name>Kirovsk</Name></Airport>
+<Airport><IATA>KWE</IATA><Name>Guiyang Longdongbao Intl Airport</Name></Airport>
+<Airport><IATA>KWI</IATA><Name>Kuwait International</Name></Airport>
+<Airport><IATA>KWL</IATA><Name>Guilin</Name></Airport>
+<Airport><IATA>KYA</IATA><Name>Konya Airport</Name></Airport>
+<Airport><IATA>KZN</IATA><Name>Kazan Airport</Name></Airport>
+<Airport><IATA>KZO</IATA><Name>Kyzylorda Airport</Name></Airport>
+<Airport><IATA>KZR</IATA><Name>Kutahya Zafer Airport</Name></Airport>
+<Airport><IATA>LAD</IATA><Name>Luanda - 4 de Fevereiro Airport</Name></Airport>
+<Airport><IATA>LAF</IATA><Name>Purdue University Airport</Name></Airport>
+<Airport><IATA>LAI</IATA><Name>Lannion - Côte de Granit</Name></Airport>
+<Airport><IATA>LAN</IATA><Name>Capital Region Intl Airport</Name></Airport>
+<Airport><IATA>LAO</IATA><Name>Laoag International Airport</Name></Airport>
+<Airport><IATA>LAR</IATA><Name>Laramie Regional Airport</Name></Airport>
+<Airport><IATA>LAS</IATA><Name>Las Vegas McCarran Intl Airport</Name></Airport>
+<Airport><IATA>LAU</IATA><Name>Manda Airport</Name></Airport>
+<Airport><IATA>LAX</IATA><Name>Los Angeles Airport</Name></Airport>
+<Airport><IATA>LBA</IATA><Name>Leeds - Bradford Intl Airport</Name></Airport>
+<Airport><IATA>LBB</IATA><Name>Lubbock Preston Smith Intl</Name></Airport>
+<Airport><IATA>LBC</IATA><Name>Lübeck - Blankensee</Name></Airport>
+<Airport><IATA>LBD</IATA><Name>Khudzhand Khujand Airport</Name></Airport>
+<Airport><IATA>LBE</IATA><Name>Westmoreland / Pennsylvania Arnold Palmer Regional</Name></Airport>
+<Airport><IATA>LBF</IATA><Name>North Platte Regional Airport</Name></Airport>
+<Airport><IATA>LBG</IATA><Name>Le Bourget Airport</Name></Airport>
+<Airport><IATA>LBL</IATA><Name>Liberal Mid-America Regional Airport</Name></Airport>
+<Airport><IATA>LBR</IATA><Name>Labrea Airport</Name></Airport>
+<Airport><IATA>LBU</IATA><Name>Labuan Airport</Name></Airport>
+<Airport><IATA>LBV</IATA><Name>Libreville Intl Airport</Name></Airport>
+<Airport><IATA>LCA</IATA><Name>Larnaca Intl Airport</Name></Airport>
+<Airport><IATA>LCE</IATA><Name>Golosón International Airport</Name></Airport>
+<Airport><IATA>LCG</IATA><Name>La Coruña Airport</Name></Airport>
+<Airport><IATA>LCH</IATA><Name>Lake Charles Regional Airport</Name></Airport>
+<Airport><IATA>LCJ</IATA><Name>Lodz - Lublinek Airport</Name></Airport>
+<Airport><IATA>LCK</IATA><Name>Rickenbacker Intl Airport</Name></Airport>
+<Airport><IATA>LCY</IATA><Name>London - City Airport</Name></Airport>
+<Airport><IATA>LDB</IATA><Name>Londrina</Name></Airport>
+<Airport><IATA>LDE</IATA><Name>Tarbes - Lourdes - Pyrennes Airport</Name></Airport>
+<Airport><IATA>LDY</IATA><Name>City of Derry Airport</Name></Airport>
+<Airport><IATA>LEA</IATA><Name>Learmonth</Name></Airport>
+<Airport><IATA>LEB</IATA><Name>Lebanon Municipal Airport (New Hampshire)</Name></Airport>
+<Airport><IATA>LEC</IATA><Name>Lencois Airport</Name></Airport>
+<Airport><IATA>LED</IATA><Name>St Petersburg Pulkovo Intl Airport</Name></Airport>
+<Airport><IATA>LEH</IATA><Name>Octeville</Name></Airport>
+<Airport><IATA>LEI</IATA><Name>Almeria Airport</Name></Airport>
+<Airport><IATA>LEJ</IATA><Name>Leipzig - Halle Airport</Name></Airport>
+<Airport><IATA>LEN</IATA><Name>Leon</Name></Airport>
+<Airport><IATA>LEX</IATA><Name>Lexington Blue Grass Airport (KY)</Name></Airport>
+<Airport><IATA>LFW</IATA><Name>Lomé-Tokoin Airport</Name></Airport>
+<Airport><IATA>LGA</IATA><Name>La Guardia</Name></Airport>
+<Airport><IATA>LGB</IATA><Name>Long Beach Airport</Name></Airport>
+<Airport><IATA>LGG</IATA><Name>Liège Airport</Name></Airport>
+<Airport><IATA>LGI</IATA><Name>Long Island Deadman Cay Airport</Name></Airport>
+<Airport><IATA>LGK</IATA><Name>Langkawi Intl</Name></Airport>
+<Airport><IATA>LGP</IATA><Name>Legazpi Airport</Name></Airport>
+<Airport><IATA>LGU</IATA><Name>Logan-Cache Airport</Name></Airport>
+<Airport><IATA>LGW</IATA><Name>London - Gatwick</Name></Airport>
+<Airport><IATA>LHE</IATA><Name>Alama Iqbal Intl</Name></Airport>
+<Airport><IATA>LHR</IATA><Name>London - Heathrow</Name></Airport>
+<Airport><IATA>LHW</IATA><Name>Lanzhou Zhongchuan Airport</Name></Airport>
+<Airport><IATA>LIG</IATA><Name>Limoges - Bellegarde Airport</Name></Airport>
+<Airport><IATA>LIH</IATA><Name>Lihue</Name></Airport>
+<Airport><IATA>LIL</IATA><Name>Lille Airport</Name></Airport>
+<Airport><IATA>LIM</IATA><Name>Jorge Chavez Intl</Name></Airport>
+<Airport><IATA>LIN</IATA><Name>Milan - Linate Intl Airport</Name></Airport>
+<Airport><IATA>LIR</IATA><Name>Liberia</Name></Airport>
+<Airport><IATA>LIS</IATA><Name>Lisbon Intl Airport</Name></Airport>
+<Airport><IATA>LIT</IATA><Name>Adams Field Little Rock</Name></Airport>
+<Airport><IATA>LJG</IATA><Name>Lijiang Sanyi Airport</Name></Airport>
+<Airport><IATA>LJU</IATA><Name>Ljubljana - Brnik Airport</Name></Airport>
+<Airport><IATA>LKL</IATA><Name>Lakselv - Porsanger</Name></Airport>
+<Airport><IATA>LKN</IATA><Name>Leknes (Vestvågøy/Lofoten)</Name></Airport>
+<Airport><IATA>LKO</IATA><Name>Lucknow</Name></Airport>
+<Airport><IATA>LLA</IATA><Name>Lulea Kallax Airport</Name></Airport>
+<Airport><IATA>LLW</IATA><Name>Lilongwe Malawi</Name></Airport>
+<Airport><IATA>LMP</IATA><Name>Lampedusa Airport</Name></Airport>
+<Airport><IATA>LNK</IATA><Name>Lincoln Airport</Name></Airport>
+<Airport><IATA>LNY</IATA><Name>Lanai City Hawaii</Name></Airport>
+<Airport><IATA>LNZ</IATA><Name>Linz - Blue Danube Airport</Name></Airport>
+<Airport><IATA>LOE</IATA><Name>Loei</Name></Airport>
+<Airport><IATA>LON</IATA><Name>London (All Airports)</Name></Airport>
+<Airport><IATA>LOP</IATA><Name>Lombok Intl Airport</Name></Airport>
+<Airport><IATA>LOS</IATA><Name>Lagos - Murtala Muhammed</Name></Airport>
+<Airport><IATA>LPA</IATA><Name>Las Palmas</Name></Airport>
+<Airport><IATA>LPB</IATA><Name>El Alto</Name></Airport>
+<Airport><IATA>LPI</IATA><Name>Linkoping Airport</Name></Airport>
+<Airport><IATA>LPL</IATA><Name>Liverpool - John Lennon Airport</Name></Airport>
+<Airport><IATA>LPP</IATA><Name>Lappeenranta</Name></Airport>
+<Airport><IATA>LPQ</IATA><Name>Luang Prabang</Name></Airport>
+<Airport><IATA>LPT</IATA><Name>Lampang Airport</Name></Airport>
+<Airport><IATA>LPX</IATA><Name>Liepaja Intl Airport</Name></Airport>
+<Airport><IATA>LRH</IATA><Name>La Rochelle - Ile de Re Airport</Name></Airport>
+<Airport><IATA>LRM</IATA><Name>La Romana Intl Airport</Name></Airport>
+<Airport><IATA>LRR</IATA><Name>Lar, Iran Larestan Intl</Name></Airport>
+<Airport><IATA>LRT</IATA><Name>Lorient Lann - Bihoué Airport</Name></Airport>
+<Airport><IATA>LSC</IATA><Name>La Florida Airport (Chile)</Name></Airport>
+<Airport><IATA>LSI</IATA><Name>Sumburgh</Name></Airport>
+<Airport><IATA>LST</IATA><Name>Launceston Airport</Name></Airport>
+<Airport><IATA>LTK</IATA><Name>Latakia Airport</Name></Airport>
+<Airport><IATA>LTN</IATA><Name>London - Luton</Name></Airport>
+<Airport><IATA>LTT</IATA><Name>St Tropez Aeroport du Golfe</Name></Airport>
+<Airport><IATA>LUG</IATA><Name>Lugano Airport</Name></Airport>
+<Airport><IATA>LUN</IATA><Name>Lusaka</Name></Airport>
+<Airport><IATA>LUX</IATA><Name>Luxembourg - Findel Airport</Name></Airport>
+<Airport><IATA>LUZ</IATA><Name>Lublin Airport</Name></Airport>
+<Airport><IATA>LVI</IATA><Name>Livingstone Zambia</Name></Airport>
+<Airport><IATA>LWO</IATA><Name>Lviv - Snilow Airport</Name></Airport>
+<Airport><IATA>LWS</IATA><Name>Lewiston Idaho - Nez Perce County</Name></Airport>
+<Airport><IATA>LWT</IATA><Name>Lewistown Municipal Airport</Name></Airport>
+<Airport><IATA>LXR</IATA><Name>Luxor Airport</Name></Airport>
+<Airport><IATA>LXS</IATA><Name>Lemnos Island Intl Airport</Name></Airport>
+<Airport><IATA>LYC</IATA><Name>Lycksele Airport</Name></Airport>
+<Airport><IATA>LYP</IATA><Name>Faisalabad</Name></Airport>
+<Airport><IATA>LYR</IATA><Name>Svalbard</Name></Airport>
+<Airport><IATA>LYS</IATA><Name>Lyon - St Exupery Intl Airport</Name></Airport>
+<Airport><IATA>MAA</IATA><Name>Chennai Intl Airport</Name></Airport>
+<Airport><IATA>MAB</IATA><Name>Marabá</Name></Airport>
+<Airport><IATA>MAD</IATA><Name>Madrid - Barajas Intl Airport</Name></Airport>
+<Airport><IATA>MAF</IATA><Name>Midland Intl</Name></Airport>
+<Airport><IATA>MAH</IATA><Name>Menorca - Mahon Airport</Name></Airport>
+<Airport><IATA>MAN</IATA><Name>Manchester Intl Airport</Name></Airport>
+<Airport><IATA>MAO</IATA><Name>Manaus - Eduardo Gomes Intl</Name></Airport>
+<Airport><IATA>MAQ</IATA><Name>Mae Sot</Name></Airport>
+<Airport><IATA>MAR</IATA><Name>La Chinita Intl Airport</Name></Airport>
+<Airport><IATA>MAZ</IATA><Name>Eugenio María de Hostos Airport</Name></Airport>
+<Airport><IATA>MBA</IATA><Name>Mombasa Airport</Name></Airport>
+<Airport><IATA>MBJ</IATA><Name>Montego Bay Sangster Airport</Name></Airport>
+<Airport><IATA>MBT</IATA><Name>Moises R. Espinosa Airport</Name></Airport>
+<Airport><IATA>MBX</IATA><Name>Maribor Intl Airport</Name></Airport>
+<Airport><IATA>MCI</IATA><Name>Kansas City Intl Airport</Name></Airport>
+<Airport><IATA>MCK</IATA><Name>McCook Regional Airport</Name></Airport>
+<Airport><IATA>MCM</IATA><Name>Monaco Heliport</Name></Airport>
+<Airport><IATA>MCN</IATA><Name>Macon</Name></Airport>
+<Airport><IATA>MCO</IATA><Name>Orlando Intl Airport</Name></Airport>
+<Airport><IATA>MCP</IATA><Name>Macapá Intl</Name></Airport>
+<Airport><IATA>MCT</IATA><Name>Seeb Muscat Airport</Name></Airport>
+<Airport><IATA>MCY</IATA><Name>Maroochydore (Sunshine Coast)</Name></Airport>
+<Airport><IATA>MCZ</IATA><Name>Zumbi dos Palmares</Name></Airport>
+<Airport><IATA>MDC</IATA><Name>Manado Intl Airport</Name></Airport>
+<Airport><IATA>MDE</IATA><Name>Medellín - José María Cordova</Name></Airport>
+<Airport><IATA>MDL</IATA><Name>Mandalay International Airport</Name></Airport>
+<Airport><IATA>MDT</IATA><Name>Harrisburg International Airport</Name></Airport>
+<Airport><IATA>MDW</IATA><Name>Chicago Midway</Name></Airport>
+<Airport><IATA>MDZ</IATA><Name>Mendoza Governor Francisco Gabrielli Intl</Name></Airport>
+<Airport><IATA>MEA</IATA><Name>Macae Benedito Lacerda Airport</Name></Airport>
+<Airport><IATA>MED</IATA><Name>Mohammad Bin Abdulaziz</Name></Airport>
+<Airport><IATA>MEH</IATA><Name>Mehamn</Name></Airport>
+<Airport><IATA>MEL</IATA><Name>Melbourne - Tullamarine Airport</Name></Airport>
+<Airport><IATA>MEM</IATA><Name>Memphis Intl Tennessee</Name></Airport>
+<Airport><IATA>MES</IATA><Name>Polonia</Name></Airport>
+<Airport><IATA>MEX</IATA><Name>Internacional Benito Juarez</Name></Airport>
+<Airport><IATA>MFM</IATA><Name>Macau Intl</Name></Airport>
+<Airport><IATA>MFR</IATA><Name>Rogue Valley Intl-Medford Airport</Name></Airport>
+<Airport><IATA>MGA</IATA><Name>Managua - Augusto C Sandino</Name></Airport>
+<Airport><IATA>MGF</IATA><Name>Sílvio Name Júnior</Name></Airport>
+<Airport><IATA>MGM</IATA><Name>Montgomery Regional Airport</Name></Airport>
+<Airport><IATA>MHD</IATA><Name>Mashhad Intl Airport</Name></Airport>
+<Airport><IATA>MHH</IATA><Name>Marsh Harbour Airport</Name></Airport>
+<Airport><IATA>MHK</IATA><Name>Manhattan Regional Airport</Name></Airport>
+<Airport><IATA>MHQ</IATA><Name>Mariehamn - Airport</Name></Airport>
+<Airport><IATA>MHT</IATA><Name>Manchester - Boston</Name></Airport>
+<Airport><IATA>MIA</IATA><Name>Miami Intl Airport</Name></Airport>
+<Airport><IATA>MII</IATA><Name>Marilia Airport</Name></Airport>
+<Airport><IATA>MIL</IATA><Name>Milan (All Airports)</Name></Airport>
+<Airport><IATA>MIR</IATA><Name>Monastir - Skanes Airport</Name></Airport>
+<Airport><IATA>MJF</IATA><Name>Mosjøen, Kjaerstad, Mosjøen</Name></Airport>
+<Airport><IATA>MJK</IATA><Name>Shark Bay / Denham</Name></Airport>
+<Airport><IATA>MJT</IATA><Name>Mytilene Airport</Name></Airport>
+<Airport><IATA>MJV</IATA><Name>Murcia - San Javier</Name></Airport>
+<Airport><IATA>MKC</IATA><Name>Kansas City Downtown Airport</Name></Airport>
+<Airport><IATA>MKE</IATA><Name>Milwaukee General Mitchell Intl</Name></Airport>
+<Airport><IATA>MKK</IATA><Name>Kaunakakai Hawaii</Name></Airport>
+<Airport><IATA>MKY</IATA><Name>Mackay Airport</Name></Airport>
+<Airport><IATA>MKZ</IATA><Name>Malacca Berendum</Name></Airport>
+<Airport><IATA>MLA</IATA><Name>Malta Intl Airport</Name></Airport>
+<Airport><IATA>MLB</IATA><Name>Palm Bay / Melbourne</Name></Airport>
+<Airport><IATA>MLE</IATA><Name>Male Intl Airport</Name></Airport>
+<Airport><IATA>MLH</IATA><Name>EuroAirport Basel - Mulhouse - Freiburg</Name></Airport>
+<Airport><IATA>MLI</IATA><Name>Quad City Intl Airport</Name></Airport>
+<Airport><IATA>MLU</IATA><Name>Monroe Regional Airport</Name></Airport>
+<Airport><IATA>MLW</IATA><Name>Spriggs Payne Airport</Name></Airport>
+<Airport><IATA>MLX</IATA><Name>Malatya Airport</Name></Airport>
+<Airport><IATA>MMA</IATA><Name>Malmö (All Airports)</Name></Airport>
+<Airport><IATA>MME</IATA><Name>Teesside Intl Airport</Name></Airport>
+<Airport><IATA>MMK</IATA><Name>Murmansk Airport</Name></Airport>
+<Airport><IATA>MMX</IATA><Name>Malmö - Sturup Airport</Name></Airport>
+<Airport><IATA>MNL</IATA><Name>Manila, Ninoy Aquino Intl</Name></Airport>
+<Airport><IATA>MNU</IATA><Name>Mawlamyaing Airport</Name></Airport>
+<Airport><IATA>MOC</IATA><Name>Montes Claros - Minas Gerais</Name></Airport>
+<Airport><IATA>MOL</IATA><Name>Molde Airport</Name></Airport>
+<Airport><IATA>MOV</IATA><Name>Moranbah Airport</Name></Airport>
+<Airport><IATA>MPH</IATA><Name>Boracay (Caticlan)</Name></Airport>
+<Airport><IATA>MPL</IATA><Name>Montpellier - Mediterranée Airport</Name></Airport>
+<Airport><IATA>MPM</IATA><Name>Maputo Intl</Name></Airport>
+<Airport><IATA>MQF</IATA><Name>Magnitogorsk International Airport</Name></Airport>
+<Airport><IATA>MQH</IATA><Name>Minacu Airport</Name></Airport>
+<Airport><IATA>MQL</IATA><Name>Mildura</Name></Airport>
+<Airport><IATA>MQM</IATA><Name>Mardin Airport</Name></Airport>
+<Airport><IATA>MQN</IATA><Name>Mo i Rana, Røssvoll</Name></Airport>
+<Airport><IATA>MQP</IATA><Name>Kruger Mpumalanga Intl Airport</Name></Airport>
+<Airport><IATA>MQY</IATA><Name>Smyrna Airport</Name></Airport>
+<Airport><IATA>MRO</IATA><Name>Masterton/Hood Aerodrome</Name></Airport>
+<Airport><IATA>MRS</IATA><Name>Marseille - Provence Airport</Name></Airport>
+<Airport><IATA>MRU</IATA><Name>Mauritius / Port Louis</Name></Airport>
+<Airport><IATA>MRV</IATA><Name>Mineralnye Vody Airport</Name></Airport>
+<Airport><IATA>MRY</IATA><Name>Monterey Peninsula</Name></Airport>
+<Airport><IATA>MSE</IATA><Name>Manston Kent Intl Airport</Name></Airport>
+<Airport><IATA>MSL</IATA><Name>Northwest Alabama Regional Airport</Name></Airport>
+<Airport><IATA>MSN</IATA><Name>Dane County Regional Airport</Name></Airport>
+<Airport><IATA>MSO</IATA><Name>Missoula Intl Airport</Name></Airport>
+<Airport><IATA>MSP</IATA><Name>Minneapolis - St Paul Intl Airport</Name></Airport>
+<Airport><IATA>MSQ</IATA><Name>Minsk National Airport</Name></Airport>
+<Airport><IATA>MSR</IATA><Name>Mus Airport</Name></Airport>
+<Airport><IATA>MSS</IATA><Name>New York Massena Intl</Name></Airport>
+<Airport><IATA>MST</IATA><Name>Maastricht - Aachen Airport</Name></Airport>
+<Airport><IATA>MSU</IATA><Name>Maseru Lesotho</Name></Airport>
+<Airport><IATA>MSY</IATA><Name>Louis Armstrong Intl Airport</Name></Airport>
+<Airport><IATA>MTH</IATA><Name>Florida Keys Marathon Airport</Name></Airport>
+<Airport><IATA>MTJ</IATA><Name>Montrose Regional Airport</Name></Airport>
+<Airport><IATA>MTS</IATA><Name>Manzini Swaziland</Name></Airport>
+<Airport><IATA>MUB</IATA><Name>Maun</Name></Airport>
+<Airport><IATA>MUC</IATA><Name>München - FJ Strauss Intl Airport</Name></Airport>
+<Airport><IATA>MUH</IATA><Name>Marsa Matruh Airport</Name></Airport>
+<Airport><IATA>MUX</IATA><Name>Multan</Name></Airport>
+<Airport><IATA>MVD</IATA><Name>Carrasco Intl</Name></Airport>
+<Airport><IATA>MVY</IATA><Name>Marthas Vineyard</Name></Airport>
+<Airport><IATA>MWI</IATA><Name>Maramuni</Name></Airport>
+<Airport><IATA>MWX</IATA><Name>Muan Intl Airport</Name></Airport>
+<Airport><IATA>MXP</IATA><Name>Milan - Malpensa Airport</Name></Airport>
+<Airport><IATA>MXX</IATA><Name>Mora</Name></Airport>
+<Airport><IATA>MYD</IATA><Name>Malindi Airport</Name></Airport>
+<Airport><IATA>MYF</IATA><Name>San Diego Montgomery Field Airport</Name></Airport>
+<Airport><IATA>MYG</IATA><Name>Mayaguana Airport</Name></Airport>
+<Airport><IATA>MYJ</IATA><Name>Matsuyama (Shikoku)</Name></Airport>
+<Airport><IATA>MYQ</IATA><Name>Mysore Airport</Name></Airport>
+<Airport><IATA>MYR</IATA><Name>Myrtle Beach</Name></Airport>
+<Airport><IATA>MYS</IATA><Name>Moyale</Name></Airport>
+<Airport><IATA>MYY</IATA><Name>Miri Airport</Name></Airport>
+<Airport><IATA>MZH</IATA><Name>Amasya Merzifon Airport</Name></Airport>
+<Airport><IATA>MZO</IATA><Name>Sierra Maestra Airport</Name></Airport>
+<Airport><IATA>MZT</IATA><Name>Mazatlan Intl Airport</Name></Airport>
+<Airport><IATA>N01</IATA><Name>Not an Airport Intl.</Name></Airport>
+<Airport><IATA>N02</IATA><Name>This is no International Airport</Name></Airport>
+<Airport><IATA>N03</IATA><Name>We do not fly Intl.</Name></Airport>
+<Airport><IATA>NAG</IATA><Name>Nagpur</Name></Airport>
+<Airport><IATA>NAN</IATA><Name>Nadi Intl. (Fiji)</Name></Airport>
+<Airport><IATA>NAP</IATA><Name>Naples Intl Airport</Name></Airport>
+<Airport><IATA>NAS</IATA><Name>Nassau Intl Airport</Name></Airport>
+<Airport><IATA>NAT</IATA><Name>Natal - Augusto Severo Airport</Name></Airport>
+<Airport><IATA>NAV</IATA><Name>Nevsehir Kapadokya Airport</Name></Airport>
+<Airport><IATA>NAW</IATA><Name>Narathiwat Airport</Name></Airport>
+<Airport><IATA>NBC</IATA><Name>Nizhnekamsk, Naberezhnye Chelny, Yelabuga Begishevo Airport</Name></Airport>
+<Airport><IATA>NBE</IATA><Name>Enfidha</Name></Airport>
+<Airport><IATA>NBO</IATA><Name>Jomo Kenyatta Airport</Name></Airport>
+<Airport><IATA>NCE</IATA><Name>Nice Intl Airport</Name></Airport>
+<Airport><IATA>NCL</IATA><Name>Newcastle Airport</Name></Airport>
+<Airport><IATA>NCU</IATA><Name>Nukus Airport</Name></Airport>
+<Airport><IATA>NDB</IATA><Name>Nouadhibou</Name></Airport>
+<Airport><IATA>NDC</IATA><Name>Nanded</Name></Airport>
+<Airport><IATA>NDJ</IATA><Name>N Djamena Intl</Name></Airport>
+<Airport><IATA>NDR</IATA><Name>Nador Intl Airport</Name></Airport>
+<Airport><IATA>NEV</IATA><Name>Newcastle, Nevis Vance W. Amory Intl</Name></Airport>
+<Airport><IATA>NGB</IATA><Name>Ningbo Lishe Intl.</Name></Airport>
+<Airport><IATA>NGO</IATA><Name>Nagoya</Name></Airport>
+<Airport><IATA>NGS</IATA><Name>Nagasaki, Japan Nagasaki Airport</Name></Airport>
+<Airport><IATA>NIM</IATA><Name>Diori Hamani Intl Airport</Name></Airport>
+<Airport><IATA>NJC</IATA><Name>Nizhnevartovsk Airport</Name></Airport>
+<Airport><IATA>NJF</IATA><Name>Al Najaf Intl Airport</Name></Airport>
+<Airport><IATA>NKC</IATA><Name>Nouakchott</Name></Airport>
+<Airport><IATA>NKG</IATA><Name>Nanjing Lukou Intl Airport</Name></Airport>
+<Airport><IATA>NKT</IATA><Name>Sirnak Airport</Name></Airport>
+<Airport><IATA>NLA</IATA><Name>Ndola Zambia</Name></Airport>
+<Airport><IATA>NMA</IATA><Name>Namangan Airport</Name></Airport>
+<Airport><IATA>NNG</IATA><Name>Nanning Wuxu Intl Airport</Name></Airport>
+<Airport><IATA>NNM</IATA><Name>Naryan-Mar Airport</Name></Airport>
+<Airport><IATA>NNT</IATA><Name>Nan</Name></Airport>
+<Airport><IATA>NOC</IATA><Name>Knock Intl Airport</Name></Airport>
+<Airport><IATA>NOS</IATA><Name>Fascene Airport</Name></Airport>
+<Airport><IATA>NOZ</IATA><Name>Novokuznetsk Spichenkovo Airport</Name></Airport>
+<Airport><IATA>NPE</IATA><Name>Napier, Hawkes Bay</Name></Airport>
+<Airport><IATA>NPL</IATA><Name>New Plymouth</Name></Airport>
+<Airport><IATA>NQT</IATA><Name>Nottingham Airport</Name></Airport>
+<Airport><IATA>NQY</IATA><Name>Newquay - St Mawgan Airport</Name></Airport>
+<Airport><IATA>NRK</IATA><Name>Norrköping Airport</Name></Airport>
+<Airport><IATA>NRN</IATA><Name>Airport Düsseldorf - Weeze</Name></Airport>
+<Airport><IATA>NRT</IATA><Name>Tokyo Narita Intl Airport</Name></Airport>
+<Airport><IATA>NSI</IATA><Name>Yaounde - Nsimalen Airport</Name></Airport>
+<Airport><IATA>NSK</IATA><Name>Alykel Airport</Name></Airport>
+<Airport><IATA>NSN</IATA><Name>Nelson</Name></Airport>
+<Airport><IATA>NST</IATA><Name>Nakhon Si Thammarat Airport</Name></Airport>
+<Airport><IATA>NSY</IATA><Name>Sigonella</Name></Airport>
+<Airport><IATA>NTE</IATA><Name>Nantes - Atlantique Aeroport</Name></Airport>
+<Airport><IATA>NTL</IATA><Name>Newcastle/Williamtown</Name></Airport>
+<Airport><IATA>NUE</IATA><Name>Nürnberg Airport</Name></Airport>
+<Airport><IATA>NUX</IATA><Name>Novy Urengoy Airport</Name></Airport>
+<Airport><IATA>NVK</IATA><Name>Narvik Framnes</Name></Airport>
+<Airport><IATA>NVT</IATA><Name>Ministro Victor Konder Intl</Name></Airport>
+<Airport><IATA>NWI</IATA><Name>Norwich Intl Airport</Name></Airport>
+<Airport><IATA>NYM</IATA><Name>Nadym Airport</Name></Airport>
+<Airport><IATA>NYO</IATA><Name>Stockholm - Skavasta Aiport</Name></Airport>
+<Airport><IATA>NYT</IATA><Name>Naypyidaw Intl</Name></Airport>
+<Airport><IATA>OAK</IATA><Name>Oakland Int</Name></Airport>
+<Airport><IATA>ODS</IATA><Name>Odessa Airport</Name></Airport>
+<Airport><IATA>OER</IATA><Name>Ornskoldsvik Airport</Name></Airport>
+<Airport><IATA>OGG</IATA><Name>Kahului</Name></Airport>
+<Airport><IATA>OGS</IATA><Name>New York Ogdensburg Intl</Name></Airport>
+<Airport><IATA>OGZ</IATA><Name>Vladikavkaz Beslan Airport</Name></Airport>
+<Airport><IATA>OHD</IATA><Name>Ohrid Airport</Name></Airport>
+<Airport><IATA>OIT</IATA><Name>Oita Airport</Name></Airport>
+<Airport><IATA>OKA</IATA><Name>Naha Intl.</Name></Airport>
+<Airport><IATA>OKC</IATA><Name>Will Rogers World Oklahoma City</Name></Airport>
+<Airport><IATA>OLB</IATA><Name>Olbia-Costa Smeralda (Sardinia)</Name></Airport>
+<Airport><IATA>OLC</IATA><Name>Sao Paulo de Olivenca Airport</Name></Airport>
+<Airport><IATA>OLP</IATA><Name>Olympic Dam</Name></Airport>
+<Airport><IATA>OMA</IATA><Name>Eppley Airfield</Name></Airport>
+<Airport><IATA>OME</IATA><Name>Nome Airport</Name></Airport>
+<Airport><IATA>OMO</IATA><Name>Mostar, Medjugorje, Herzegovina-Neretva Canton Mostar Intl</Name></Airport>
+<Airport><IATA>OMS</IATA><Name>Omsk Airport</Name></Airport>
+<Airport><IATA>ONQ</IATA><Name>Zonguldak Airport</Name></Airport>
+<Airport><IATA>ONT</IATA><Name>Los Angeles - Ontario</Name></Airport>
+<Airport><IATA>OOL</IATA><Name>Coolangatta - Gold Coast Airport</Name></Airport>
+<Airport><IATA>OPO</IATA><Name>Porto Airport</Name></Airport>
+<Airport><IATA>OPS</IATA><Name>Sinop - Mato Grosso</Name></Airport>
+<Airport><IATA>ORB</IATA><Name>Örebro Airport</Name></Airport>
+<Airport><IATA>ORD</IATA><Name>Chicago OHare Intl Airport</Name></Airport>
+<Airport><IATA>ORF</IATA><Name>Norfolk Intl</Name></Airport>
+<Airport><IATA>ORH</IATA><Name>Worcester Regional Airport</Name></Airport>
+<Airport><IATA>ORK</IATA><Name>Cork Intl Airport</Name></Airport>
+<Airport><IATA>ORL</IATA><Name>Orlando Executive Airport</Name></Airport>
+<Airport><IATA>ORN</IATA><Name>Es Senia</Name></Airport>
+<Airport><IATA>ORY</IATA><Name>Paris - Orly Airport</Name></Airport>
+<Airport><IATA>OSD</IATA><Name>Ostersund Froesoe Airport</Name></Airport>
+<Airport><IATA>OSH</IATA><Name>Wittman Regional Airport</Name></Airport>
+<Airport><IATA>OSI</IATA><Name>Osijek Intl Airport</Name></Airport>
+<Airport><IATA>OSK</IATA><Name>Oskarshamn Airport</Name></Airport>
+<Airport><IATA>OSL</IATA><Name>Oslo Gardermoen Intl Airport</Name></Airport>
+<Airport><IATA>OSP</IATA><Name>Slupsk - Redzikowo Airport</Name></Airport>
+<Airport><IATA>OSR</IATA><Name>Mosnov</Name></Airport>
+<Airport><IATA>OSS</IATA><Name>Osh Airport</Name></Airport>
+<Airport><IATA>OST</IATA><Name>Ostend/Bruges Intl Airport</Name></Airport>
+<Airport><IATA>OSY</IATA><Name>Namsos, Høknesøra</Name></Airport>
+<Airport><IATA>OTH</IATA><Name>Southwest Oregon Regional Airport</Name></Airport>
+<Airport><IATA>OTP</IATA><Name>Otopeni Intl Airport</Name></Airport>
+<Airport><IATA>OTZ</IATA><Name>Ralph Wien Memorial Airport</Name></Airport>
+<Airport><IATA>OUA</IATA><Name>Ouagadougou Airport</Name></Airport>
+<Airport><IATA>OUD</IATA><Name>Oujda Angads Airport</Name></Airport>
+<Airport><IATA>OUL</IATA><Name>Oulunsalo Airport</Name></Airport>
+<Airport><IATA>OVB</IATA><Name>Novosibirsk Airport</Name></Airport>
+<Airport><IATA>OVD</IATA><Name>Asturias Airport</Name></Airport>
+<Airport><IATA>OXB</IATA><Name>Osvaldo Vieira</Name></Airport>
+<Airport><IATA>OXF</IATA><Name>Oxford - Kidlington</Name></Airport>
+<Airport><IATA>OZC</IATA><Name>Labo Airport</Name></Airport>
+<Airport><IATA>OZH</IATA><Name>Zaporozhye</Name></Airport>
+<Airport><IATA>OZZ</IATA><Name>Ouarzazate</Name></Airport>
+<Airport><IATA>PAD</IATA><Name>Paderborn - Lippstadt Airport</Name></Airport>
+<Airport><IATA>PAG</IATA><Name>Pagadian Airport</Name></Airport>
+<Airport><IATA>PAH</IATA><Name>Barkley Regional Airport</Name></Airport>
+<Airport><IATA>PAP</IATA><Name>Pourt-au-Prince - Toussaint Louverture Intl</Name></Airport>
+<Airport><IATA>PAR</IATA><Name>Paris (All Airports)</Name></Airport>
+<Airport><IATA>PAT</IATA><Name>Patna</Name></Airport>
+<Airport><IATA>PAV</IATA><Name>Paulo Afonso Airport</Name></Airport>
+<Airport><IATA>PBC</IATA><Name>Puebla Hermanos Serdan Intl</Name></Airport>
+<Airport><IATA>PBD</IATA><Name>Porbandar Airport</Name></Airport>
+<Airport><IATA>PBG</IATA><Name>Plattsburgh Intl</Name></Airport>
+<Airport><IATA>PBH</IATA><Name>Paro Airport</Name></Airport>
+<Airport><IATA>PBI</IATA><Name>Palm Beach Intl</Name></Airport>
+<Airport><IATA>PBM</IATA><Name>Paramaribo - Zanderij Intl</Name></Airport>
+<Airport><IATA>PBO</IATA><Name>Paraburdoo, Western Australia Paraburdoo Airport</Name></Airport>
+<Airport><IATA>PCL</IATA><Name>FAP Captain David Abenzur Rengifo Intl</Name></Airport>
+<Airport><IATA>PDG</IATA><Name>Minangkabau Intl Airport</Name></Airport>
+<Airport><IATA>PDL</IATA><Name>Joao Paulo II - Ponta Delgada</Name></Airport>
+<Airport><IATA>PDP</IATA><Name>Capitan de Corbeta Carlos A. Curbelo Intl</Name></Airport>
+<Airport><IATA>PDV</IATA><Name>Plovdiv Intl Airport</Name></Airport>
+<Airport><IATA>PDX</IATA><Name>Portland Intl</Name></Airport>
+<Airport><IATA>PED</IATA><Name>Pardubice</Name></Airport>
+<Airport><IATA>PEE</IATA><Name>Bolshoye Savino Airport</Name></Airport>
+<Airport><IATA>PEG</IATA><Name>Perugia Airport</Name></Airport>
+<Airport><IATA>PEK</IATA><Name>Peking/Beijing - Intl Airport</Name></Airport>
+<Airport><IATA>PEM</IATA><Name>Padre Aldamiz Intl</Name></Airport>
+<Airport><IATA>PEN</IATA><Name>Penang Intl.</Name></Airport>
+<Airport><IATA>PER</IATA><Name>Perth Airport</Name></Airport>
+<Airport><IATA>PET</IATA><Name>Pelotas Intl Airport</Name></Airport>
+<Airport><IATA>PEW</IATA><Name>Peshawar</Name></Airport>
+<Airport><IATA>PFB</IATA><Name>Lauro Kurtz Airport</Name></Airport>
+<Airport><IATA>PFO</IATA><Name>Paphos Intl Airport</Name></Airport>
+<Airport><IATA>PGA</IATA><Name>Page Municipal Airport</Name></Airport>
+<Airport><IATA>PGF</IATA><Name>Perpignan Airport</Name></Airport>
+<Airport><IATA>PGK</IATA><Name>Pangkalpinang</Name></Airport>
+<Airport><IATA>PHB</IATA><Name>Parnaiba - Prefeito Dr. Filho</Name></Airport>
+<Airport><IATA>PHE</IATA><Name>Port Hedland</Name></Airport>
+<Airport><IATA>PHF</IATA><Name>Newport News/Williamsburg Intl Airport</Name></Airport>
+<Airport><IATA>PHL</IATA><Name>Philadelphia Airport</Name></Airport>
+<Airport><IATA>PHS</IATA><Name>Phitsanulok Airport</Name></Airport>
+<Airport><IATA>PHW</IATA><Name>Hendrik Van Eck Airport</Name></Airport>
+<Airport><IATA>PHX</IATA><Name>Phoenix Sky Harbor Intl Airport</Name></Airport>
+<Airport><IATA>PIA</IATA><Name>Peoria Intl</Name></Airport>
+<Airport><IATA>PIE</IATA><Name>St. Petersburg-Clearwater International Airport</Name></Airport>
+<Airport><IATA>PIK</IATA><Name>Glasgow - Prestwick Intl Airport</Name></Airport>
+<Airport><IATA>PIN</IATA><Name>Parintins Airport</Name></Airport>
+<Airport><IATA>PIR</IATA><Name>Pierre Regional Airport</Name></Airport>
+<Airport><IATA>PIS</IATA><Name>Poitiers Airport</Name></Airport>
+<Airport><IATA>PIT</IATA><Name>Pittsburgh Intl</Name></Airport>
+<Airport><IATA>PIU</IATA><Name>Cap. FAP Guillermo Concha Iberico Intl</Name></Airport>
+<Airport><IATA>PKC</IATA><Name>Petropavlovsk-Kamchatsky Airport</Name></Airport>
+<Airport><IATA>PKU</IATA><Name>Simpang Tiga</Name></Airport>
+<Airport><IATA>PLE</IATA><Name>Paiela, Papua New Guinea</Name></Airport>
+<Airport><IATA>PLH</IATA><Name>Plymouth - City Airport</Name></Airport>
+<Airport><IATA>PLM</IATA><Name>Mahmud Badaruddin Ii</Name></Airport>
+<Airport><IATA>PLQ</IATA><Name>Palanga Intl Airport</Name></Airport>
+<Airport><IATA>PLS</IATA><Name>Providenciales Intl</Name></Airport>
+<Airport><IATA>PLU</IATA><Name>Carlos Drummond De Andrade</Name></Airport>
+<Airport><IATA>PLZ</IATA><Name>Port Elizabeth</Name></Airport>
+<Airport><IATA>PMC</IATA><Name>El Tepual Airport</Name></Airport>
+<Airport><IATA>PMF</IATA><Name>Aeroporto di Parma Giuseppe Verdi</Name></Airport>
+<Airport><IATA>PMI</IATA><Name>Palma de Mallorca Intl Airport</Name></Airport>
+<Airport><IATA>PMO</IATA><Name>Palermo - Punta Raisi Airport</Name></Airport>
+<Airport><IATA>PMR</IATA><Name>Palmerston North</Name></Airport>
+<Airport><IATA>PMV</IATA><Name>Porlamar DelCaribe Gen S Marino Airport</Name></Airport>
+<Airport><IATA>PMW</IATA><Name>Brigadeiro Lysias Rodrigues</Name></Airport>
+<Airport><IATA>PNA</IATA><Name>Pamplona Airport</Name></Airport>
+<Airport><IATA>PNC</IATA><Name>Ponca City Regional Airport</Name></Airport>
+<Airport><IATA>PNH</IATA><Name>Phnom Penh Intl</Name></Airport>
+<Airport><IATA>PNK</IATA><Name>Supadio</Name></Airport>
+<Airport><IATA>PNL</IATA><Name>Pantelleria Airport</Name></Airport>
+<Airport><IATA>PNQ</IATA><Name>Lohegaon</Name></Airport>
+<Airport><IATA>PNR</IATA><Name>Pointe Noire Airport</Name></Airport>
+<Airport><IATA>PNS</IATA><Name>Pensacola Gulf Coast Regional Airport</Name></Airport>
+<Airport><IATA>PNY</IATA><Name>Puducherry Pondicherry Airport</Name></Airport>
+<Airport><IATA>PNZ</IATA><Name>Senador Nilo Coelho</Name></Airport>
+<Airport><IATA>POA</IATA><Name>Salgado Filho Intl</Name></Airport>
+<Airport><IATA>POJ</IATA><Name>Patos de Minas Airport</Name></Airport>
+<Airport><IATA>POL</IATA><Name>Pemba Airport (Mozambique)</Name></Airport>
+<Airport><IATA>POM</IATA><Name>Jackson Fld Port Moresby</Name></Airport>
+<Airport><IATA>POO</IATA><Name>Poços de Caldas</Name></Airport>
+<Airport><IATA>POP</IATA><Name>Puerto Plata Airport</Name></Airport>
+<Airport><IATA>POR</IATA><Name>Pori Airport</Name></Airport>
+<Airport><IATA>POS</IATA><Name>Piarco Intl Airport</Name></Airport>
+<Airport><IATA>POZ</IATA><Name>Poznan - Lawica Airport</Name></Airport>
+<Airport><IATA>PPB</IATA><Name>Adhemar De Barros</Name></Airport>
+<Airport><IATA>PPP</IATA><Name>Whitsunday Coast</Name></Airport>
+<Airport><IATA>PPQ</IATA><Name>Paraparaumu</Name></Airport>
+<Airport><IATA>PPS</IATA><Name>Puerto Princesa Intl Airport</Name></Airport>
+<Airport><IATA>PQC</IATA><Name>Phu Quoc Intl</Name></Airport>
+<Airport><IATA>PQQ</IATA><Name>Port Macquarie</Name></Airport>
+<Airport><IATA>PRC</IATA><Name>Ernest A. Love Field</Name></Airport>
+<Airport><IATA>PRG</IATA><Name>Prague - Ruzyne Airport</Name></Airport>
+<Airport><IATA>PRH</IATA><Name>Phrae</Name></Airport>
+<Airport><IATA>PRN</IATA><Name>Pristina Airport</Name></Airport>
+<Airport><IATA>PSA</IATA><Name>Pisa - Galileo Galilei Airport</Name></Airport>
+<Airport><IATA>PSC</IATA><Name>Washington Tri-Cities</Name></Airport>
+<Airport><IATA>PSE</IATA><Name>Mercedita Aeroporto</Name></Airport>
+<Airport><IATA>PSP</IATA><Name>Municipal</Name></Airport>
+<Airport><IATA>PSR</IATA><Name>Pescara Airport</Name></Airport>
+<Airport><IATA>PTG</IATA><Name>Polokwane Intl Airport</Name></Airport>
+<Airport><IATA>PTP</IATA><Name>Pointe-a-Pitre Guadeloupe</Name></Airport>
+<Airport><IATA>PTY</IATA><Name>Tocumen Intl</Name></Airport>
+<Airport><IATA>PUB</IATA><Name>Pueblo Memorial Airport</Name></Airport>
+<Airport><IATA>PUF</IATA><Name>Pau Airport</Name></Airport>
+<Airport><IATA>PUJ</IATA><Name>Punta Cana Intl Airport</Name></Airport>
+<Airport><IATA>PUQ</IATA><Name>Presidente Carlos Ibanez del Campo Intl</Name></Airport>
+<Airport><IATA>PUS</IATA><Name>Gimhae Intl Airport</Name></Airport>
+<Airport><IATA>PUT</IATA><Name>Puttiparthi</Name></Airport>
+<Airport><IATA>PUW</IATA><Name>Pullman Washington</Name></Airport>
+<Airport><IATA>PUY</IATA><Name>Pula Airport</Name></Airport>
+<Airport><IATA>PVC</IATA><Name>Provincetown Municipal</Name></Airport>
+<Airport><IATA>PVD</IATA><Name>T. F. Green Providence</Name></Airport>
+<Airport><IATA>PVG</IATA><Name>Pudong Intl Airport</Name></Airport>
+<Airport><IATA>PVH</IATA><Name>Gov. Jorge Teixeira de Oliveira</Name></Airport>
+<Airport><IATA>PVK</IATA><Name>Preveza Aktion Airport</Name></Airport>
+<Airport><IATA>PVR</IATA><Name>Puerto Vallarta Intl - Gustavo Diaz Ordaz Airport</Name></Airport>
+<Airport><IATA>PVU</IATA><Name>Provo Municipal Airport</Name></Airport>
+<Airport><IATA>PWM</IATA><Name>Portland Intl Jetport</Name></Airport>
+<Airport><IATA>PWQ</IATA><Name>Pavlodar Airport</Name></Airport>
+<Airport><IATA>PXO</IATA><Name>Porto Santo</Name></Airport>
+<Airport><IATA>PZB</IATA><Name>Pietermaritzburg</Name></Airport>
+<Airport><IATA>PZU</IATA><Name>Port Sudan New Intl Airport</Name></Airport>
+<Airport><IATA>QYG</IATA><Name>Railway germany</Name></Airport>
+<Airport><IATA>RAI</IATA><Name>Praia International Airport</Name></Airport>
+<Airport><IATA>RAJ</IATA><Name>Rajkot</Name></Airport>
+<Airport><IATA>RAK</IATA><Name>Marrakech Menara Airport</Name></Airport>
+<Airport><IATA>RAO</IATA><Name>Dr. Leite Lopes</Name></Airport>
+<Airport><IATA>RAP</IATA><Name>Rapid City Regional Airport</Name></Airport>
+<Airport><IATA>RAR</IATA><Name>Cook Islands - Rarotonga Airport</Name></Airport>
+<Airport><IATA>RBA</IATA><Name>Rabat</Name></Airport>
+<Airport><IATA>RBR</IATA><Name>Presidente Medici</Name></Airport>
+<Airport><IATA>RCB</IATA><Name>Richards Bay Airport</Name></Airport>
+<Airport><IATA>RCO</IATA><Name>Rochefort Saint Agnant Airport</Name></Airport>
+<Airport><IATA>RDM</IATA><Name>Redmond Municipal Airport</Name></Airport>
+<Airport><IATA>RDU</IATA><Name>Raleigh - Durham Intl Airport</Name></Airport>
+<Airport><IATA>RDZ</IATA><Name>Rodez - Marcillac Airport</Name></Airport>
+<Airport><IATA>REC</IATA><Name>Gilberto Freyre Intl</Name></Airport>
+<Airport><IATA>REG</IATA><Name>Tito Menniti Airport</Name></Airport>
+<Airport><IATA>REK</IATA><Name>Reykjavik Airport</Name></Airport>
+<Airport><IATA>REP</IATA><Name>Siem Reap</Name></Airport>
+<Airport><IATA>RET</IATA><Name>Avinor - Røst</Name></Airport>
+<Airport><IATA>REU</IATA><Name>Barcelona - Reus Airport</Name></Airport>
+<Airport><IATA>REZ</IATA><Name>Resende Airport</Name></Airport>
+<Airport><IATA>RGK</IATA><Name>Gorno-Altaysk Airport</Name></Airport>
+<Airport><IATA>RGL</IATA><Name>Rio Gallegos Piloto Civil Norberto Fernandez Intl</Name></Airport>
+<Airport><IATA>RGN</IATA><Name>Yangon (Rangun) - Mingaladon</Name></Airport>
+<Airport><IATA>RHE</IATA><Name>Reims - Champagne Aeroport</Name></Airport>
+<Airport><IATA>RHO</IATA><Name>Rhodos - Diagoras Intl Airport</Name></Airport>
+<Airport><IATA>RIA</IATA><Name>Santa Maria</Name></Airport>
+<Airport><IATA>RIC</IATA><Name>Richmond Intl Airport</Name></Airport>
+<Airport><IATA>RIG</IATA><Name>Rio Grande Regional Airport (Brazil)</Name></Airport>
+<Airport><IATA>RIW</IATA><Name>Riverton Regional Airport</Name></Airport>
+<Airport><IATA>RIX</IATA><Name>Riga Intl Airport</Name></Airport>
+<Airport><IATA>RJA</IATA><Name>Rajahmundry</Name></Airport>
+<Airport><IATA>RJK</IATA><Name>Rijeka - Riviera Kvarner Airport</Name></Airport>
+<Airport><IATA>RKD</IATA><Name>Knox County Regional Airport</Name></Airport>
+<Airport><IATA>RKS</IATA><Name>Rock Springs – Sweetwater County Airport</Name></Airport>
+<Airport><IATA>RKT</IATA><Name>Ras Al Khaimah</Name></Airport>
+<Airport><IATA>RLG</IATA><Name>Rostock - Laage Airport</Name></Airport>
+<Airport><IATA>RMF</IATA><Name>Marsa Alam Airport</Name></Airport>
+<Airport><IATA>RMI</IATA><Name>Rimini Airport</Name></Airport>
+<Airport><IATA>RMQ</IATA><Name>Chingchuankang</Name></Airport>
+<Airport><IATA>RNB</IATA><Name>Ronneby Kallinge Airport</Name></Airport>
+<Airport><IATA>RNN</IATA><Name>Bornholm - Roenne Airport</Name></Airport>
+<Airport><IATA>RNO</IATA><Name>Reno Tahoe Intl Airport</Name></Airport>
+<Airport><IATA>RNS</IATA><Name>Rennes St Jacques Airport</Name></Airport>
+<Airport><IATA>ROA</IATA><Name>Roanoke – Blacksburg Regional Airport</Name></Airport>
+<Airport><IATA>ROB</IATA><Name>Roberts Intl Airport</Name></Airport>
+<Airport><IATA>ROC</IATA><Name>Greater Rochester Intl</Name></Airport>
+<Airport><IATA>ROI</IATA><Name>Roi Et</Name></Airport>
+<Airport><IATA>ROK</IATA><Name>Rockhampton</Name></Airport>
+<Airport><IATA>ROM</IATA><Name>Rome (All Airports)</Name></Airport>
+<Airport><IATA>ROO</IATA><Name>Rondonópolis - Mato Grosso</Name></Airport>
+<Airport><IATA>ROR</IATA><Name>Roman Tmetuchl Intl Airport</Name></Airport>
+<Airport><IATA>ROS</IATA><Name>Fisherton Intl</Name></Airport>
+<Airport><IATA>ROT</IATA><Name>Rotorua</Name></Airport>
+<Airport><IATA>ROV</IATA><Name>Rostov</Name></Airport>
+<Airport><IATA>RPR</IATA><Name>Raipur</Name></Airport>
+<Airport><IATA>RRO</IATA><Name>Sorrento Airport</Name></Airport>
+<Airport><IATA>RRS</IATA><Name>Roros</Name></Airport>
+<Airport><IATA>RSD</IATA><Name>Rock Sound Intl Airport</Name></Airport>
+<Airport><IATA>RSW</IATA><Name>Southwest Florida Intl Airport</Name></Airport>
+<Airport><IATA>RTB</IATA><Name>Roatan Island</Name></Airport>
+<Airport><IATA>RTM</IATA><Name>Rotterdam - Zestienhoven Airport</Name></Airport>
+<Airport><IATA>RUH</IATA><Name>Riyadh - King Khalid</Name></Airport>
+<Airport><IATA>RUT</IATA><Name>Rutland Southern Vermont Airport</Name></Airport>
+<Airport><IATA>RVD</IATA><Name>Rio Verde Airport</Name></Airport>
+<Airport><IATA>RVN</IATA><Name>Rovaniemi Airport</Name></Airport>
+<Airport><IATA>RVT</IATA><Name>Ravensthorpe, Western Australia Ravensthorpe Airport</Name></Airport>
+<Airport><IATA>RXS</IATA><Name>Roxas Airport</Name></Airport>
+<Airport><IATA>RYG</IATA><Name>Moss Airport</Name></Airport>
+<Airport><IATA>RZE</IATA><Name>Rzeszow - Jasionka Airport</Name></Airport>
+<Airport><IATA>SAF</IATA><Name>Santa Fe Municipal Airport</Name></Airport>
+<Airport><IATA>SAH</IATA><Name>Sanaa - El Rahaba International</Name></Airport>
+<Airport><IATA>SAL</IATA><Name>El Salvador International</Name></Airport>
+<Airport><IATA>SAM</IATA><Name>Salamo</Name></Airport>
+<Airport><IATA>SAN</IATA><Name>San Diego Airport</Name></Airport>
+<Airport><IATA>SAP</IATA><Name>Ramon Villeda Morales Intl</Name></Airport>
+<Airport><IATA>SAT</IATA><Name>San Antonio Intl</Name></Airport>
+<Airport><IATA>SAV</IATA><Name>Savannah/Hilton Head Intl Airport</Name></Airport>
+<Airport><IATA>SAW</IATA><Name>Istanbul - Sabiha Gokcen Intl Airport</Name></Airport>
+<Airport><IATA>SBA</IATA><Name>Santa Barbara Municipal Airport</Name></Airport>
+<Airport><IATA>SBK</IATA><Name>St Brieuc Airport</Name></Airport>
+<Airport><IATA>SBN</IATA><Name>South Bend Regional Airport</Name></Airport>
+<Airport><IATA>SBW</IATA><Name>Sibu Airport</Name></Airport>
+<Airport><IATA>SBZ</IATA><Name>Sibiu</Name></Airport>
+<Airport><IATA>SCC</IATA><Name>Deadhorse Alaska</Name></Airport>
+<Airport><IATA>SCL</IATA><Name>Arturo Merino Benitez Intl</Name></Airport>
+<Airport><IATA>SCN</IATA><Name>Saarbrücken Airport</Name></Airport>
+<Airport><IATA>SCO</IATA><Name>Shevchenko</Name></Airport>
+<Airport><IATA>SCQ</IATA><Name>Santiago de Compostela Airport</Name></Airport>
+<Airport><IATA>SCU</IATA><Name>Santiago de Cuba</Name></Airport>
+<Airport><IATA>SDF</IATA><Name>Standiford Field Intl Louisville</Name></Airport>
+<Airport><IATA>SDJ</IATA><Name>Sendai Airport</Name></Airport>
+<Airport><IATA>SDK</IATA><Name>Sandakan Airport</Name></Airport>
+<Airport><IATA>SDL</IATA><Name>Sundsvall Harnosand Airport</Name></Airport>
+<Airport><IATA>SDN</IATA><Name>Sandane</Name></Airport>
+<Airport><IATA>SDQ</IATA><Name>Aeropuerto Intl Las Americas</Name></Airport>
+<Airport><IATA>SDR</IATA><Name>Santander Parayas Airport</Name></Airport>
+<Airport><IATA>SDU</IATA><Name>Santos Dumont</Name></Airport>
+<Airport><IATA>SDY</IATA><Name>Sidney-Richland Municipal Airport</Name></Airport>
+<Airport><IATA>SEA</IATA><Name>Seattle Tacoma Intl Airport</Name></Airport>
+<Airport><IATA>SEN</IATA><Name>London Southend Airport</Name></Airport>
+<Airport><IATA>SEZ</IATA><Name>Seychelles Intl Airport Mahe</Name></Airport>
+<Airport><IATA>SFB</IATA><Name>Orlando Sanford Intl Airport</Name></Airport>
+<Airport><IATA>SFO</IATA><Name>San Francisco Intl Airport</Name></Airport>
+<Airport><IATA>SFT</IATA><Name>Skelleftea Airport</Name></Airport>
+<Airport><IATA>SGC</IATA><Name>Surgut</Name></Airport>
+<Airport><IATA>SGD</IATA><Name>Soenderborg Airport</Name></Airport>
+<Airport><IATA>SGN</IATA><Name>Ho Chi Minh Airport</Name></Airport>
+<Airport><IATA>SGS</IATA><Name>Sanga Sanga</Name></Airport>
+<Airport><IATA>SHA</IATA><Name>Shanghai Hongqiao</Name></Airport>
+<Airport><IATA>SHE</IATA><Name>Shenyang Taoxian International Airport</Name></Airport>
+<Airport><IATA>SHJ</IATA><Name>Sharjah</Name></Airport>
+<Airport><IATA>SHR</IATA><Name>Sheridan County Airport</Name></Airport>
+<Airport><IATA>SHV</IATA><Name>Shreveport</Name></Airport>
+<Airport><IATA>SID</IATA><Name>Amilcar Cabral Intl Airport</Name></Airport>
+<Airport><IATA>SIN</IATA><Name>Singapore Changi Intl Airport</Name></Airport>
+<Airport><IATA>SIP</IATA><Name>Simferopol Intl Airport</Name></Airport>
+<Airport><IATA>SJC</IATA><Name>San Jose Intl Airport</Name></Airport>
+<Airport><IATA>SJD</IATA><Name>Los Cabos</Name></Airport>
+<Airport><IATA>SJI</IATA><Name>San Jose Airport (Mindoro)</Name></Airport>
+<Airport><IATA>SJJ</IATA><Name>Sarajevo Intl Airport</Name></Airport>
+<Airport><IATA>SJK</IATA><Name>Prof Ernesto Stumpf</Name></Airport>
+<Airport><IATA>SJL</IATA><Name>Sao Gabriel da Cachoeira Airport</Name></Airport>
+<Airport><IATA>SJO</IATA><Name>Juan Santamaria Airport</Name></Airport>
+<Airport><IATA>SJP</IATA><Name>Prof Eribelto Manoel</Name></Airport>
+<Airport><IATA>SJU</IATA><Name>San Juan Airport</Name></Airport>
+<Airport><IATA>SJY</IATA><Name>Seinäjoki Airport</Name></Airport>
+<Airport><IATA>SKB</IATA><Name>Basseterre Intl</Name></Airport>
+<Airport><IATA>SKD</IATA><Name>Samarkand Airport</Name></Airport>
+<Airport><IATA>SKG</IATA><Name>Thessaloniki Intl Airport</Name></Airport>
+<Airport><IATA>SKN</IATA><Name>Skagen, Stokmarknes, Hadsel</Name></Airport>
+<Airport><IATA>SKP</IATA><Name>Skopje Airport</Name></Airport>
+<Airport><IATA>SKT</IATA><Name>Sialkot Intl</Name></Airport>
+<Airport><IATA>SKU</IATA><Name>Skyros Island National Airport</Name></Airport>
+<Airport><IATA>SKZ</IATA><Name>Sukkur</Name></Airport>
+<Airport><IATA>SLA</IATA><Name>Salta Martin Miguel de Guemes Intl</Name></Airport>
+<Airport><IATA>SLC</IATA><Name>Salt Lake City</Name></Airport>
+<Airport><IATA>SLK</IATA><Name>Adirondack Regional Airport</Name></Airport>
+<Airport><IATA>SLL</IATA><Name>Salalah</Name></Airport>
+<Airport><IATA>SLN</IATA><Name>Salina Municipal Airport</Name></Airport>
+<Airport><IATA>SLU</IATA><Name>Saint Lucia - George Charles Airport</Name></Airport>
+<Airport><IATA>SLV</IATA><Name>Shimla</Name></Airport>
+<Airport><IATA>SLZ</IATA><Name>Marechal Cunha Machado</Name></Airport>
+<Airport><IATA>SMF</IATA><Name>Sacramento Intl</Name></Airport>
+<Airport><IATA>SMI</IATA><Name>Samos Airport</Name></Airport>
+<Airport><IATA>SNA</IATA><Name>John Wayne Airport</Name></Airport>
+<Airport><IATA>SNN</IATA><Name>Shannon Intl Airport</Name></Airport>
+<Airport><IATA>SNO</IATA><Name>Sakon Nakhon</Name></Airport>
+<Airport><IATA>SNU</IATA><Name>Abel Santa María</Name></Airport>
+<Airport><IATA>SOB</IATA><Name>Keszthely Airport</Name></Airport>
+<Airport><IATA>SOC</IATA><Name>Adi Sumarmo</Name></Airport>
+<Airport><IATA>SOF</IATA><Name>Sofia Airport</Name></Airport>
+<Airport><IATA>SOG</IATA><Name>Sogndal</Name></Airport>
+<Airport><IATA>SOJ</IATA><Name>Sørkjosen</Name></Airport>
+<Airport><IATA>SOU</IATA><Name>Southampton Intl Airport</Name></Airport>
+<Airport><IATA>SOW</IATA><Name>Show Low Regional Airport</Name></Airport>
+<Airport><IATA>SPC</IATA><Name>La Palma Airport</Name></Airport>
+<Airport><IATA>SPS</IATA><Name>Wichita Falls Municipal Airport</Name></Airport>
+<Airport><IATA>SPU</IATA><Name>Split - Kastel Airport</Name></Airport>
+<Airport><IATA>SQF</IATA><Name>Solano</Name></Airport>
+<Airport><IATA>SQO</IATA><Name>Gunnarn Airport</Name></Airport>
+<Airport><IATA>SRA</IATA><Name>Santa Rosa Airport</Name></Airport>
+<Airport><IATA>SRG</IATA><Name>Achmad Yani</Name></Airport>
+<Airport><IATA>SRQ</IATA><Name>Sarasota-Bradenton Intl</Name></Airport>
+<Airport><IATA>SSA</IATA><Name>Salvador - Aeroporto Intl Deputado Luis Eduardo Magalhaes</Name></Airport>
+<Airport><IATA>SSG</IATA><Name>Malabo Intl Airport</Name></Airport>
+<Airport><IATA>SSH</IATA><Name>Sharm El Sheik - Ophira Airport</Name></Airport>
+<Airport><IATA>SSJ</IATA><Name>Sandnessjøen, Stokka</Name></Airport>
+<Airport><IATA>STI</IATA><Name>Santiago Municipal - Cibao Intl</Name></Airport>
+<Airport><IATA>STL</IATA><Name>Saint Louis - Lambert Intl Airport</Name></Airport>
+<Airport><IATA>STM</IATA><Name>Santarém - Eduardo Gomes</Name></Airport>
+<Airport><IATA>STN</IATA><Name>London - Stansted</Name></Airport>
+<Airport><IATA>STO</IATA><Name>Stockholm (All Airports)</Name></Airport>
+<Airport><IATA>STR</IATA><Name>Stuttgart Airport</Name></Airport>
+<Airport><IATA>STS</IATA><Name>Charles M Schulz - Sonoma County Airport</Name></Airport>
+<Airport><IATA>STT</IATA><Name>Saint Thomas - Cyril E King Airport</Name></Airport>
+<Airport><IATA>STV</IATA><Name>Surat</Name></Airport>
+<Airport><IATA>STW</IATA><Name>Stavropol</Name></Airport>
+<Airport><IATA>STX</IATA><Name>Henry E. Rohlsen Airport</Name></Airport>
+<Airport><IATA>SUB</IATA><Name>Juanda</Name></Airport>
+<Airport><IATA>SUF</IATA><Name>Lamezia Terme Airport</Name></Airport>
+<Airport><IATA>SUG</IATA><Name>Surigao Airport</Name></Airport>
+<Airport><IATA>SUX</IATA><Name>Sioux Gateway Airport</Name></Airport>
+<Airport><IATA>SVD</IATA><Name>Arnos Vale Kingstown</Name></Airport>
+<Airport><IATA>SVG</IATA><Name>Stavanger Intl Airport</Name></Airport>
+<Airport><IATA>SVJ</IATA><Name>Helle - Svolvaer</Name></Airport>
+<Airport><IATA>SVL</IATA><Name>Savonlinna</Name></Airport>
+<Airport><IATA>SVO</IATA><Name>Moscow - Sheremetyevo Intl Airport</Name></Airport>
+<Airport><IATA>SVQ</IATA><Name>Sevilla Airport</Name></Airport>
+<Airport><IATA>SVX</IATA><Name>Ekaterinburg - Koltsovo Airport</Name></Airport>
+<Airport><IATA>SWA</IATA><Name>Shantou</Name></Airport>
+<Airport><IATA>SWF</IATA><Name>Stewart Intl - Newburgh</Name></Airport>
+<Airport><IATA>SWO</IATA><Name>Stillwater Regional Airport</Name></Airport>
+<Airport><IATA>SWS</IATA><Name>Swansea Airport</Name></Airport>
+<Airport><IATA>SXB</IATA><Name>Strasbourg Intl Airport</Name></Airport>
+<Airport><IATA>SXF</IATA><Name>Berlin - Schönefeld</Name></Airport>
+<Airport><IATA>SXL</IATA><Name>Sligo Collooney Regional Airport</Name></Airport>
+<Airport><IATA>SXM</IATA><Name>Princess Juliana Intl</Name></Airport>
+<Airport><IATA>SXR</IATA><Name>Srinagar</Name></Airport>
+<Airport><IATA>SXZ</IATA><Name>Siirt</Name></Airport>
+<Airport><IATA>SYD</IATA><Name>Sydney - Kingsford Smith</Name></Airport>
+<Airport><IATA>SYR</IATA><Name>Syracuse Hancock Intl Airport</Name></Airport>
+<Airport><IATA>SYX</IATA><Name>Sanya Phoenix Intl Airport</Name></Airport>
+<Airport><IATA>SYY</IATA><Name>Stornoway</Name></Airport>
+<Airport><IATA>SYZ</IATA><Name>Shiraz Intl Airport</Name></Airport>
+<Airport><IATA>SZB</IATA><Name>Sultan Abdul Aziz Shah</Name></Airport>
+<Airport><IATA>SZF</IATA><Name>Samsun Carsamba Airport</Name></Airport>
+<Airport><IATA>SZG</IATA><Name>Salzburg - WA Mozart Airport</Name></Airport>
+<Airport><IATA>SZK</IATA><Name>Skukuza Airport</Name></Airport>
+<Airport><IATA>SZX</IATA><Name>Shenzhen</Name></Airport>
+<Airport><IATA>SZZ</IATA><Name>Szczecin Goleniow Airport</Name></Airport>
+<Airport><IATA>TAB</IATA><Name>Crown Point - Tobago Airport</Name></Airport>
+<Airport><IATA>TAC</IATA><Name>Daniel Z. Romualdez Airport</Name></Airport>
+<Airport><IATA>TAG</IATA><Name>Tagbilaran Airport</Name></Airport>
+<Airport><IATA>TAK</IATA><Name>Takamatsu Airport</Name></Airport>
+<Airport><IATA>TAO</IATA><Name>Qingdao Liuting International Airport</Name></Airport>
+<Airport><IATA>TAS</IATA><Name>Yuzhny</Name></Airport>
+<Airport><IATA>TAT</IATA><Name>Poprad - Tatry Intl Airport</Name></Airport>
+<Airport><IATA>TAY</IATA><Name>Tartu Ülenurme</Name></Airport>
+<Airport><IATA>TBJ</IATA><Name>Tabarka - 7 Novembre Intl Airport</Name></Airport>
+<Airport><IATA>TBS</IATA><Name>Tbilissi - Tiflis Airport</Name></Airport>
+<Airport><IATA>TBT</IATA><Name>Tabatinga Intl</Name></Airport>
+<Airport><IATA>TBU</IATA><Name>Fua amotu Intl Airport</Name></Airport>
+<Airport><IATA>TCB</IATA><Name>Treasure Cay Airport</Name></Airport>
+<Airport><IATA>TCN</IATA><Name>Tehuacán</Name></Airport>
+<Airport><IATA>TCP</IATA><Name>Taba Ras An Naqb Airport</Name></Airport>
+<Airport><IATA>TCQ</IATA><Name>Crnl. FAP Carlos Ciriani Santa Rosa Intl</Name></Airport>
+<Airport><IATA>TCR</IATA><Name>Tuticorin Airport</Name></Airport>
+<Airport><IATA>TDG</IATA><Name>Tandag Apt</Name></Airport>
+<Airport><IATA>TDX</IATA><Name>Trat</Name></Airport>
+<Airport><IATA>TER</IATA><Name>Praia da Vitoria/Angra do Heroismo Lajes Field</Name></Airport>
+<Airport><IATA>TET</IATA><Name>Tete Chingozi</Name></Airport>
+<Airport><IATA>TEX</IATA><Name>Telluride Regional Airport</Name></Airport>
+<Airport><IATA>TFF</IATA><Name>Tefe Airport</Name></Airport>
+<Airport><IATA>TFN</IATA><Name>Tenerife Norte Los Rodeos</Name></Airport>
+<Airport><IATA>TFS</IATA><Name>Tenerife - Rena Sofia</Name></Airport>
+<Airport><IATA>TGD</IATA><Name>Aerodrom Podgorica</Name></Airport>
+<Airport><IATA>TGG</IATA><Name>Kuala Terengganu - Sultan Mahmood</Name></Airport>
+<Airport><IATA>TGM</IATA><Name>Targu Mures Airport</Name></Airport>
+<Airport><IATA>TGU</IATA><Name>Toncontín Intl Airport</Name></Airport>
+<Airport><IATA>THE</IATA><Name>Senador Petrônio Portella</Name></Airport>
+<Airport><IATA>THF</IATA><Name>Berlin - Tempelhof Airport</Name></Airport>
+<Airport><IATA>THN</IATA><Name>Trollhattan Airport</Name></Airport>
+<Airport><IATA>THR</IATA><Name>Tehran - Mehrabad Airport</Name></Airport>
+<Airport><IATA>THS</IATA><Name>Sukhothai</Name></Airport>
+<Airport><IATA>TIA</IATA><Name>Tirana Intl Airport</Name></Airport>
+<Airport><IATA>TIF</IATA><Name>Taif Regional Airport</Name></Airport>
+<Airport><IATA>TIP</IATA><Name>Tripoli Intl Airport</Name></Airport>
+<Airport><IATA>TIR</IATA><Name>Tirupati</Name></Airport>
+<Airport><IATA>TIU</IATA><Name>Timaru</Name></Airport>
+<Airport><IATA>TIV</IATA><Name>Tivat Airport</Name></Airport>
+<Airport><IATA>TJK</IATA><Name>Tokat</Name></Airport>
+<Airport><IATA>TJL</IATA><Name>Tres Lagoas</Name></Airport>
+<Airport><IATA>TJM</IATA><Name>Roschino</Name></Airport>
+<Airport><IATA>TJU</IATA><Name>Kulob, Tajikistan Kulob Airport</Name></Airport>
+<Airport><IATA>TKG</IATA><Name>Branti</Name></Airport>
+<Airport><IATA>TKH</IATA><Name>Takhli Airport</Name></Airport>
+<Airport><IATA>TKU</IATA><Name>Turku Airport</Name></Airport>
+<Airport><IATA>TLC</IATA><Name>Lic. Adolfo López Mateos Intl Airport</Name></Airport>
+<Airport><IATA>TLH</IATA><Name>Tallahassee Regional Airport</Name></Airport>
+<Airport><IATA>TLL</IATA><Name>Tallinn - Ulemiste Intl Airport</Name></Airport>
+<Airport><IATA>TLN</IATA><Name>Toulon Airport</Name></Airport>
+<Airport><IATA>TLS</IATA><Name>Toulouse - Blagnac Intl Airport</Name></Airport>
+<Airport><IATA>TLV</IATA><Name>Tel Aviv - Ben Gurion Airport</Name></Airport>
+<Airport><IATA>TMJ</IATA><Name>Termez</Name></Airport>
+<Airport><IATA>TMP</IATA><Name>Tampere Airport</Name></Airport>
+<Airport><IATA>TMT</IATA><Name>Porto Trombetas Airport</Name></Airport>
+<Airport><IATA>TNG</IATA><Name>Tangier - Ibn Batouta Airport</Name></Airport>
+<Airport><IATA>TNR</IATA><Name>Antananarivo Ivato Intl</Name></Airport>
+<Airport><IATA>TOE</IATA><Name>Tozeur</Name></Airport>
+<Airport><IATA>TOF</IATA><Name>Tomsk Bogashevo Airport</Name></Airport>
+<Airport><IATA>TOJ</IATA><Name>Madrid - Torrejon Airport</Name></Airport>
+<Airport><IATA>TOL</IATA><Name>Toledo Express Airport</Name></Airport>
+<Airport><IATA>TOR</IATA><Name>Torrington Municipal</Name></Airport>
+<Airport><IATA>TOS</IATA><Name>Tromso Airport</Name></Airport>
+<Airport><IATA>TPA</IATA><Name>Tampa Intl</Name></Airport>
+<Airport><IATA>TPE</IATA><Name>Taipei</Name></Airport>
+<Airport><IATA>TPP</IATA><Name>Cad. FAP Guillermo del Castillo Paredes Airport</Name></Airport>
+<Airport><IATA>TPS</IATA><Name>Trapani Birgi Intl Airport</Name></Airport>
+<Airport><IATA>TRD</IATA><Name>Trondheim - Vaernes Airport</Name></Airport>
+<Airport><IATA>TRE</IATA><Name>Tiree</Name></Airport>
+<Airport><IATA>TRF</IATA><Name>Oslo - Torp Airport</Name></Airport>
+<Airport><IATA>TRG</IATA><Name>Tauranga</Name></Airport>
+<Airport><IATA>TRN</IATA><Name>Turin - Caselle Airport</Name></Airport>
+<Airport><IATA>TRS</IATA><Name>Trieste - R Dei Legionari Airport</Name></Airport>
+<Airport><IATA>TRU</IATA><Name>Cap. FAP Carlos Martinez de Pinillos Intl</Name></Airport>
+<Airport><IATA>TRV</IATA><Name>Thiruvananthapuram Intl</Name></Airport>
+<Airport><IATA>TRZ</IATA><Name>Tiruchirapalli</Name></Airport>
+<Airport><IATA>TSE</IATA><Name>Astana Intl Airport</Name></Airport>
+<Airport><IATA>TSF</IATA><Name>Venice - Treviso Airport</Name></Airport>
+<Airport><IATA>TSN</IATA><Name>Tianjin Binhai Intl Airport</Name></Airport>
+<Airport><IATA>TSR</IATA><Name>Timisoara Intl Airport</Name></Airport>
+<Airport><IATA>TST</IATA><Name>Trang Airport</Name></Airport>
+<Airport><IATA>TSV</IATA><Name>Townsville Intl Airport</Name></Airport>
+<Airport><IATA>TTA</IATA><Name>Tan Tan Airport</Name></Airport>
+<Airport><IATA>TTB</IATA><Name>Arbatax - Tortoli</Name></Airport>
+<Airport><IATA>TTN</IATA><Name>Trenton-Mercer Airport</Name></Airport>
+<Airport><IATA>TTU</IATA><Name>Tetouan / Sania Ramel</Name></Airport>
+<Airport><IATA>TUF</IATA><Name>Tours Airport</Name></Airport>
+<Airport><IATA>TUG</IATA><Name>Tuguegarao Airport</Name></Airport>
+<Airport><IATA>TUL</IATA><Name>Tulsa Intl</Name></Airport>
+<Airport><IATA>TUN</IATA><Name>Tunis Carthage Airport</Name></Airport>
+<Airport><IATA>TUO</IATA><Name>Taupo</Name></Airport>
+<Airport><IATA>TUP</IATA><Name>Tupelo Regional Airport</Name></Airport>
+<Airport><IATA>TUR</IATA><Name>Tucurui Airport</Name></Airport>
+<Airport><IATA>TUS</IATA><Name>Tucson Intl</Name></Airport>
+<Airport><IATA>TUU</IATA><Name>Tabuk Regional Airport</Name></Airport>
+<Airport><IATA>TWU</IATA><Name>Tawau Airport</Name></Airport>
+<Airport><IATA>TXL</IATA><Name>Berlin - Tegel Airport</Name></Airport>
+<Airport><IATA>TYF</IATA><Name>Torsby Airport</Name></Airport>
+<Airport><IATA>TYN</IATA><Name>Taiyuan Wusu International Airport</Name></Airport>
+<Airport><IATA>TYR</IATA><Name>Tyler Pounds Regional Airport</Name></Airport>
+<Airport><IATA>TYS</IATA><Name>McGhee Tyson Airport</Name></Airport>
+<Airport><IATA>TZL</IATA><Name>Tuzla Intl</Name></Airport>
+<Airport><IATA>TZX</IATA><Name>Trabzon Airport</Name></Airport>
+<Airport><IATA>UBA</IATA><Name>Uberaba Airport</Name></Airport>
+<Airport><IATA>UBP</IATA><Name>Ubon Ratchathani Airport</Name></Airport>
+<Airport><IATA>UDI</IATA><Name>César Bombonato</Name></Airport>
+<Airport><IATA>UDR</IATA><Name>Dabok - Udaipur Airport</Name></Airport>
+<Airport><IATA>UET</IATA><Name>Quetta</Name></Airport>
+<Airport><IATA>UFA</IATA><Name>Ufa Intl Airport</Name></Airport>
+<Airport><IATA>UGC</IATA><Name>Urgench</Name></Airport>
+<Airport><IATA>UIO</IATA><Name>Mariscal Sucre</Name></Airport>
+<Airport><IATA>UIP</IATA><Name>Quimper, France Quimper – Cornouaille Airport</Name></Airport>
+<Airport><IATA>UKK</IATA><Name>Ust-kamenogorsk</Name></Airport>
+<Airport><IATA>ULN</IATA><Name>Ulan Bator - Buyant Ukha Airport</Name></Airport>
+<Airport><IATA>UME</IATA><Name>Umea Airport</Name></Airport>
+<Airport><IATA>UNA</IATA><Name>Una-Comandatuba Airport</Name></Airport>
+<Airport><IATA>UNN</IATA><Name>Ranong</Name></Airport>
+<Airport><IATA>UPG</IATA><Name>Hasanudin</Name></Airport>
+<Airport><IATA>URA</IATA><Name>Uralsk - Podstepnyy</Name></Airport>
+<Airport><IATA>URC</IATA><Name>Urumqi Diwopu Intl</Name></Airport>
+<Airport><IATA>URE</IATA><Name>Kuressaare</Name></Airport>
+<Airport><IATA>URG</IATA><Name>Uruguaiana Ruben Berta Intl</Name></Airport>
+<Airport><IATA>URT</IATA><Name>Surat Thani</Name></Airport>
+<Airport><IATA>USH</IATA><Name>Ushuaia – Malvinas Argentinas Intl</Name></Airport>
+<Airport><IATA>USM</IATA><Name>Koh Samui</Name></Airport>
+<Airport><IATA>USQ</IATA><Name>Usak</Name></Airport>
+<Airport><IATA>USS</IATA><Name>Sancti Spiritus</Name></Airport>
+<Airport><IATA>USU</IATA><Name>Francisco B. Reyes Airport</Name></Airport>
+<Airport><IATA>UTH</IATA><Name>Udon Thani Intl Airport</Name></Airport>
+<Airport><IATA>UTM</IATA><Name>Tunica Municipal Airport</Name></Airport>
+<Airport><IATA>UTN</IATA><Name>Upington Airport</Name></Airport>
+<Airport><IATA>UTP</IATA><Name>Utapao</Name></Airport>
+<Airport><IATA>UTT</IATA><Name>K. D. Matanzima Airport</Name></Airport>
+<Airport><IATA>UUD</IATA><Name>Ulan-Ude Airport</Name></Airport>
+<Airport><IATA>UUS</IATA><Name>Yuzhno-Sakhalinsk Airport</Name></Airport>
+<Airport><IATA>UVF</IATA><Name>Saint Lucia - Hewanorra Intl Airport</Name></Airport>
+<Airport><IATA>VAA</IATA><Name>Vaasa Airport</Name></Airport>
+<Airport><IATA>VAG</IATA><Name>Varginha Airport</Name></Airport>
+<Airport><IATA>VAL</IATA><Name>Valenca</Name></Airport>
+<Airport><IATA>VAN</IATA><Name>Van - Ferit Melen Airport</Name></Airport>
+<Airport><IATA>VAR</IATA><Name>Varna Intl Airport</Name></Airport>
+<Airport><IATA>VAS</IATA><Name>Sivas</Name></Airport>
+<Airport><IATA>VAW</IATA><Name>Vardø, Svartnes</Name></Airport>
+<Airport><IATA>VBS</IATA><Name>Brescia - Montichiari Airport</Name></Airport>
+<Airport><IATA>VBY</IATA><Name>Visby Airport</Name></Airport>
+<Airport><IATA>VCA</IATA><Name>Tra Noc Airport</Name></Airport>
+<Airport><IATA>VCE</IATA><Name>Venice - Marco Polo Intl</Name></Airport>
+<Airport><IATA>VCP</IATA><Name>Viracopos-Campinas Intl</Name></Airport>
+<Airport><IATA>VDA</IATA><Name>Ovda Airport</Name></Airport>
+<Airport><IATA>VDB</IATA><Name>Fagernes</Name></Airport>
+<Airport><IATA>VDC</IATA><Name>Vitoria Da Conquista - Bahia</Name></Airport>
+<Airport><IATA>VDS</IATA><Name>Vadsø</Name></Airport>
+<Airport><IATA>VFA</IATA><Name>Victoria Falls Airport</Name></Airport>
+<Airport><IATA>VGA</IATA><Name>Vijaywada</Name></Airport>
+<Airport><IATA>VGO</IATA><Name>Vigo</Name></Airport>
+<Airport><IATA>VHM</IATA><Name>Vilhelmina Airport</Name></Airport>
+<Airport><IATA>VID</IATA><Name>Vidin</Name></Airport>
+<Airport><IATA>VIE</IATA><Name>Vienna Intl Airport</Name></Airport>
+<Airport><IATA>VII</IATA><Name>Vinh</Name></Airport>
+<Airport><IATA>VIJ</IATA><Name>Virgin Gorda Virgin Gorda Airport</Name></Airport>
+<Airport><IATA>VIL</IATA><Name>Dakhla Airport</Name></Airport>
+<Airport><IATA>VIT</IATA><Name>Vitoria Intl Airport</Name></Airport>
+<Airport><IATA>VIX</IATA><Name>Eurico de Aguiar Salles</Name></Airport>
+<Airport><IATA>VKO</IATA><Name>Moscow - Vnukovo Airport</Name></Airport>
+<Airport><IATA>VLC</IATA><Name>Valencia Airport</Name></Airport>
+<Airport><IATA>VLD</IATA><Name>Valdosta Regional Airport</Name></Airport>
+<Airport><IATA>VLI</IATA><Name>Port Vila - Bauerfield Intl Airport</Name></Airport>
+<Airport><IATA>VLL</IATA><Name>Valladolid Airport</Name></Airport>
+<Airport><IATA>VLN</IATA><Name>Arturo Michelena Intl Airport</Name></Airport>
+<Airport><IATA>VLY</IATA><Name>Anglesey Airport</Name></Airport>
+<Airport><IATA>VNO</IATA><Name>Vilnius Intl Airport</Name></Airport>
+<Airport><IATA>VNS</IATA><Name>Varanasi</Name></Airport>
+<Airport><IATA>VNX</IATA><Name>Vilankulo</Name></Airport>
+<Airport><IATA>VOG</IATA><Name>Volgograd Airport</Name></Airport>
+<Airport><IATA>VOL</IATA><Name>Volos Airport</Name></Airport>
+<Airport><IATA>VQS</IATA><Name>Antonio Rivera Rodríguez Airport</Name></Airport>
+<Airport><IATA>VRA</IATA><Name>Varadero Juan Gualberto Gomez Intl Airport</Name></Airport>
+<Airport><IATA>VRC</IATA><Name>Virac Airport</Name></Airport>
+<Airport><IATA>VRK</IATA><Name>Varkaus</Name></Airport>
+<Airport><IATA>VRN</IATA><Name>Verona - Valerio Catullo Airport</Name></Airport>
+<Airport><IATA>VST</IATA><Name>Stockholm - Vasteras Aiport</Name></Airport>
+<Airport><IATA>VTE</IATA><Name>Vientiane - Wattay Intl Airport</Name></Airport>
+<Airport><IATA>VTZ</IATA><Name>Vishakhapatnam</Name></Airport>
+<Airport><IATA>VVI</IATA><Name>Viru Viru Intl</Name></Airport>
+<Airport><IATA>VVO</IATA><Name>Vladivostok Airport</Name></Airport>
+<Airport><IATA>VXE</IATA><Name>Mindelo Sao Pedro Airport</Name></Airport>
+<Airport><IATA>VXO</IATA><Name>Vaxjo Airport</Name></Airport>
+<Airport><IATA>WAG</IATA><Name>Wanganui</Name></Airport>
+<Airport><IATA>WAT</IATA><Name>Waterford Regional Airport</Name></Airport>
+<Airport><IATA>WAW</IATA><Name>Warsaw - Frederic Chopin Airport</Name></Airport>
+<Airport><IATA>WDH</IATA><Name>Windhoek Hosea Kutako Intl Airport</Name></Airport>
+<Airport><IATA>WHK</IATA><Name>Whakatane</Name></Airport>
+<Airport><IATA>WIC</IATA><Name>Wick</Name></Airport>
+<Airport><IATA>WIS</IATA><Name>Vienna Shutlebus</Name></Airport>
+<Airport><IATA>WKA</IATA><Name>Wanaka-Albert Town</Name></Airport>
+<Airport><IATA>WLG</IATA><Name>Wellington Intl Airport</Name></Airport>
+<Airport><IATA>WMI</IATA><Name>Warsaw Modlin Airport</Name></Airport>
+<Airport><IATA>WNP</IATA><Name>Naga Airport</Name></Airport>
+<Airport><IATA>WNZ</IATA><Name>Wenzhou, Zhejiang Wenzhou Yongqiang Intl</Name></Airport>
+<Airport><IATA>WRE</IATA><Name>Whangarei</Name></Airport>
+<Airport><IATA>WRL</IATA><Name>Worland Municipal Airport</Name></Airport>
+<Airport><IATA>WRO</IATA><Name>Wroclaw - Strachowice Airport</Name></Airport>
+<Airport><IATA>WSY</IATA><Name>Airlie Beach - Whitsunday Airstrip</Name></Airport>
+<Airport><IATA>WSZ</IATA><Name>Westport</Name></Airport>
+<Airport><IATA>WTD</IATA><Name>Bahamas - West End Airport</Name></Airport>
+<Airport><IATA>WUH</IATA><Name>Wuhan Tianhe Intl Airport</Name></Airport>
+<Airport><IATA>WVB</IATA><Name>Walvis Bay Airport</Name></Airport>
+<Airport><IATA>XAP</IATA><Name>Serafin Enoss Bertaso</Name></Airport>
+<Airport><IATA>XBO</IATA><Name>Boulsa Airport</Name></Airport>
+<Airport><IATA>XCH</IATA><Name>Christmas Island</Name></Airport>
+<Airport><IATA>XCR</IATA><Name>Paris Vatry, Chalons Sur Marne</Name></Airport>
+<Airport><IATA>XDR</IATA><Name>Vernouillet</Name></Airport>
+<Airport><IATA>XFL</IATA><Name>Flagler County Airport</Name></Airport>
+<Airport><IATA>XFW</IATA><Name>Hamburg Finkenwerder Airport</Name></Airport>
+<Airport><IATA>XHQ</IATA><Name>Batum - Hopa airport</Name></Airport>
+<Airport><IATA>XIY</IATA><Name>Xianyang</Name></Airport>
+<Airport><IATA>XMN</IATA><Name>Xiamen Gaoqi Intl Airport</Name></Airport>
+<Airport><IATA>XNA</IATA><Name>Northwest Arkansas Regional Airport</Name></Airport>
+<Airport><IATA>XRY</IATA><Name>Jerez de la Frontera Airport</Name></Airport>
+<Airport><IATA>XXC</IATA><Name>Cascais Aerodrome</Name></Airport>
+<Airport><IATA>YAM</IATA><Name>Sault Ste. Marie Airport</Name></Airport>
+<Airport><IATA>YAO</IATA><Name>Yaoundé Airport</Name></Airport>
+<Airport><IATA>YBG</IATA><Name>Bagotville Airport</Name></Airport>
+<Airport><IATA>YBR</IATA><Name>Brandon Airport</Name></Airport>
+<Airport><IATA>YCD</IATA><Name>Nanaimo Airport</Name></Airport>
+<Airport><IATA>YDF</IATA><Name>Deer Lake</Name></Airport>
+<Airport><IATA>YEG</IATA><Name>Edmonton</Name></Airport>
+<Airport><IATA>YEI</IATA><Name>Bursa - Yenisehir</Name></Airport>
+<Airport><IATA>YFC</IATA><Name>Fredericton International Airport</Name></Airport>
+<Airport><IATA>YHM</IATA><Name>Hamilton Intl Airport</Name></Airport>
+<Airport><IATA>YHZ</IATA><Name>Halifax Intl</Name></Airport>
+<Airport><IATA>YJT</IATA><Name>Stephenville International Airport</Name></Airport>
+<Airport><IATA>YKA</IATA><Name>Kamloops Airport</Name></Airport>
+<Airport><IATA>YKF</IATA><Name>Kitchener - Waterloo Airport</Name></Airport>
+<Airport><IATA>YKM</IATA><Name>Yakima Air Terminal</Name></Airport>
+<Airport><IATA>YKS</IATA><Name>Yakutsk Airport</Name></Airport>
+<Airport><IATA>YLW</IATA><Name>Kelowna Intl Airport</Name></Airport>
+<Airport><IATA>YMM</IATA><Name>Fort McMurray Airport</Name></Airport>
+<Airport><IATA>YNB</IATA><Name>Yanbu Airport</Name></Airport>
+<Airport><IATA>YON</IATA><Name>Yongphulla Airport</Name></Airport>
+<Airport><IATA>YOW</IATA><Name>Ottawa Intl Airport</Name></Airport>
+<Airport><IATA>YQB</IATA><Name>Quebec City Intl Airport</Name></Airport>
+<Airport><IATA>YQG</IATA><Name>Windsor Ontario</Name></Airport>
+<Airport><IATA>YQM</IATA><Name>Greater Moncton Intl</Name></Airport>
+<Airport><IATA>YQQ</IATA><Name>Comox Airport</Name></Airport>
+<Airport><IATA>YQR</IATA><Name>Regina Intl Airport</Name></Airport>
+<Airport><IATA>YQT</IATA><Name>Thunder Bay Intl Airport</Name></Airport>
+<Airport><IATA>YQU</IATA><Name>Grande Prairie Airport</Name></Airport>
+<Airport><IATA>YQX</IATA><Name>Gander International Airport</Name></Airport>
+<Airport><IATA>YQY</IATA><Name>Sydney Airport</Name></Airport>
+<Airport><IATA>YSB</IATA><Name>Sudbury Airport</Name></Airport>
+<Airport><IATA>YSJ</IATA><Name>Saint John Airport</Name></Airport>
+<Airport><IATA>YTM</IATA><Name>Quebec Mont Tremblant Intl</Name></Airport>
+<Airport><IATA>YTS</IATA><Name>Timmins Ontario Victor M. Power</Name></Airport>
+<Airport><IATA>YTZ</IATA><Name>Toronto City Airport</Name></Airport>
+<Airport><IATA>YUL</IATA><Name>Montréal Intl Airport</Name></Airport>
+<Airport><IATA>YUM</IATA><Name>Yuma Intl</Name></Airport>
+<Airport><IATA>YUY</IATA><Name>Rouyn-Noranda Airport</Name></Airport>
+<Airport><IATA>YVO</IATA><Name>Val-d'Or Airport</Name></Airport>
+<Airport><IATA>YVR</IATA><Name>Vancouver Intl Airport</Name></Airport>
+<Airport><IATA>YWG</IATA><Name>Winnipeg</Name></Airport>
+<Airport><IATA>YXE</IATA><Name>Saskatoon John G. Diefenbaker Intl Airport</Name></Airport>
+<Airport><IATA>YXJ</IATA><Name>Fort St. John Airport</Name></Airport>
+<Airport><IATA>YXS</IATA><Name>Prince George Airport</Name></Airport>
+<Airport><IATA>YXT</IATA><Name>Hazelton Regional Airport</Name></Airport>
+<Airport><IATA>YXU</IATA><Name>London Intl Airport</Name></Airport>
+<Airport><IATA>YXX</IATA><Name>Abbotsford Intl Airport</Name></Airport>
+<Airport><IATA>YXY</IATA><Name>Whitehorse</Name></Airport>
+<Airport><IATA>YYB</IATA><Name>North Bay Airport</Name></Airport>
+<Airport><IATA>YYC</IATA><Name>Calgary Intl Airport</Name></Airport>
+<Airport><IATA>YYF</IATA><Name>Penticton Regional</Name></Airport>
+<Airport><IATA>YYG</IATA><Name>Charlottetown Airport</Name></Airport>
+<Airport><IATA>YYJ</IATA><Name>Victoria Intl Airport</Name></Airport>
+<Airport><IATA>YYR</IATA><Name>Goose Bay</Name></Airport>
+<Airport><IATA>YYT</IATA><Name>St Johns Intl</Name></Airport>
+<Airport><IATA>YYZ</IATA><Name>Pearson Intl Airport</Name></Airport>
+<Airport><IATA>YZF</IATA><Name>Yellowknife Airport</Name></Airport>
+<Airport><IATA>YZV</IATA><Name>Sept-Îles Airport</Name></Airport>
+<Airport><IATA>ZAD</IATA><Name>Zadar Airport</Name></Airport>
+<Airport><IATA>ZAG</IATA><Name>Zagreb Pleso Intl Airport</Name></Airport>
+<Airport><IATA>ZAL</IATA><Name>Pichoy Airport</Name></Airport>
+<Airport><IATA>ZAM</IATA><Name>Zamboanga Intl Airport</Name></Airport>
+<Airport><IATA>ZAZ</IATA><Name>Zaragoza Airport</Name></Airport>
+<Airport><IATA>ZCO</IATA><Name>Maquehue Airport</Name></Airport>
+<Airport><IATA>ZIH</IATA><Name>Zihuatanejo - Ixtapa</Name></Airport>
+<Airport><IATA>ZLO</IATA><Name>Playa de Oro Intl Airport</Name></Airport>
+<Airport><IATA>ZNE</IATA><Name>Newman</Name></Airport>
+<Airport><IATA>ZNZ</IATA><Name>Zanzibar Airport</Name></Airport>
+<Airport><IATA>ZOS</IATA><Name>Canal Bajo Carlos Hott Siebert Airport</Name></Airport>
+<Airport><IATA>ZQN</IATA><Name>Queenstown Airport</Name></Airport>
+<Airport><IATA>ZQW</IATA><Name>Zweibrücken Airport</Name></Airport>
+<Airport><IATA>ZRH</IATA><Name>Zurich Intl Airport</Name></Airport>
+<Airport><IATA>ZSA</IATA><Name>San Salvador</Name></Airport>
+<Airport><IATA>ZTH</IATA><Name>Zakinthos Dionysios Solomos Airport</Name></Airport>
+</Airports>
