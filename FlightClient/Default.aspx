@@ -342,6 +342,9 @@
             }
         }
 
+        function effeChecke()
+        { }
+
     
 </script>
 </asp:Content>
