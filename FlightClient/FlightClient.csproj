@@ -162,6 +162,7 @@
       <DependentUpon>AirportSearch.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Backend\Airtrade.cs" />
+    <Compile Include="App_Backend\Amadeus.cs" />
     <Compile Include="App_Backend\General.cs" />
     <Compile Include="App_Backend\navitaire.cs" />
     <Compile Include="App_Backend\SunExpress.cs" />

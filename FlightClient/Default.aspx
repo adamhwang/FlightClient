@@ -656,6 +656,7 @@
         <td><asp:TextBox ID="tbExtended" runat="server" TextMode="MultiLine" Columns="100" Rows="25" /></td>
         <td valign="top"><br /><asp:Button ID="btnEncryptThis" Text="Encrypt this" OnClick="btnEncryptThis_Click" runat="server" />
             <br /><asp:Button ID="Button1" Text="Decrypt this" OnClick="btnDecryptThis_Click" runat="server" />
+            <br /><asp:Button ID="Button2" Text="Amadeus this" OnClick="btnAmadeusConfig_Click" runat="server" />
         </td>
     </tr>
 

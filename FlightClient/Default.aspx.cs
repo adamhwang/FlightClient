@@ -1563,5 +1563,53 @@ namespace FlightClient
                 tbLFR.Text = se.GoNext(poScrapeData, ref _scrapeInfo, ref _foundInfo, _webPage);
             }
         }
+
+        protected void btnAmadeusConfig_Click(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(tbExtended.Text))
+            {
+                InitScrape();
+
+                AmadeusDll.v1.Amadeus am = new AmadeusDll.v1.Amadeus();
+                am.JSON = tbExtended.Text;
+
+                AmadeusDll.v1.AmadeusConfig amc = am.AmadeusConfigItem;
+
+                tbLFR.Text = General.SerializeObject(amc);
+
+                string segmentName = "TK";
+                if (amc.TK != null && !string.IsNullOrEmpty(amc.TK))
+                {
+                    segmentName = amc.TK;
+                }
+
+                tbLFR.Text += "\n\rTK: " + segmentName;
+
+                string date = DateTime.Now.AddHours(24).ToString("ddMMyy");
+
+                //Added by JvL on 20170301: Influence TK Date value
+                //Overwrite the date to the current date when the TK value = TKTL
+                if (amc.TK != null && !string.IsNullOrEmpty(amc.TK) && amc.TK.ToUpper().Equals("TKTL"))
+                    date = DateTime.Now.ToString("ddMMyy");
+
+                tbLFR.Text += "\n\rdate: " + date;
+
+                if (amc.FP != null && amc.FP.Count > 0)
+                {
+                    foreach (AmadeusDll.v1.FP loFP in amc.FP)
+                    {
+                        tbLFR.Text += "\n\rNew FP:\r";
+                        tbLFR.Text += string.Format("accountNumber: {0}\r", new EARoot.Root().DecryptString(loFP.accountNumber));
+                        tbLFR.Text += string.Format("creditCardCode: {0}\r", loFP.creditCardCode);
+                        tbLFR.Text += string.Format("expiryDate: {0}\r", loFP.expiryDate);
+                        tbLFR.Text += string.Format("identification: {0}\r", loFP.identification);
+                        tbLFR.Text += string.Format("fopSequenceNumber: {0}\r", loFP.fopSequenceNumber);
+                        tbLFR.Text += string.Format("cvData: {0}\r", loFP.cvData);
+
+                    }
+                }
+            }
+        }
     }
 }
