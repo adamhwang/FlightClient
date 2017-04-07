@@ -1535,38 +1535,52 @@ namespace FlightClient
         {
             if (!string.IsNullOrEmpty(tbExtended.Text))
             {
-                InitScrape();
-                _scrapeInfo.InsertVariable("WS_ENCRYPT_STR", tbExtended.Text, true);
-                _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", System.Configuration.ConfigurationManager.AppSettings["Encrypt.Cer"], true);
+                if (chkElsyEnc.Checked)
+                {
+                    tbLFR.Text = new EARoot.Root().EncryptString(tbExtended.Text);
+                }
+                else
+                {
+                    InitScrape();
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_STR", tbExtended.Text, true);
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", System.Configuration.ConfigurationManager.AppSettings["Encrypt.Cer"], true);
 
 
-                SunExpress.SunExpressMain se = new SunExpress.SunExpressMain();
-                NameValueCollection poScrapeData = new NameValueCollection();
-                poScrapeData.Add("action", "EncryptItem");
-                tbLFR.Text = se.GoNext(poScrapeData, ref _scrapeInfo, ref _foundInfo, _webPage);
+                    SunExpress.SunExpressMain se = new SunExpress.SunExpressMain();
+                    NameValueCollection poScrapeData = new NameValueCollection();
+                    poScrapeData.Add("action", "EncryptItem");
+                    tbLFR.Text = se.GoNext(poScrapeData, ref _scrapeInfo, ref _foundInfo, _webPage);
+                }
             }
         }
 
         protected void btnDecryptThis_Click(object sender, EventArgs e)
         {
-            string delimiter = "%~~`%~~~~~~~%^**(%$#%";
-            if (!string.IsNullOrEmpty(tbExtended.Text) && tbExtended.Text.Contains(delimiter))
+            if (chkElsyEnc.Checked)
             {
-                InitScrape();
-                _scrapeInfo.InsertVariable("WS_ENCRYPT_STR", tbExtended.Text, true);
-                _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", System.Configuration.ConfigurationManager.AppSettings["Encrypt.Cer"], true);
+                if (!string.IsNullOrEmpty(tbExtended.Text))
+                    tbLFR.Text = new EARoot.Root().DecryptString(tbExtended.Text);
+            }
+            else
+            {
+                string delimiter = "%~~`%~~~~~~~%^**(%$#%";
+                if (!string.IsNullOrEmpty(tbExtended.Text) && tbExtended.Text.Contains(delimiter))
+                {
+                    InitScrape();
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_STR", tbExtended.Text, true);
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", System.Configuration.ConfigurationManager.AppSettings["Encrypt.Cer"], true);
 
 
-                SunExpress.SunExpressMain se = new SunExpress.SunExpressMain();
-                NameValueCollection poScrapeData = new NameValueCollection();
-                poScrapeData.Add("action", "DecryptItem");
-                tbLFR.Text = se.GoNext(poScrapeData, ref _scrapeInfo, ref _foundInfo, _webPage);
+                    SunExpress.SunExpressMain se = new SunExpress.SunExpressMain();
+                    NameValueCollection poScrapeData = new NameValueCollection();
+                    poScrapeData.Add("action", "DecryptItem");
+                    tbLFR.Text = se.GoNext(poScrapeData, ref _scrapeInfo, ref _foundInfo, _webPage);
+                }
             }
         }
 
         protected void btnAmadeusConfig_Click(object sender, EventArgs e)
         {
-
             if (!string.IsNullOrEmpty(tbExtended.Text))
             {
                 InitScrape();
@@ -1590,7 +1604,8 @@ namespace FlightClient
 
                 //Added by JvL on 20170301: Influence TK Date value
                 //Overwrite the date to the current date when the TK value = TKTL
-                if (amc.TK != null && !string.IsNullOrEmpty(amc.TK) && amc.TK.ToUpper().Equals("TKTL"))
+
+                if (amc.dateNow)
                     date = DateTime.Now.ToString("ddMMyy");
 
                 tbLFR.Text += "\n\rdate: " + date;
@@ -1600,7 +1615,17 @@ namespace FlightClient
                     foreach (AmadeusDll.v1.FP loFP in amc.FP)
                     {
                         tbLFR.Text += "\n\rNew FP:\r";
-                        tbLFR.Text += string.Format("accountNumber: {0}\r", new EARoot.Root().DecryptString(loFP.accountNumber));
+
+                        string ccNr = new EARoot.Root().DecryptString(loFP.accountNumber);
+                        if (loFP.creditCardScrambled)
+                        {
+                            string pre = "";
+                            for (int i = 0; i < ccNr.Length - 4; i++)
+                                pre += "x";
+                            ccNr = pre + ccNr.Substring(ccNr.Length - 4, 4);
+                        }
+
+                        tbLFR.Text += string.Format("accountNumber: {0}\r", ccNr);
                         tbLFR.Text += string.Format("creditCardCode: {0}\r", loFP.creditCardCode);
                         tbLFR.Text += string.Format("expiryDate: {0}\r", loFP.expiryDate);
                         tbLFR.Text += string.Format("identification: {0}\r", loFP.identification);
@@ -1610,6 +1635,36 @@ namespace FlightClient
                     }
                 }
             }
+        }
+
+        protected void btnSmartwings_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(tbExtended.Text))
+            {
+                string b = tbExtended.Text;
+
+                StringBuilder js = new StringBuilder();
+                for (var i = 0; i < b.Length; i += 2)
+                    js.Append(char.ConvertFromUtf32(int.Parse(b.Substring(i, 2), System.Globalization.NumberStyles.HexNumber)).ToString());
+
+
+                tbLFR.Text = js.ToString();
+
+                
+            }
+            else
+                tbLFR.Text = DecrB();
+        }
+
+        private string DecrB()
+        {
+            string b = "7472797B766172207868723B76617220743D6E6577204461746528292E67657454696D6528293B766172207374617475733D227374617274223B7661722074696D696E673D6E65772041727261792833293B77696E646F772E6F6E756E6C6F61643D66756E6374696F6E28297B74696D696E675B325D3D22723A222B286E6577204461746528292E67657454696D6528292D74293B646F63756D656E742E637265617465456C656D656E742822696D6722292E7372633D222F5F496E63617073756C615F5265736F757263653F4553324C555243543D363726743D373826643D222B656E636F6465555249436F6D706F6E656E74287374617475732B222028222B74696D696E672E6A6F696E28292B222922297D3B69662877696E646F772E584D4C4874747052657175657374297B7868723D6E657720584D4C48747470526571756573747D656C73657B7868723D6E657720416374697665584F626A65637428224D6963726F736F66742E584D4C4854545022297D7868722E6F6E726561647973746174656368616E67653D66756E6374696F6E28297B737769746368287868722E72656164795374617465297B6361736520303A7374617475733D6E6577204461746528292E67657454696D6528292D742B223A2072657175657374206E6F7420696E697469616C697A656420223B627265616B3B6361736520313A7374617475733D6E6577204461746528292E67657454696D6528292D742B223A2073657276657220636F6E6E656374696F6E2065737461626C6973686564223B627265616B3B6361736520323A7374617475733D6E6577204461746528292E67657454696D6528292D742B223A2072657175657374207265636569766564223B627265616B3B6361736520333A7374617475733D6E6577204461746528292E67657454696D6528292D742B223A2070726F63657373696E672072657175657374223B627265616B3B6361736520343A7374617475733D22636F6D706C657465223B74696D696E675B315D3D22633A222B286E6577204461746528292E67657454696D6528292D74293B6966287868722E7374617475733D3D323030297B706172656E742E6C6F636174696F6E2E72656C6F616428297D627265616B7D7D3B74696D696E675B305D3D22733A222B286E6577204461746528292E67657454696D6528292D74293B7868722E6F70656E2822474554222C222F5F496E63617073756C615F5265736F757263653F535748414E45444C3D333233333633303330313632393332393438312C31303037303138383530383038363839333731322C313834353433383433343235313537393435322C313739333231222C66616C7365293B7868722E73656E64286E756C6C297D63617463682863297B7374617475732B3D6E6577204461746528292E67657454696D6528292D742B2220696E6361705F6578633A20222B633B646F63756D656E742E637265617465456C656D656E742822696D6722292E7372633D222F5F496E63617073756C615F5265736F757263653F4553324C555243543D363726743D373826643D222B656E636F6465555249436F6D706F6E656E74287374617475732B222028222B74696D696E672E6A6F696E28292B222922297D3B";
+
+            StringBuilder js = new StringBuilder();
+            for (var i = 0; i < b.Length; i += 2)
+                js.Append(char.ConvertFromUtf32(int.Parse(b.Substring(i, 2), System.Globalization.NumberStyles.HexNumber)).ToString());
+
+            return js.ToString();
         }
     }
 }

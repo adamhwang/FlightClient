@@ -68,6 +68,8 @@ namespace AmadeusDll.v1
         public string identification;
         public string cvData;
         public int fopSequenceNumber = 1;
+        public bool creditCardScrambled = false;
+
     }
 
     public class AmadeusConfig
@@ -83,8 +85,9 @@ namespace AmadeusDll.v1
         public string APE;//Email
         public int MHPD = 96;//Min Hours Prior Departure;
 
-        //Added by JvL on 20170302: Using TKTL instead of TK
+        //
         public string TK;
+        public bool dateNow = false;
     }
 
     #endregion
