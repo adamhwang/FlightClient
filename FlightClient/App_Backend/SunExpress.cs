@@ -72,7 +72,7 @@ namespace SunExpress
                     string str = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_STR");
                     string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
 
-                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_FRMK_"))
+                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_"))
                     //if (File.Exists(locat))
                     {
                         sb.Append(string.Format("<ITEM>{0}</ITEM>", cipherRequest(str, locat)));
@@ -119,7 +119,7 @@ namespace SunExpress
                     string ExpDate = pScrapeInfo.CheckIfVariableExists("REQ_BOO_CREDITCARD_VALID_MONTH") + "/" + pScrapeInfo.CheckIfVariableExists("REQ_BOO_CREDITCARD_VALID_YEAR");
                     string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
 
-                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_FRMK_"))
+                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_"))
                     //if (File.Exists(locat))
                     {
                         sb.Append(string.Format("<CCNR>{0}</CCNR>", cipherRequest(CCNR, locat)));
@@ -156,22 +156,24 @@ namespace SunExpress
                 string certPubKey = string.Empty;
 
                 //Creating the public key from the certificate
-                X509Certificate2 certificate = new X509Certificate2(locat);
-                RSACryptoServiceProvider rsaTemp = certificate.PublicKey.Key as RSACryptoServiceProvider;
+                //X509Certificate2 certificate = new X509Certificate2(locat);
+                //RSACryptoServiceProvider rsaTemp = certificate.PublicKey.Key as RSACryptoServiceProvider;
                 //certPubKey = certificate.PublicKey.Key.ToXmlString(false);
 
                 //Using the public keys instead of the cetificate
                 //Depending from the certificate name the public key is selected
 
-                if (locat.ToUpper().Contains("_PYM_"))
+                if (locat.ToUpper().Contains("_PYMTEST_"))
                     //aiRES_PYM_Cert.cer
-                    //**** TEST cert ***/
-                    //certPubKey = "<RSAKeyValue><Modulus>hrNq3NsJqKAUz+CG4PJNzN6QOLjUTlT5ZFCvWL+BWGIBKEvPJadUB/4CGftMgDIqC48QJlA5TekGsnj9hb1oNd7vtxMU9nr01ygduCpDeTz4kaN5Hlef/luYFsPN3rIMeExCyH6NqLccLhTdWHBt/zqSEtCVH4lqgp+BW1ouCNRw7D3eK5CqY0+XtGT3YOF9szCBFKpWjJMMQumx36sPvZDF6IHZxUE3MasfK/ihO226pK/ncgzonmA40OMCMsP3xsOB/uhX0X4bnIbrgpLytSuhU2Me8fLzlu7Ngluo0oQRmhj+vlVNjoJmJSMl1SKV83vUcPI54KWKPykU0a3bnQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+                    //*** Test cert ***//
+                    certPubKey = "<RSAKeyValue><Modulus>hrNq3NsJqKAUz+CG4PJNzN6QOLjUTlT5ZFCvWL+BWGIBKEvPJadUB/4CGftMgDIqC48QJlA5TekGsnj9hb1oNd7vtxMU9nr01ygduCpDeTz4kaN5Hlef/luYFsPN3rIMeExCyH6NqLccLhTdWHBt/zqSEtCVH4lqgp+BW1ouCNRw7D3eK5CqY0+XtGT3YOF9szCBFKpWjJMMQumx36sPvZDF6IHZxUE3MasfK/ihO226pK/ncgzonmA40OMCMsP3xsOB/uhX0X4bnIbrgpLytSuhU2Me8fLzlu7Ngluo0oQRmhj+vlVNjoJmJSMl1SKV83vUcPI54KWKPykU0a3bnQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+                else if (locat.ToUpper().Contains("_PYM_"))
                     //*** Prod cert ***//
                     certPubKey = "<RSAKeyValue><Modulus>w5S4HLdgiR9t5APAmO6/yQLB1SfFFjnMe3i0nI1WW7dlUuCIJcvYkC94Eb4LP8g7vcbJlGvx0ZwQ/8HvIV4l7FwMMJfEC3PdscRkXXdsYcdaICkRmI/Zzsp4Ux3fSrJ/HXeRd/LbNzyuLellDU/Ul2SIIm4F1yodGjzRVBBfRCWxcCrk5GniunO49NL3jkPi3GONeK4bKr+24T++4OGs9tDy9jBDmxlLVkPXujtrTM8mJwBmfzc7VU6qU3bnP4yYjs7Q2zmPPHbzQk1mD5Y62kQ6G3kLVR1rcHjG6VO4hqcXPBl1j/D4XqRAPPGt4JbmpCA9wxceCQlMDmcEKXZnwId1p1K4AxFueJEC+TNZc4DF1LEv3xDUbpmaKygzcblZ4rXFFPJio3m9dvPBz2xHyr0pBsUMuYI5Xu/eZvQUsMFVxtz2hKnGKLEaDQMlB/DX48qY5Yaq+CDLWnHrat4fJk37VOvhqHOevSaBgviwTr0+EVqlI1JIfDORDScYfSPL</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
                 else if (locat.ToUpper().Contains("_FRMK_"))
                     //aiRES_FRMK_Cert.cer
                     certPubKey = "<RSAKeyValue><Modulus>rFxUl9/aGuybV3EIdudy2dWY1xB2NmBf/qdFLfa5d44xVNgLONGMB3rD+UrlzCNuLyJor3z0nf9qg50Ob2quKPlv2XhYKVu3aJl+uh2SXZ4BVwIYKIvvxTH7eKGbj3UdkrVCw9oQs/AClpK4MaHXzBe3t4YzC77DJykM2Ih27Q2bMwU2XvZhBhq6Zz2N717fPi+Md3Pyack0revPtZ+bNfSMjV+M8+poV9rBBGGZoAF1vt8hJIXyg9hZaWZzPUAdiYP1wvSgaJpoNKyL5/smFxq8sQjeEB8zpP9kfb/3gU7aRvM5YJTGhzrnEF16ADenL9+uOyBkIBFX0wKIiFSmSQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+
 
                 if (string.IsNullOrEmpty(certPubKey))
                     return "ERROR: No proper certificate name";

@@ -660,6 +660,7 @@
             <br /><asp:Button ID="Button1" Text="Decrypt this" OnClick="btnDecryptThis_Click" runat="server" />
             <br /><asp:Button ID="Button2" Text="Amadeus this" OnClick="btnAmadeusConfig_Click" runat="server" />
             <br /><asp:Button ID="Button3" Text="Smartwing this" OnClick="btnSmartwings_Click" runat="server" />
+            <br /><asp:Button ID="Button4" Text="2Captcha this" OnClick="btnRecaptcha_Click" runat="server" />
         </td>
     </tr>
 
