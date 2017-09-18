@@ -121,6 +121,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="JSONPathTest.aspx" />
     <Content Include="Masterpages\Site.Master" />
     <Content Include="Certificates\aiRES_FRMK_Cert.cer" />
     <Content Include="Certificates\aiRES_PYM_Cert.cer" />
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="JSONPathTest.aspx.cs">
+      <DependentUpon>JSONPathTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSONPathTest.aspx.designer.cs">
+      <DependentUpon>JSONPathTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masterpages\Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
