@@ -1796,5 +1796,18 @@ namespace FlightClient
 
             return js.ToString();
         }
+
+        protected void btmJSONPathCmd_Click(object sender, EventArgs e)
+        {
+            FlightClient.App_Backend.JSONPath JPATH = new App_Backend.JSONPath();
+            JPATH.JSONStr = tbReq.Text;
+            JPATH.JSONPathCmd = tbRes.Text;
+            tbExtended.Text = JPATH.Result();
+
+            if (!string.IsNullOrEmpty(tbExtended.Text))
+                ClientScript.RegisterStartupScript(typeof(string), "JSONBeuatify", string.Format("beautifyJSON('{0}')", tbExtended.ClientID), true);
+
+
+        }
     }
 }

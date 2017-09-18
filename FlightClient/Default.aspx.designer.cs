@@ -373,6 +373,15 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.TextBox tbRes;
         
         /// <summary>
+        /// btmJSONPathCmd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btmJSONPathCmd;
+        
+        /// <summary>
         /// tbExtended control.
         /// </summary>
         /// <remarks>
