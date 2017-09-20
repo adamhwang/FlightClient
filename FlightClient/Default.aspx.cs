@@ -1801,7 +1801,21 @@ namespace FlightClient
         {
             FlightClient.App_Backend.JSONPath JPATH = new App_Backend.JSONPath();
             JPATH.JSONStr = tbReq.Text;
-            JPATH.JSONPathCmd = tbRes.Text;
+            //JPATH.JSONPathCmd = tbRes.Text;
+
+            List<string> cmdList = new List<string>();
+
+            if (tbRes.Text.Contains("|"))
+            {
+                string[] cmds = tbRes.Text.Split('|');
+                for (int i = 0; i < cmds.Length; i++)
+                    cmdList.Add(cmds[i]);
+            }
+            else
+                cmdList.Add(tbRes.Text);
+
+            JPATH.JSONPathCmd = cmdList.ToArray();
+
             tbExtended.Text = JPATH.Result();
 
             if (!string.IsNullOrEmpty(tbExtended.Text))
