@@ -4,10 +4,10 @@ using Newtonsoft.Json.Linq;
 
 namespace FlightClient.App_Backend
 {
-    
+
     public class JSONPath
     {
-        
+
 
         public static JObject parseJSON(string json)
         {
@@ -43,11 +43,33 @@ namespace FlightClient.App_Backend
             return Newtonsoft.Json.JsonConvert.SerializeObject(date).Replace("\"", "").Substring(0, 10);
         }
 
+        public enum jsonFormat { None, Indented }
         public string JSONStr;
         public string[] JSONPathCmd;
 
+        private Newtonsoft.Json.Formatting _jsonformat;
+        private jsonFormat _format;
+
+        public jsonFormat Format
+        {
+            get { return _format; }
+            set
+            {
+                _format = value;
+                switch (_format)
+                {
+                    case jsonFormat.Indented: _jsonformat = Newtonsoft.Json.Formatting.Indented; break;
+                    case jsonFormat.None: _jsonformat = Newtonsoft.Json.Formatting.None; break;
+                }
+            }
+        }
+
+
+
         public JSONPath()
-        { }
+        {
+            _jsonformat = Newtonsoft.Json.Formatting.None;
+        }
 
         public string Result()
         {
@@ -62,7 +84,7 @@ namespace FlightClient.App_Backend
                 JObject json;
 
                 //First see if we can create a JObject
-                try 
+                try
                 {
                     //json = JObject.Parse(JSONStr);
                     json = parseJSON(JSONStr);
@@ -71,19 +93,21 @@ namespace FlightClient.App_Backend
                 {
                     return "Not able to parse JSON";
                 }
-               
+
                 try
                 {
                     string tmpRes = string.Empty;
-                    
+
                     foreach (string cmd in JSONPathCmd)
                     {
                         try
                         {
                             if (json.SelectTokens(cmd) != null)
-                                tmpRes += Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(cmd), Newtonsoft.Json.Formatting.Indented);
+                                //tmpRes += Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(cmd), Newtonsoft.Json.Formatting.Indented);
+                                tmpRes += Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(cmd), _jsonformat);
                         }
-                        catch {
+                        catch
+                        {
 
                             tmpRes += "[Unable to perform JSONPath command]";
                         }
@@ -91,7 +115,7 @@ namespace FlightClient.App_Backend
 
 
                     _result = tmpRes;
-                    
+
 
                     //if (json.SelectTokens(JSONPathCmd) != null)
                     //    _result = Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(JSONPathCmd));
@@ -109,7 +133,7 @@ namespace FlightClient.App_Backend
             {
                 return "Invalid JSON string provided";
             }
-            
+
         }
     }
 }

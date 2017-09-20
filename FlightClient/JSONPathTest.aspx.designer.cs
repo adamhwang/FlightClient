@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FlightClient {
-    
-    
-    public partial class JSONPathTest {
-        
+namespace FlightClient
+{
+
+
+    public partial class JSONPathTest
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// tbReq control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbReq;
-        
+
         /// <summary>
         /// tbCmd control.
         /// </summary>
@@ -38,7 +40,16 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbCmd;
-        
+
+        /// <summary>
+        /// cbBeautify control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbBeautify;
+
         /// <summary>
         /// btmJSONPathCmd control.
         /// </summary>
@@ -47,7 +58,7 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btmJSONPathCmd;
-        
+
         /// <summary>
         /// tbRes control.
         /// </summary>

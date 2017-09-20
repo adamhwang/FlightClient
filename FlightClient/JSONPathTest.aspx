@@ -7,11 +7,17 @@
     <title></title>
     <script language="javascript" type="text/javascript">
         function beautifyJSON(x) {
-            var txt = document.getElementById(x);
-            if (txt) {
-                var jsonContent = txt.innerHTML;
-                var jsonBeautified = JSON.stringify(JSON.parse(jsonContent), null, 2);
-                txt.innerHTML = jsonBeautified;
+            try {
+                var txt = document.getElementById(x);
+                if (txt) {
+                    var jsonContent = txt.innerHTML;
+                    var jsonBeautified = JSON.stringify(JSON.parse(jsonContent), null, 2);
+                    txt.innerHTML = jsonBeautified;
+                }
+            }
+            catch(ex)
+            {
+                alert('Unable to beautify. Invalid JSON!');
             }
         }
    </script>
@@ -30,7 +36,8 @@
     <tr>
         <td><asp:TextBox ID="tbCmd" runat="server" TextMode="MultiLine" Columns="100" Rows="5" /></td> 
         <td valign="top">
-            <asp:Button ID="btmJSONPathCmd" runat="server" Text="Check JsonPathCmd" OnClick="btmJSONPathCmd_Click" />
+            <asp:CheckBox ID="cbBeautify" runat="server" Text="Beautified result" />
+            <br /><asp:Button ID="btmJSONPathCmd" runat="server" Text="Check JsonPathCmd" OnClick="btmJSONPathCmd_Click" />
         </td>
     </tr>    
     <tr>

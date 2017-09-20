@@ -25,12 +25,13 @@ namespace FlightClient
 
             if (!string.IsNullOrEmpty(tbCmd.Text))
             {
-                string[] cmds = tbCmd.Text.Split('|');
+                string[] cmds = tbCmd.Text.Split(';');
                 for (int i = 0; i < cmds.Length; i++)
                     cmdList.Add(cmds[i]);
             }
 
             JPATH.JSONPathCmd = cmdList.ToArray();
+            JPATH.Format = cbBeautify.Checked ? App_Backend.JSONPath.jsonFormat.Indented : App_Backend.JSONPath.jsonFormat.None;
             tbRes.Text = JPATH.Result();
 
             //if (!string.IsNullOrEmpty(tbRes.Text))
