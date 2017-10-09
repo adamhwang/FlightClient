@@ -17,21 +17,28 @@ namespace FlightClient.App_Backend
 
             if (!string.IsNullOrEmpty(json))
             {
-                //Transpose JSON text to stream
-                MemoryStream stream = new MemoryStream();
-                StreamWriter writer = new StreamWriter(stream);
-                writer.Write(json);
-                writer.Flush();
-                stream.Position = 0;
-
-                //Parse stream to JObject
-                using (var streamReader = new StreamReader(stream))
+                try
                 {
-                    Newtonsoft.Json.JsonTextReader reader = new Newtonsoft.Json.JsonTextReader(streamReader);
-                    Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-                    serializer.DateParseHandling = Newtonsoft.Json.DateParseHandling.DateTimeOffset;
-                    serializer.Culture = System.Globalization.CultureInfo.InvariantCulture;
-                    tmpObj = serializer.Deserialize<JObject>(reader);
+                    //Transpose JSON text to stream
+                    MemoryStream stream = new MemoryStream();
+                    StreamWriter writer = new StreamWriter(stream);
+                    writer.Write(json);
+                    writer.Flush();
+                    stream.Position = 0;
+
+                    //Parse stream to JObject
+                    using (var streamReader = new StreamReader(stream))
+                    {
+                        Newtonsoft.Json.JsonTextReader reader = new Newtonsoft.Json.JsonTextReader(streamReader);
+                        Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+                        serializer.DateParseHandling = Newtonsoft.Json.DateParseHandling.DateTimeOffset;
+                        serializer.Culture = System.Globalization.CultureInfo.InvariantCulture;
+                        tmpObj = serializer.Deserialize<JObject>(reader);
+                    }
+                }
+                catch
+                {
+                    return null;
                 }
             }
 
@@ -86,13 +93,21 @@ namespace FlightClient.App_Backend
                 //First see if we can create a JObject
                 try
                 {
+                    if (JSONStr.Replace("\n\r  ", "").Replace("\n\r ", "").Replace("\n\r", "").Replace("\r\n  ", "").Replace("\r\n ", "").Replace("\r\n", "").StartsWith("[{"))
+                    {
+                        JSONStr = "{\"items\":" + JSONStr + "}";
+                    }
+
                     //json = JObject.Parse(JSONStr);
                     json = parseJSON(JSONStr);
                 }
-                catch
+                catch (Newtonsoft.Json.JsonReaderException jex)
                 {
-                    return "Not able to parse JSON";
+                    return string.Format("Not able to parse JSON: {0}", jex.Message);
                 }
+
+                if (json == null)
+                    return "Not able to parse JSON";
 
                 try
                 {
@@ -129,9 +144,9 @@ namespace FlightClient.App_Backend
 
                 return _result;
             }
-            catch
+            catch (Newtonsoft.Json.JsonReaderException jex)
             {
-                return "Invalid JSON string provided";
+                return string.Format("Invalid JSON string provided: {0}", jex.Message);
             }
 
         }
