@@ -121,6 +121,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\Collapsed.gif" />
+    <Content Include="Images\Expanded.gif" />
     <Content Include="JSONPathTest.aspx" />
     <Content Include="Masterpages\Site.Master" />
     <Content Include="Certificates\aiRES_FRMK_Cert.cer" />
@@ -135,6 +137,7 @@
     </None>
     <Content Include="Scripts\ai.1.0.4-build00190.js" />
     <Content Include="Scripts\ai.1.0.4-build00190.min.js" />
+    <Content Include="Scripts\JSONPath.js" />
     <Content Include="XML\Airportsearch.xq" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +212,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
