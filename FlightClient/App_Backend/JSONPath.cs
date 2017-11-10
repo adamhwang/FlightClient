@@ -93,10 +93,18 @@ namespace FlightClient.App_Backend
                 //First see if we can create a JObject
                 try
                 {
-                    if (JSONStr.Replace("\n\r  ", "").Replace("\n\r ", "").Replace("\n\r", "").Replace("\r\n  ", "").Replace("\r\n ", "").Replace("\r\n", "").StartsWith("[{"))
+                    JSONStr = JSONStr.Replace("\n\r  ", "").Replace("\n\r ", "").Replace("\n\r", "").Replace("\r\n  ", "").Replace("\r\n ", "").Replace("\r\n", "");
+
+                    if (JSONStr.StartsWith("[[{"))
+                    {
+                        JSONStr = "{\"items\" : "  + JSONStr + "}"; ;
+                    }
+                    else if (JSONStr.StartsWith("[{"))
                     {
                         JSONStr = "{\"items\":" + JSONStr + "}";
                     }
+
+                    
 
                     //json = JObject.Parse(JSONStr);
                     json = parseJSON(JSONStr);

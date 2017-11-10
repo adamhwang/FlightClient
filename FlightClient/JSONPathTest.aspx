@@ -76,7 +76,8 @@
                 alert('Unable to perform JSONPath')
             }
         }
-        // we need tabs as spaces and not CSS magin-left 
+
+// we need tabs as spaces and not CSS magin-left 
 // in order to ratain format when coping and pasing the code
 window.SINGLE_TAB = "  ";
 window.ImgCollapsed = "images/Collapsed.gif";
@@ -409,7 +410,7 @@ A.OtherToolsLink:hover { text-decoration:underline; }
                     <td valign="top">
                         <asp:CheckBox ID="cbBeautify" runat="server" Text="Beautified result" />
                         <br /><asp:Button ID="btmJSONPathCmd" runat="server" Text="Check JsonPathCmd" OnClick="btmJSONPathCmd_Click" />
-                        <!--
+                        <!-- 
                         <br /><br /><a href="javascript:goJP()">JS JSONPath Check</a>
                         -->
                     </td>

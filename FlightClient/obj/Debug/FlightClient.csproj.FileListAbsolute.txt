@@ -135,3 +135,9 @@ C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\roslyn\v
 C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\roslyn\vbc.rsp
 C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\Newtonsoft.Json.xml
 C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\obj\Debug\FlightClient.csprojResolveAssemblyReference.cache
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\x64\liblept172.dll
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\x64\libtesseract304.dll
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\x86\liblept172.dll
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\x86\libtesseract304.dll
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\Tesseract.dll
+C:\Users\j.van.lennep.000\Github Projects\FlightClient\FlightClient\bin\Tesseract.xml
