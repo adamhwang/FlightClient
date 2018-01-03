@@ -362,6 +362,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div align="left">
 
+        <a href="Performance.aspx?type=sites">Website performance</a><br />
+        <a href="Performance.aspx?type=media">Mediacache performance</a><br />
+
     <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td colspan="2"><asp:CustomValidator ID="cvCheck" runat="server" Display="Dynamic" onservervalidate="cvCheck_ServerValidate" CssClass="ErrMess" ValidationGroup="Check" /></td>

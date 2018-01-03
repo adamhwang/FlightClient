@@ -11,7 +11,7 @@
         color:#FF0000;    
     }
     </style>
-    <script src="/Scripts/Request.js" type="text/javascript"></script>
+    <script src="../Scripts/Request.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">
         var searchAirportTimeout;
         function Trim(str) {
@@ -342,11 +342,28 @@
             }
         }
 
+        function effeChecke()
+        { }
+
+        function beautifyJSON(x)
+        {
+            var txt = document.getElementById(x);
+            if (txt)
+            {
+                var jsonContent = txt.innerHTML;
+                var jsonBeautified = JSON.stringify(JSON.parse(jsonContent), null, 2);
+                txt.innerHTML = jsonBeautified;
+            }
+        }
+
     
 </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div align="left">
+
+        <a href="Performance.aspx?type=sites">Website performance</a><br />
+        <a href="Performance.aspx?type=media">Mediacache performance</a><br />
 
     <table cellpadding="0" cellspacing="0" border="0">
     <tr>
@@ -545,9 +562,10 @@
             </tr>
             </table>
             
-            <br /><br /><asp:TextBox ID="tbCCV" runat="server" Text="321" />
+            <br /><br /><asp:TextBox ID="tbCCV" runat="server" Text="321" />&nbsp;&nbsp;&nbsp;<asp:Button ID="btnEncryptCC" runat="server" Text="Encrypt CC" OnClick="btnEncryptCC_Click" />
             </td>
             </asp:PlaceHolder>
+            
         </tr>
         </table>
         </td>
@@ -645,12 +663,24 @@
     </tr>
     <tr>
         <td><asp:TextBox ID="tbRes" runat="server" TextMode="MultiLine" Columns="100" Rows="25" /></td>
-        <td valign="top"></td>
+        <td valign="top">
+            <asp:Button ID="btmJSONPathCmd" runat="server" Text="Check JsonPathCmd" OnClick="btmJSONPathCmd_Click" />
+            <br /><br /><a href="javascript:beautifyJSON('<%=tbRes.ClientID %>')">Beautify this</a>
+
+        </td>
     </tr>
     
     <tr>
         <td><asp:TextBox ID="tbExtended" runat="server" TextMode="MultiLine" Columns="100" Rows="25" /></td>
-        <td valign="top"></td>
+        <td valign="top"><br />
+            <asp:CheckBox ID="chkElsyEnc" runat="server" Text="Elsy Encrypt" />
+             <br /><asp:Button ID="btnEncryptThis" Text="Encrypt this" OnClick="btnEncryptThis_Click" runat="server" />
+            <br /><asp:Button ID="Button1" Text="Decrypt this" OnClick="btnDecryptThis_Click" runat="server" />
+            <br /><asp:Button ID="Button2" Text="Amadeus this" OnClick="btnAmadeusConfig_Click" runat="server" />
+            <br /><asp:Button ID="Button3" Text="Smartwing this" OnClick="btnSmartwings_Click" runat="server" />
+            <br /><asp:Button ID="Button4" Text="2Captcha this" OnClick="btnRecaptcha_Click" runat="server" />
+            <br /><br /><a href="javascript:beautifyJSON('<%=tbExtended.ClientID %>')">Beautify this</a>
+        </td>
     </tr>
 
     <tr>
@@ -723,6 +753,8 @@
 
     <asp:HiddenField ID="hOutwardSelected" runat="server" />
     <asp:HiddenField ID="hReturnSelected" runat="server" />
+
+        
 
     </div>
 </asp:Content>

@@ -90,6 +90,9 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Pyton.General">
+      <HintPath>..\..\..\Resources\dll\Pyton.General.dll</HintPath>
+    </Reference>
     <Reference Include="saxon9, Version=9.0.0.2, Culture=neutral, PublicKeyToken=e1fdd002d5083fe6">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\saxon9.dll</HintPath>
@@ -97,6 +100,9 @@
     <Reference Include="saxon9api, Version=9.0.0.2, Culture=neutral, PublicKeyToken=e1fdd002d5083fe6">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\saxon9api.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLDatabase">
+      <HintPath>..\..\..\Resources\dll\SQLDatabase.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Security" />
@@ -134,6 +140,8 @@
     <Content Include="Certificates\aiRES_PYM_Cert.cer" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\FlightClient.pubxml" />
+    <Content Include="Performance.aspx" />
+    <Content Include="PerformanceDetails.aspx" />
     <Content Include="tessdata\eng.cube.bigrams" />
     <Content Include="tessdata\eng.cube.fold" />
     <Content Include="tessdata\eng.cube.lm" />
@@ -243,6 +251,20 @@
     </Compile>
     <Compile Include="Outward.aspx.designer.cs">
       <DependentUpon>Outward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Performance.aspx.cs">
+      <DependentUpon>Performance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Performance.aspx.designer.cs">
+      <DependentUpon>Performance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PerformanceDetails.aspx.cs">
+      <DependentUpon>PerformanceDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerformanceDetails.aspx.designer.cs">
+      <DependentUpon>PerformanceDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
