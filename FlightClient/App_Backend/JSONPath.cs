@@ -8,7 +8,6 @@ namespace FlightClient.App_Backend
     public class JSONPath
     {
 
-
         public static JObject parseJSON(string json)
         {
             //Parse JSON with use of offset times
@@ -45,11 +44,6 @@ namespace FlightClient.App_Backend
             return tmpObj;
         }
 
-        public static string jSonDate(object date)
-        {
-            return Newtonsoft.Json.JsonConvert.SerializeObject(date).Replace("\"", "").Substring(0, 10);
-        }
-
         public enum jsonFormat { None, Indented }
         public string JSONStr;
         public string[] JSONPathCmd;
@@ -70,8 +64,6 @@ namespace FlightClient.App_Backend
                 }
             }
         }
-
-
 
         public JSONPath()
         {
@@ -104,8 +96,6 @@ namespace FlightClient.App_Backend
                         JSONStr = "{\"items\":" + JSONStr + "}";
                     }
 
-                    
-
                     //json = JObject.Parse(JSONStr);
                     json = parseJSON(JSONStr);
                 }
@@ -136,13 +126,11 @@ namespace FlightClient.App_Backend
                         }
                     }
 
-
                     _result = tmpRes;
 
 
                     //if (json.SelectTokens(JSONPathCmd) != null)
                     //    _result = Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(JSONPathCmd));
-
 
                 }
                 catch
