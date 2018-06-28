@@ -131,6 +131,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="CondorTest.aspx" />
     <Content Include="Images\Collapsed.gif" />
     <Content Include="Images\Expanded.gif" />
     <Content Include="ImageTest.aspx" />
@@ -202,6 +203,7 @@
     </Compile>
     <Compile Include="App_Backend\Airtrade.cs" />
     <Compile Include="App_Backend\Amadeus.cs" />
+    <Compile Include="App_Backend\Condor.cs" />
     <Compile Include="App_Backend\General.cs" />
     <Compile Include="App_Backend\JSONPath.cs" />
     <Compile Include="App_Backend\navitaire.cs" />
@@ -213,6 +215,13 @@
     </Compile>
     <Compile Include="Autward.aspx.designer.cs">
       <DependentUpon>Autward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CondorTest.aspx.cs">
+      <DependentUpon>CondorTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CondorTest.aspx.designer.cs">
+      <DependentUpon>CondorTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
