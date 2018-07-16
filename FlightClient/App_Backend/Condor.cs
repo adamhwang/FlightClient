@@ -84,6 +84,8 @@ namespace Condor
                 c.DepartureDateOut = pScrapeInfo.GetScrapeInfoValueFromName("DepDate_Out");
                 c.DepartureDateRet = pScrapeInfo.GetScrapeInfoValueFromName("DepDate_Ret");
                 c.XmlResponse = pScrapeInfo.GetScrapeInfoValueFromName("FlightContent");
+                c.ORI = pScrapeInfo.GetScrapeInfoValueFromName("SCR_ORI_SHORT_NAME");
+                c.DES = pScrapeInfo.GetScrapeInfoValueFromName("SCR_DES_SHORT_NAME");
                 response = c.getRRCombis();
             }
             else if (!gotDepDateOut)
@@ -102,6 +104,8 @@ namespace Condor
         private string _xmlContent = string.Empty;
         private string _depDateOut = string.Empty;
         private string _depDateRet = string.Empty;
+        private string _ORI = string.Empty;
+        private string _DES = string.Empty;
 
         public string XmlResponse
         {
@@ -122,6 +126,16 @@ namespace Condor
             //Date in yyyy-MM-dd format
             get { return _depDateRet; }
             set { _depDateRet = value; }
+        }
+
+        public string ORI
+        {
+            set { _ORI = value; }
+        }
+
+        public string DES
+        {
+            set { _DES = value; }
         }
 
         public Condor()
@@ -162,37 +176,45 @@ namespace Condor
 
                 for (int t = 0; t < FlightReferenceList.Count; t++)
                 {
-                    string selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, t);
-                    XmlNode selectedAirlineOffer = AirlineOfferList[t];
+                    string depAirportOut = FlightReferenceList[t].ParentNode.SelectSingleNode("DepartureCode").InnerText;
+                    if (depAirportOut == _ORI)
+                    { 
+                        string selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, t);
+                        XmlNode selectedAirlineOffer = AirlineOfferList[t];
 
-                    bool gotDapDateOut = selectedFlightSegment.Contains(_depDateOut);
+                        bool gotDapDateOut = selectedFlightSegment.Contains(_depDateOut);
 
-                    if (gotDapDateOut)
-                    {
-                        string selectedFlightSegment_Out = selectedFlightSegment;
-                        string selectedAirlineOffer_Out = selectedAirlineOffer.OuterXml;
-
-                        //Find all returnflight segments
-
-                        for (int s = t + 1; s < FlightReferenceList.Count; s++)
+                        if (gotDapDateOut)
                         {
-                            selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, s);
-                            selectedAirlineOffer = AirlineOfferList[s];
+                            string selectedFlightSegment_Out = selectedFlightSegment;
+                            string selectedAirlineOffer_Out = selectedAirlineOffer.OuterXml;
 
-                            bool gotDapDateRet = selectedFlightSegment.Contains(_depDateRet);
+                            //Find all returnflight segments
 
-                            if (gotDapDateRet)
+                            for (int s = t + 1; s < FlightReferenceList.Count; s++)
                             {
-                                string selectedFlightSegment_Ret = selectedFlightSegment;
-                                string selectedAirlineOffer_Ret = selectedAirlineOffer.OuterXml;
+                                string depAirportRet = FlightReferenceList[s].ParentNode.SelectSingleNode("DepartureCode").InnerText;
+                                if (depAirportRet == _DES)
+                                {
+                                    selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, s);
+                                    selectedAirlineOffer = AirlineOfferList[s];
 
-                                sb.Append("<COMBI><OUT>");
-                                sb.Append(selectedFlightSegment_Out);
-                                sb.Append(selectedAirlineOffer_Out);
-                                sb.Append("</OUT><RET>");
-                                sb.Append(selectedFlightSegment_Ret);
-                                sb.Append(selectedAirlineOffer_Ret);
-                                sb.Append("</RET></COMBI>");
+                                    bool gotDapDateRet = selectedFlightSegment.Contains(_depDateRet);
+
+                                    if (gotDapDateRet)
+                                    {
+                                        string selectedFlightSegment_Ret = selectedFlightSegment;
+                                        string selectedAirlineOffer_Ret = selectedAirlineOffer.OuterXml;
+
+                                        sb.Append("<COMBI><OUT>");
+                                        sb.Append(selectedFlightSegment_Out);
+                                        sb.Append(selectedAirlineOffer_Out);
+                                        sb.Append("</OUT><RET>");
+                                        sb.Append(selectedFlightSegment_Ret);
+                                        sb.Append(selectedAirlineOffer_Ret);
+                                        sb.Append("</RET></COMBI>");
+                                    }
+                                }
                             }
                         }
                     }
@@ -380,7 +402,6 @@ namespace Condor
 
             XmlNodeList FlightSegmentList = xdoc.SelectNodes("//FlightSegmentList/FlightSegment");
 
-
             XmlNode flightReference = FlightReferenceList[startItem];
             string flightReferences = flightReference.InnerText;
             bool gotMultipleFlightReferences = flightReferences.Contains(" ");
@@ -397,8 +418,18 @@ namespace Condor
 
             if (gotMultipleFlightReferences)
             {
-                fromSegNr = Convert.ToInt32(flightReferences.Split(' ')[0].ToUpper().Replace("FL", ""));
+                fromSegNr = Convert.ToInt32(segmentReferences.Split(' ')[0].ToUpper().Replace("SEG", ""));
                 toSegNr = Convert.ToInt32(flightReferences.Split(' ')[flightReferences.Split(' ').Length - 1].ToUpper().Replace("FL", ""));
+
+                if (firstFlightReference != lastFlightReference)
+                {
+                    flight = xdoc.SelectSingleNode(String.Format("//FlightList/Flight[@FlightKey='{0}']", lastFlightReference));
+                    segmentReferences = flight != null ? flight.SelectSingleNode("SegmentReferences").InnerText : string.Empty;
+
+                    toSegNr = Convert.ToInt32(segmentReferences.Split(' ')[segmentReferences.Split(' ').Length - 1].ToUpper().Replace("SEG", ""));
+
+                }
+
                 toSegNr++;
             }
             else

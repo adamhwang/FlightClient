@@ -18,6 +18,7 @@
                         <asp:ListItem Text="SF RR" />
                     </asp:DropDownList>
                     <br /><br />
+                    ORI <asp:TextBox ID="ORI" runat="server" width="50px" /> DES <asp:TextBox ID="DES" runat="server" width="50px" /><br />
                     Depdate out (yyyy-mm-dd)<br />
                     <asp:TextBox ID="date1" runat="server" Width="100px" /><br />
                     Depdate return (yyyy-mm-dd)<br />

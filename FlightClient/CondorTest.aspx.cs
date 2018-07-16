@@ -45,8 +45,12 @@ namespace FlightClient
                     }
                     break;
                 case "SF RR":
-                    if (!string.IsNullOrEmpty(tb1.Text))
+                    
+                    if (!string.IsNullOrEmpty(tb1.Text) && !string.IsNullOrEmpty(ORI.Text) && !string.IsNullOrEmpty(DES.Text))
                     {
+                        _scrapeInfo.InsertVariable("SCR_ORI_SHORT_NAME", ORI.Text);
+                        _scrapeInfo.InsertVariable("SCR_DES_SHORT_NAME", DES.Text);
+
                         Condor.CondorMain cm = new Condor.CondorMain();
                         NameValueCollection poScrapeData = new NameValueCollection();
                         poScrapeData.Add("action", "GetRRCombis");
