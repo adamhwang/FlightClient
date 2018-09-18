@@ -105,7 +105,9 @@
       <HintPath>..\..\..\Resources\dll\SQLDatabase.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -143,6 +145,140 @@
     <None Include="Properties\PublishProfiles\FlightClient.pubxml" />
     <Content Include="Performance.aspx" />
     <Content Include="PerformanceDetails.aspx" />
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.BookFlights.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.BookFlightsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetAccountSettings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetAccountSettingsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBestOffers.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBestOffersIndex.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBestOffersIndexResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBestOffersResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBookingDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetBookingDetailsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDepartureCountries.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDepartureCountriesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDepartures.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDeparturesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDestinations.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetDestinationsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFareRules.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFareRulesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFlightDetails.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFlightDetailsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFoundFlights.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFoundFlightsClassic.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFoundFlightsClassicResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetFoundFlightsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetPriceCalendar.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetPriceCalendarResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetRoutes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetRoutesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSchedules.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSchedulesBySeason.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSchedulesBySeasonResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSchedulesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSeatMap.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.GetSeatMapResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.ListBookings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.ListBookingsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.ListRegex.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.ListRegexResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.PrepareBookFlights.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.PrepareBookFlightsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.SearchFlights.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.SearchFlightsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\ElsyAPI\service.disco" />
+    <None Include="Service References\ElsyAPI\configuration91.svcinfo" />
+    <None Include="Service References\ElsyAPI\configuration.svcinfo" />
+    <None Include="Service References\ElsyAPI\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="SunExpressTest.aspx" />
     <Content Include="tessdata\eng.cube.bigrams" />
     <Content Include="tessdata\eng.cube.fold" />
     <Content Include="tessdata\eng.cube.lm" />
@@ -153,6 +289,7 @@
     <Content Include="tessdata\eng.tesseract_cube.nn" />
     <Content Include="tessdata\eng.traineddata" />
     <Content Include="tessdata\nld.traineddata" />
+    <None Include="Service References\ElsyAPI\service.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -207,6 +344,7 @@
     <Compile Include="App_Backend\General.cs" />
     <Compile Include="App_Backend\JSONPath.cs" />
     <Compile Include="App_Backend\navitaire.cs" />
+    <Compile Include="App_Backend\PFAPI.cs" />
     <Compile Include="App_Backend\SunExpress.cs" />
     <Compile Include="App_Backend\XQueryProcessor.cs" />
     <Compile Include="Autward.aspx.cs">
@@ -276,8 +414,25 @@
       <DependentUpon>PerformanceDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ElsyAPI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SunExpressTest.aspx.cs">
+      <DependentUpon>SunExpressTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SunExpressTest.aspx.designer.cs">
+      <DependentUpon>SunExpressTest.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ElsyAPI\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

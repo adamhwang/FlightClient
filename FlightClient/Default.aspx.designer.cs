@@ -193,6 +193,15 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.CheckBox cbUseChildAges;
         
         /// <summary>
+        /// cbUsePFPAPI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbUsePFPAPI;
+        
+        /// <summary>
         /// calDepart control.
         /// </summary>
         /// <remarks>
@@ -596,5 +605,32 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hReturnSelected;
+        
+        /// <summary>
+        /// tbMoneyValue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbMoneyValue;
+        
+        /// <summary>
+        /// btnCheckMoney control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCheckMoney;
+        
+        /// <summary>
+        /// lblMoneyTrans control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMoneyTrans;
     }
 }

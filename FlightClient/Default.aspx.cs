@@ -722,30 +722,38 @@ namespace FlightClient
             {
                 InitScrape();
 
-                _scrapeInfo.SCR_PROCESS_NAME = "SearchFlights";
-                if (!cbOneWay.Checked)
-                    _scrapeInfo.InsertVariable("RR search", "true", true);
-
-                SetStartTime();
-
-                if (cbJet2.Checked)
+                if (!cbUsePFPAPI.Checked)
                 {
-                    _scrapeInfo.InsertVariable("getSession", "true", true);
-                    EAScrape.Jet2ApiLocal j2 = new EAScrape.Jet2ApiLocal();
-                    tbRes.Text = j2.Jet2(ref _scrapeInfo, ref _foundInfo, _webPage);
+
+                    _scrapeInfo.SCR_PROCESS_NAME = "SearchFlights";
+                    if (!cbOneWay.Checked)
+                        _scrapeInfo.InsertVariable("RR search", "true", true);
+
+                    SetStartTime();
+
+                    if (cbJet2.Checked)
+                    {
+                        _scrapeInfo.InsertVariable("getSession", "true", true);
+                        EAScrape.Jet2ApiLocal j2 = new EAScrape.Jet2ApiLocal();
+                        tbRes.Text = j2.Jet2(ref _scrapeInfo, ref _foundInfo, _webPage);
+                    }
+                    else
+                    {
+                        Airtrade.AitradeMain am = new Airtrade.AitradeMain();
+                        tbRes.Text = am.Aitrade(ref _scrapeInfo, ref _foundInfo, _webPage);
+                    }
+
+                    SetEndTime();
+
+                    Session["AvailResponse"] = tbRes.Text;
                 }
                 else
                 {
-                    Airtrade.AitradeMain am = new Airtrade.AitradeMain();
-                    tbRes.Text = am.Aitrade(ref _scrapeInfo, ref _foundInfo, _webPage);
+
                 }
-
-                SetEndTime();
-
-                Session["AvailResponse"] = tbRes.Text;
-
                 phOutbound.Visible = true;
                 btnCheckAvail.Visible = true;
+
             }
         }
 
@@ -1822,6 +1830,16 @@ namespace FlightClient
                 ClientScript.RegisterStartupScript(typeof(string), "JSONBeuatify", string.Format("beautifyJSON('{0}')", tbExtended.ClientID), true);
 
 
+        }
+
+        protected void btnCheckMoney_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(tbMoneyValue.Text))
+            {
+                Double totalPrice = Convert.ToDouble(string.Format("{0:0.00}", tbMoneyValue.Text.Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture));
+                string price = totalPrice.ToString(); //.Replace(",", ".");
+                lblMoneyTrans.Text = price;
+            }
         }
     }
 }

@@ -12,13 +12,15 @@ using System.Collections.Specialized;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
+using System.Xml;
+
 using EAScrape;
 
 namespace SunExpress
 {
-     /*      22-11-2016  : JvL has created this class
-      
-     */      
+    /*      22-11-2016  : JvL has created this class
+
+    */
     public class SunExpressMain
     {
         public SunExpressMain()
@@ -34,8 +36,11 @@ namespace SunExpress
                 {
                     case "EncryptItem": return EncryptItem(pScrapeInfo);
                     case "EncryptCC": return EncryptCC(pScrapeInfo);
-
                     case "DecryptItem": return DecryptItem(pScrapeInfo);
+
+                    case "GetFlights": return GetFlights(pScrapeInfo);
+                    case "GetRRCombis": return GetCombis(pScrapeInfo);
+
                     default: return "";
                 }
                 return "";
@@ -67,7 +72,7 @@ namespace SunExpress
             sb.Append("<ENCRYPTEDINFO>");
             try
             {
-                if (gotStr && gotCertLocat )
+                if (gotStr && gotCertLocat)
                 {
                     string str = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_STR");
                     string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
@@ -250,7 +255,7 @@ namespace SunExpress
             {
                 string str = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_STR");
                 string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
-                
+
                 X509Certificate2 certificate = new X509Certificate2(locat);
                 RSACryptoServiceProvider rsa = (RSACryptoServiceProvider)certificate.PublicKey.Key;
 
@@ -343,6 +348,358 @@ namespace SunExpress
 
             }
             else return "";
+        }
+
+
+        
+
+        private string GetFlights(ScrapeInfo pScrapeInfo)
+        {
+            bool gotDepDateOut = pScrapeInfo.CheckIfVariableExists("DepDate_Out");
+            bool gotFlightContent = pScrapeInfo.CheckIfVariableExists("FlightContent");
+
+            string response = string.Empty;
+            if (gotDepDateOut && gotFlightContent)
+            {
+                SunExpressFlights sef = new SunExpressFlights();
+                sef.DepartureDateOut = pScrapeInfo.GetScrapeInfoValueFromName("DepDate_Out");
+                sef.XmlResponse = pScrapeInfo.GetScrapeInfoValueFromName("FlightContent");
+                sef.ORI = pScrapeInfo.GetScrapeInfoValueFromName("SCR_ORI_SHORT_NAME");
+                sef.DES = pScrapeInfo.GetScrapeInfoValueFromName("SCR_DES_SHORT_NAME");
+                sef.MaxNrOfPax = pScrapeInfo.GetScrapeInfoInteger("SCR_NUM_PERSON");
+                response = sef.getFlights();
+            }
+            else if (!gotDepDateOut)
+                response = "<ERROR>No outbound departure date</ERROR>";
+            else if (!gotFlightContent)
+                response = "<ERROR>No Xml response</ERROR>";
+
+            return response;
+        }
+
+        private string GetCombis(ScrapeInfo pScrapeInfo)
+        {
+            bool gotDepDateOut = pScrapeInfo.CheckIfVariableExists("DepDate_Out");
+            bool gotDepDateRet = pScrapeInfo.CheckIfVariableExists("DepDate_Ret");
+            bool gotFlightContent = pScrapeInfo.CheckIfVariableExists("FlightContent");
+
+            string response = string.Empty;
+            if (gotDepDateOut && gotDepDateRet && gotFlightContent)
+            {
+                SunExpressFlights sef = new SunExpressFlights();
+                sef.DepartureDateOut = pScrapeInfo.GetScrapeInfoValueFromName("DepDate_Out");
+                sef.DepartureDateRet = pScrapeInfo.GetScrapeInfoValueFromName("DepDate_Ret");
+                sef.XmlResponse = pScrapeInfo.GetScrapeInfoValueFromName("FlightContent");
+                sef.ORI = pScrapeInfo.GetScrapeInfoValueFromName("SCR_ORI_SHORT_NAME");
+                sef.DES = pScrapeInfo.GetScrapeInfoValueFromName("SCR_DES_SHORT_NAME");
+                sef.MaxNrOfPax = pScrapeInfo.GetScrapeInfoInteger("SCR_NUM_PERSON");
+                response = sef.getRRCombis();
+            }
+            else if (!gotDepDateOut)
+                response = "<ERROR>No outbound departure date</ERROR>";
+            else if (!gotDepDateRet)
+                response = "<ERROR>No inbound departure date</ERROR>";
+            else if (!gotFlightContent)
+                response = "<ERROR>No Xml response</ERROR>";
+
+            return response;
+        }
+    }
+
+    public class SunExpressFlights
+    {
+        private string _xmlContent = string.Empty;
+        private string _depDateOut = string.Empty;
+        private string _depDateRet = string.Empty;
+        private string _ORI = string.Empty;
+        private string _DES = string.Empty;
+        private int _maxnrofpax = Int32.MinValue;
+
+        public string XmlResponse
+        {
+            //Must be valid XML
+            get { return _xmlContent; }
+            set { _xmlContent = value; }
+        }
+
+        public string DepartureDateOut
+        {
+            //Date in yyyy-MM-dd format
+            get { return _depDateOut; }
+            set { _depDateOut = value; }
+        }
+
+        public string DepartureDateRet
+        {
+            //Date in yyyy-MM-dd format
+            get { return _depDateRet; }
+            set { _depDateRet = value; }
+        }
+
+        public string ORI
+        {
+            set { _ORI = value; }
+        }
+
+        public string DES
+        {
+            set { _DES = value; }
+        }
+
+        public int MaxNrOfPax
+        {
+            set { _maxnrofpax = value; }
+        }
+
+        public SunExpressFlights()
+        {}
+
+        private void RemoveItems()
+        {
+            string content = _xmlContent;
+            string search = "xmlns=\"";
+
+            //Remove all xmlns references
+            while (content.Contains(search))
+            {
+                int pos = content.IndexOf(search);
+
+                if (pos > 0)
+                {
+                    string pre = content.Substring(0, pos);
+                    string post = content.Substring(pos + search.Length);
+                    string search2 = "\"";
+                    int pos2 = post.IndexOf(search2) + search2.Length;
+                    post = post.Substring(pos2);
+                    content = pre + post;
+                }
+            }
+
+            /* 
+             * remove all[x] from airlineoffers (is actually not necessary)
+             * 
+
+            search = "<AirlineOffer>[";
+            while (content.Contains(search))
+            {
+                int pos = content.IndexOf(search) + search.Length - 1;
+                if (pos > 0)
+                {
+                    string pre = content.Substring(0, pos);
+                    string post = content.Substring(pos);
+                    string search2 = "]<OfferID ";
+                    int pos2 = post.IndexOf(search2) + 1;
+                    post = post.Substring(pos2);
+                    content = pre + post;
+                }
+            }
+
+            search = "</PricedOffer>[";
+            while (content.Contains(search))
+            {
+                int pos = content.IndexOf(search) + search.Length - 1;
+                if (pos > 0)
+                {
+                    string pre = content.Substring(0, pos);
+                    string post = content.Substring(pos);
+                    string search2 = "]</AirlineOffer>";
+                    int pos2 = post.IndexOf(search2) + 1;
+                    post = post.Substring(pos2);
+                    content = pre + post;
+                }
+            }
+            */
+
+            _xmlContent = content;
+        }
+
+        private bool gotAllElements(ref string ErrorMessage)
+        {
+            bool allOK = true;
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("<ERROR>");
+            allOK = _xmlContent.Contains("<AirlineOffer>");
+            if (!allOK) sb.Append("No AirlineOffers");
+
+            if (!_xmlContent.Contains("<FlightSegment SegmentKey="))
+            {
+                if (sb.ToString().Contains("No")) sb.Append(" / ");
+                sb.Append("No FlightSegments");
+                allOK = false;
+            }
+
+            if (!_xmlContent.Contains("<Flight FlightKey="))
+            {
+                if (sb.ToString().Contains("No")) sb.Append(" / ");
+                sb.Append("No Flights");
+                allOK = false;
+            }
+
+            if (!_xmlContent.Contains("<OriginDestination OriginDestinationKey="))
+            {
+                if (sb.ToString().Contains("No")) sb.Append(" / ");
+                sb.Append("No OriginDestinations");
+                allOK = false;
+            }
+
+
+            sb.Append("</ERROR>");
+
+            ErrorMessage = sb.ToString();
+
+
+            return allOK;
+        }
+
+        public string getFlights()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            if (string.IsNullOrEmpty(_xmlContent)) return "<ERROR>No Xml response</ERROR>";
+            if (string.IsNullOrEmpty(_depDateOut)) return "<ERROR>No outbound departure date</ERROR>";
+
+            string errorMess = string.Empty;
+            if (!gotAllElements(ref errorMess)) return errorMess;
+
+            sb.Append("<FLIGHTS>");
+            try
+            {
+                RemoveItems();
+
+                string content = _xmlContent;
+
+                XmlDocument xdoc = new XmlDocument();
+                try
+                {
+                    xdoc.LoadXml(content);
+                }
+                catch
+                {
+                    return "<ERROR>No valid XML response</ERROR>";
+                }
+
+                XmlNodeList AirlineOfferList = xdoc.SelectNodes("//AirlineOffer");
+                XmlNodeList FlightList = xdoc.SelectNodes("//FlightList/Flight");
+                XmlNodeList FlightSegmentList = xdoc.SelectNodes("//FlightSegmentList/FlightSegment");
+                XmlNodeList FlightReferenceList = xdoc.SelectNodes("//OriginDestination/FlightReferences");
+
+                foreach (XmlNode airlineOffer in AirlineOfferList)
+                {
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                return "<ERROR>" + e.Message + "</ERROR>";
+            }
+
+            sb.Append("</FLIGHTS>");
+
+            return sb.ToString();
+        }
+
+        public string getRRCombis()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            if (string.IsNullOrEmpty(_xmlContent)) return "<ERROR>No Xml response</ERROR>";
+            if (string.IsNullOrEmpty(_depDateOut)) return "<ERROR>No outbound departure date</ERROR>";
+            if (string.IsNullOrEmpty(_depDateRet)) return "<ERROR>No inbound departure date</ERROR>";
+
+            string errorMess = string.Empty;
+            if (!gotAllElements(ref errorMess)) return errorMess;
+
+            sb.Append("<COMBIS>");
+            try
+            {
+                RemoveItems();
+
+                string content = _xmlContent;
+
+                XmlDocument xdoc = new XmlDocument();
+                try
+                {
+                    xdoc.LoadXml(content);
+                }
+                catch
+                {
+                    return "<ERROR>No valid XML response</ERROR>";
+                }
+
+                XmlNodeList AirlineOfferList = xdoc.SelectNodes("//AirlineOffer");
+                XmlNodeList FlightList = xdoc.SelectNodes("//FlightList/Flight");
+                XmlNodeList FlightSegmentList = xdoc.SelectNodes("//FlightSegmentList/FlightSegment");
+                XmlNodeList FlightReferenceList = xdoc.SelectNodes("//OriginDestination/FlightReferences");
+
+                //for (int t = 0; t < FlightReferenceList.Count; t++)
+                //{
+                //    string depAirportOut = FlightReferenceList[t].ParentNode.SelectSingleNode("DepartureCode").InnerText;
+                //    if (depAirportOut == _ORI)
+                //    {
+                //        string selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, t);
+                //        XmlNode selectedAirlineOffer = AirlineOfferList[t];
+
+                //        bool gotDapDateOut = selectedFlightSegment.Contains(_depDateOut);
+
+                //        if (gotDapDateOut)
+                //        {
+                //            string selectedFlightSegment_Out = selectedFlightSegment;
+                //            string selectedAirlineOffer_Out = selectedAirlineOffer.OuterXml;
+
+                //            //Find all returnflight segments
+
+                //            for (int s = t + 1; s < FlightReferenceList.Count; s++)
+                //            {
+                //                string depAirportRet = FlightReferenceList[s].ParentNode.SelectSingleNode("DepartureCode").InnerText;
+                //                if (depAirportRet == _DES)
+                //                {
+                //                    selectedFlightSegment = SelectedFlightSegment(xdoc, FlightReferenceList, s);
+                //                    selectedAirlineOffer = AirlineOfferList[s];
+
+                //                    bool gotDapDateRet = selectedFlightSegment.Contains(_depDateRet);
+
+                //                    if (gotDapDateRet)
+                //                    {
+                //                        string selectedFlightSegment_Ret = selectedFlightSegment;
+                //                        string selectedAirlineOffer_Ret = selectedAirlineOffer.OuterXml;
+
+                //                        sb.Append("<COMBI><OUT>");
+                //                        sb.Append(selectedFlightSegment_Out);
+                //                        sb.Append(selectedAirlineOffer_Out);
+                //                        sb.Append("</OUT><RET>");
+                //                        sb.Append(selectedFlightSegment_Ret);
+                //                        sb.Append(selectedAirlineOffer_Ret);
+                //                        sb.Append("</RET></COMBI>");
+                //                    }
+                //                }
+                //            }
+                //        }
+                //    }
+                //}
+
+                foreach (XmlNode airlineOffer in AirlineOfferList)
+                {
+                    XmlNodeList referencesList = airlineOffer.SelectNodes("//FlightSegmentReference");
+                    int seatAvailOut = int.MinValue;
+                    int seatAvailRet = int.MinValue;
+                    if (referencesList != null && referencesList.Count > 1)
+                    {
+                        seatAvailOut = Convert.ToInt32(referencesList[0].SelectSingleNode("//Code/@SeatsLeft").InnerText);
+                        seatAvailRet = Convert.ToInt32(referencesList[1].SelectSingleNode("//Code/@SeatsLeft").InnerText);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                return "<ERROR>" + e.Message + "</ERROR>";
+            }
+
+            sb.Append("</COMBIS>");
+
+            return sb.ToString();
+
         }
     }
 }

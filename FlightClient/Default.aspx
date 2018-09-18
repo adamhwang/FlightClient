@@ -505,6 +505,8 @@
         </asp:DropDownList>
         &nbsp;&nbsp;
         <asp:CheckBox ID="cbUseChildAges" runat="server" Text="Use ChildAges" />
+        &nbsp;&nbsp;
+        <asp:CheckBox ID="cbUsePFPAPI" runat="server" Text="Üse PFP API" />
         </td>
     </tr>
     <tr><td colspan="2" style="height:10px"></td></tr>
@@ -754,7 +756,7 @@
     <asp:HiddenField ID="hOutwardSelected" runat="server" />
     <asp:HiddenField ID="hReturnSelected" runat="server" />
 
-        
+    <asp:TextBox ID="tbMoneyValue" runat="server" Width="50px" /><asp:Button ID="btnCheckMoney" runat="server" Text="Check money" OnClick="btnCheckMoney_Click" /> <asp:Label ID="lblMoneyTrans" runat="server" />
 
     </div>
 </asp:Content>
