@@ -75,7 +75,7 @@ namespace FlightClient.App_Backend
             if (string.IsNullOrEmpty(JSONStr)) return "Invalid JSON string provided";
             if (JSONPathCmd != null && JSONPathCmd.Length > 0) { }
             else return "Invalid JSONPath command provided";
-            //if (string.IsNullOrEmpty(JSONPathCmd)) return "Invalid JSONPath command provided";
+            
             try
             {
                 string _result = "No values found";
@@ -116,7 +116,6 @@ namespace FlightClient.App_Backend
                         try
                         {
                             if (json.SelectTokens(cmd) != null)
-                                //tmpRes += Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(cmd), Newtonsoft.Json.Formatting.Indented);
                                 tmpRes += Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(cmd), _jsonformat);
                         }
                         catch
@@ -127,10 +126,6 @@ namespace FlightClient.App_Backend
                     }
 
                     _result = tmpRes;
-
-
-                    //if (json.SelectTokens(JSONPathCmd) != null)
-                    //    _result = Newtonsoft.Json.JsonConvert.SerializeObject(json.SelectTokens(JSONPathCmd));
 
                 }
                 catch
