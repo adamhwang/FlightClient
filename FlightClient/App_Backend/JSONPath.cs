@@ -96,8 +96,8 @@ namespace FlightClient.App_Backend
                         JSONStr = "{\"items\":" + JSONStr + "}";
                     }
 
-                    //json = JObject.Parse(JSONStr);
-                    json = parseJSON(JSONStr);
+                    json = JObject.Parse(JSONStr);
+                    //json = parseJSON(JSONStr);
                 }
                 catch (Newtonsoft.Json.JsonReaderException jex)
                 {

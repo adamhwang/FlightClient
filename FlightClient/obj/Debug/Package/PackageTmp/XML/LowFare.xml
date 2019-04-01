@@ -1,0 +1,38 @@
+﻿
+    <LowFareSearchReq TargetBranch="P7022398" xmlns="http://www.travelport.com/schema/air_v20_0">
+      <BillingPointOfSaleInfo OriginApplication="UAPI" xmlns="http://www.travelport.com/schema/common_v17_0" ></BillingPointOfSaleInfo>
+      <SearchAirLeg>
+        <SearchOrigin>
+          <CityOrAirport Code="AMS" xmlns="http://www.travelport.com/schema/common_v17_0" ></CityOrAirport>
+        </SearchOrigin>
+        <SearchDestination>
+          <CityOrAirport Code="BCN" xmlns="http://www.travelport.com/schema/common_v17_0" ></CityOrAirport>
+        </SearchDestination>
+        <SearchDepTime PreferredTime="2014-05-26T00:00:00" ></SearchDepTime>
+        <AirLegModifiers>
+          <PreferredCabins>
+            <CabinClass Type="Economy" ></CabinClass>
+          </PreferredCabins>
+        </AirLegModifiers>
+      </SearchAirLeg>
+      <SearchAirLeg>
+        <SearchOrigin>
+          <CityOrAirport Code="BCN" xmlns="http://www.travelport.com/schema/common_v17_0" ></CityOrAirport>
+        </SearchOrigin>
+        <SearchDestination>
+          <CityOrAirport Code="AMS" xmlns="http://www.travelport.com/schema/common_v17_0" ></CityOrAirport>
+        </SearchDestination>
+        <SearchDepTime PreferredTime="2014-05-26T00:00:00" ></SearchDepTime>
+        <AirLegModifiers>
+          <PreferredCabins>
+            <CabinClass Type="Economy" ></CabinClass>
+          </PreferredCabins>
+        </AirLegModifiers>
+      </SearchAirLeg>
+      <AirSearchModifiers>
+        <PreferredProviders>
+          <Provider Code="1G" xmlns="http://www.travelport.com/schema/common_v17_0" ></Provider>
+        </PreferredProviders>
+      </AirSearchModifiers>
+      <SearchPassenger Code="ADT" xmlns="http://www.travelport.com/schema/common_v17_0" ></SearchPassenger>
+    </LowFareSearchReq>
