@@ -31,6 +31,42 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.TextBox tbReq;
         
         /// <summary>
+        /// ENC_TIME control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ENC_TIME;
+        
+        /// <summary>
+        /// DepDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DepDate;
+        
+        /// <summary>
+        /// ORI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ORI;
+        
+        /// <summary>
+        /// DES control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DES;
+        
+        /// <summary>
         /// tbKey control.
         /// </summary>
         /// <remarks>
