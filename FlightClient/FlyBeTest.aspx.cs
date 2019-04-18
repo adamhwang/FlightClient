@@ -10,46 +10,74 @@ namespace FlightClient
     
     public partial class FlyBeTest : System.Web.UI.Page
     {
-        private string encKey = "5615AB59DFF60EC66A000F298BBCA8723AFF54ADEE053A8F6EB230A4D9FC9410";
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                tbKey.Text = encKey;
+                tbKey.Text = System.Configuration.ConfigurationManager.AppSettings["FlyBe.EncryptionKey"];
                 ENC_TIME.Text = DateTime.Now.AddHours(-2).ToString("yyyyMMddHHmmss");
-                DepDate.Text = DateTime.Now.AddDays(21).ToString("yyyyMMdd0000");
+
+                bool allOK = true;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["ADT"]))
+                {
+                    if (ddlADT.Items.FindByText(Request.QueryString["ADT"].ToString()) != null)
+                    {
+                        ddlADT.ClearSelection();
+                        ddlADT.Items.FindByText(Request.QueryString["ADT"].ToString()).Selected = true;
+                    }
+                    else
+                        allOK = false;
+                }
+                else
+                    allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["CHD"]))
+                {
+                    if (ddlCHD.Items.FindByText(Request.QueryString["CHD"].ToString()) != null)
+                    {
+                        ddlCHD.ClearSelection();
+                        ddlCHD.Items.FindByText(Request.QueryString["CHD"].ToString()).Selected = true;
+                    }
+                    else
+                        allOK = false;
+                }
+                else
+                    allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["INF"]))
+                {
+                    if (ddlINF.Items.FindByText(Request.QueryString["INF"].ToString()) != null)
+                    {
+                        ddlINF.ClearSelection();
+                        ddlINF.Items.FindByText(Request.QueryString["INF"].ToString()).Selected = true;
+                    }
+                    else
+                        allOK = false;
+                }
+                else
+                    allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["DepDate"]))
+                    DepDate.Text = Request.QueryString["DepDate"].ToString() + "0000";
+                else
+                    allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["ORI"]))
+                    ORI.Text = Request.QueryString["ORI"].ToString();
+                else
+                    allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["DES"]))
+                    DES.Text = Request.QueryString["DES"].ToString();
+                else
+                    allOK = false;
+
+                //If we have all necessary items perform encryption 
+                if (allOK)
+                    ClientScript.RegisterStartupScript(typeof(string), "CreateStringAndEncrypt", "Go()", true);
             }
             
         }
-
-        protected void btnEncr_Click(object sender, EventArgs e)
-        {
-            if (!string.IsNullOrEmpty(tbReq.Text) && !string.IsNullOrEmpty(tbKey.Text))
-            {
-                tbRes.Text = hex2s(tbKey.Text);
-                
-            }
-        }
-
-
-        private string hex2s(string c)
-        {
-            var b = ""; if (c.IndexOf("0x") == 0 || c.IndexOf("0X") == 0)
-            {
-                c = c.Substring(2);
-            }
-            if (c.Length % 2 !=0)
-            {
-                c += "0";
-            }
-            for (var a = 0; a < c.Length; a += 2)
-            {
-                b += (char)(Convert.ToInt32(c.Substring(a, 2), 16));
-            }
-            return b;
-        }
-
-
     }
 }

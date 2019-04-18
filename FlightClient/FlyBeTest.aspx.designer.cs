@@ -40,6 +40,33 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.TextBox ENC_TIME;
         
         /// <summary>
+        /// ddlADT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlADT;
+        
+        /// <summary>
+        /// ddlCHD control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCHD;
+        
+        /// <summary>
+        /// ddlINF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlINF;
+        
+        /// <summary>
         /// DepDate control.
         /// </summary>
         /// <remarks>
@@ -74,15 +101,6 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbKey;
-        
-        /// <summary>
-        /// btnEncr control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEncr;
         
         /// <summary>
         /// tbRes control.

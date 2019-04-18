@@ -252,6 +252,8 @@ C:\GIT\FlightClient\FlightClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerP
 C:\GIT\FlightClient\FlightClient\bin\Newtonsoft.Json.xml
 C:\GIT\FlightClient\FlightClient\bin\Tesseract.xml
 C:\GIT\FlightClient\FlightClient\bin\saxon9api.netmodule
-C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.csprojResolveAssemblyReference.cache
 C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.dll
 C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.pdb
+C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.csprojAssemblyReference.cache
+C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.csproj.CoreCompileInputs.cache
+C:\GIT\FlightClient\FlightClient\obj\Debug\FlightClient.csproj.CopyComplete

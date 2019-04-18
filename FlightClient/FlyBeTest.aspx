@@ -58,9 +58,9 @@
 
         function createTravellers() {
  
-            var nrOfADT = parseInt(document.getElementById("ADT").options[document.getElementById("ADT").selectedIndex].text, 10);
-            var nrOfCHD = parseInt(document.getElementById("CHD").options[document.getElementById("CHD").selectedIndex].text, 10);
-            var nrOfINF = parseInt(document.getElementById("INF").options[document.getElementById("INF").selectedIndex].text, 10);
+            var nrOfADT = parseInt(document.getElementById("<%=ddlADT.ClientID %>").options[document.getElementById("<%=ddlADT.ClientID %>").selectedIndex].text, 10);
+            var nrOfCHD = parseInt(document.getElementById("<%=ddlCHD.ClientID %>").options[document.getElementById("<%=ddlCHD.ClientID %>").selectedIndex].text, 10);
+            var nrOfINF = parseInt(document.getElementById("<%=ddlINF.ClientID %>").options[document.getElementById("<%=ddlINF.ClientID %>").selectedIndex].text, 10);
             
             var travStr = "";
             var t = 0;
@@ -342,7 +342,11 @@
 
         function Go()
         {
-            var val2Enc = document.getElementById("<%=tbReq.ClientID %>").value;
+            var tbReq = document.getElementById("<%=tbReq.ClientID %>");
+
+            tbReq.value = createString2Encrypt();
+
+            var val2Enc = tbReq.value;
             
             var tbRes = document.getElementById("<%=tbRes.ClientID %>");
             
@@ -363,33 +367,34 @@
             <tr>
                 <td colspan="2"">
                 ADT 
-                <select id="ADT">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                </select>
+                <asp:DropDownList ID="ddlADT" runat="server">
+                    <asp:ListItem>1</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                    <asp:ListItem>7</asp:ListItem>
+                    <asp:ListItem>8</asp:ListItem>
+                </asp:DropDownList>
                 CHD 
-                <select id="CHD">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
+                <asp:DropDownList ID="ddlCHD" runat="server">
+                    <asp:ListItem>0</asp:ListItem>
+                    <asp:ListItem>1</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                </asp:DropDownList>
                 INF 
-                <select id="INF">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select> <a href="javascript:showTravellers()">Travellers</a>
+                <asp:DropDownList ID="ddlINF" runat="server">
+                    <asp:ListItem>0</asp:ListItem>
+                    <asp:ListItem>1</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                </asp:DropDownList>    
+                &nbsp;<a href="javascript:showTravellers()">Travellers</a>
                 </td>
             </tr>
             <tr>
@@ -403,9 +408,6 @@
             </tr>
         </table>
         <asp:TextBox ID="tbKey" runat="server" Columns="100" Rows="25" Width="800px" />
-        <!--
-        <asp:Button ID="btnEncr" runat="server" Text="Encrypt" OnClick="btnEncr_Click" />
-        -->
         <a href="javascript:Go()">js encrypt</a><br />
         <asp:TextBox ID="tbRes" runat="server" TextMode="MultiLine" Columns="100" Rows="25" />
     </div>
