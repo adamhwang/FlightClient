@@ -398,13 +398,13 @@
                 </td>
             </tr>
             <tr>
-                <td>DEP Date</td><td><asp:TextBox ID="DepDate" runat="server">201906070000</asp:TextBox></td>
+                <td>DEP Date</td><td><asp:TextBox ID="DepDate" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td>ORI</td><td><asp:TextBox ID="ORI" runat="server">AMS</asp:TextBox></td>
+                <td>ORI</td><td><asp:TextBox ID="ORI" runat="server"></asp:TextBox></td>
             </tr>
              <tr>
-                <td>DES</td><td><asp:TextBox ID="DES" runat="server">AGP</asp:TextBox>&nbsp;&nbsp; <a href="javascript:showString()">Create string</a></td>
+                <td>DES</td><td><asp:TextBox ID="DES" runat="server"></asp:TextBox>&nbsp;&nbsp; <a href="javascript:showString()">Create string</a></td>
             </tr>
         </table>
         <asp:TextBox ID="tbKey" runat="server" Columns="100" Rows="25" Width="800px" />
