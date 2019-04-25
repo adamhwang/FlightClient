@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -137,6 +138,7 @@
     <Content Include="DeEncode.aspx" />
     <Content Include="EzeegoTest.aspx" />
     <Content Include="FlyBeTest.aspx" />
+    <Content Include="FlyBeTestResult.aspx" />
     <Content Include="Images\Collapsed.gif" />
     <Content Include="Images\Expanded.gif" />
     <Content Include="ImageTest.aspx" />
@@ -393,6 +395,13 @@
     </Compile>
     <Compile Include="FlyBeTest.aspx.designer.cs">
       <DependentUpon>FlyBeTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlyBeTestResult.aspx.cs">
+      <DependentUpon>FlyBeTestResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlyBeTestResult.aspx.designer.cs">
+      <DependentUpon>FlyBeTestResult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

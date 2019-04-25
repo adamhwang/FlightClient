@@ -15,7 +15,7 @@ namespace FlightClient
             if (!Page.IsPostBack)
             {
                 tbKey.Text = System.Configuration.ConfigurationManager.AppSettings["FlyBe.EncryptionKey"];
-                ENC_TIME.Text = DateTime.Now.AddHours(-2).ToString("yyyyMMddHHmmss");
+                //ENC_TIME.Text = DateTime.Now.AddHours(-2).ToString("yyyyMMddHHmmss");
 
                 bool allOK = true;
 
@@ -59,9 +59,16 @@ namespace FlightClient
                     allOK = false;
 
                 if (!string.IsNullOrEmpty(Request.QueryString["DepDate"]))
-                    DepDate.Text = Request.QueryString["DepDate"].ToString() + "0000";
+                    DepDateOut.Text = Request.QueryString["DepDate"].ToString() + "0000";
+                else
+                    if (!string.IsNullOrEmpty(Request.QueryString["DepDateOut"]))
+                    DepDateOut.Text = Request.QueryString["DepDateOut"].ToString() + "0000";
                 else
                     allOK = false;
+
+                if (!string.IsNullOrEmpty(Request.QueryString["DepDateRet"]))
+                    DepDateRet.Text = Request.QueryString["DepDateRet"].ToString() + "0000";
+                
 
                 if (!string.IsNullOrEmpty(Request.QueryString["ORI"]))
                     ORI.Text = Request.QueryString["ORI"].ToString();
@@ -73,11 +80,42 @@ namespace FlightClient
                 else
                     allOK = false;
 
+                if (!string.IsNullOrEmpty(Request.QueryString["TripType"]))
+                {
+                    if (ddlTripType.Items.FindByText(Request.QueryString["TripType"].ToString()) != null)
+                    {
+                        ddlTripType.ClearSelection();
+                        ddlTripType.Items.FindByText(Request.QueryString["TripType"].ToString()).Selected = true;
+                    }
+                }
+
                 //If we have all necessary items perform encryption 
                 if (allOK)
                     ClientScript.RegisterStartupScript(typeof(string), "CreateStringAndEncrypt", "Go()", true);
             }
-            
+            //else
+            //{
+            //    if (!string.IsNullOrEmpty(Request.Form["tbRes"]))
+            //    {
+            //        string URL = Request.Url.AbsoluteUri;
+            //        string[] urlItems = URL.Split('/');
+            //        string endUrl = string.Empty;
+            //        for (int i = 0; i < urlItems.Length - 1; i++)
+            //            endUrl += urlItems[i] + "/";
+            //        endUrl += "FlyBeTestResult.aspx";
+            //        //System.Net.HttpWebRequest HttpReq = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(endUrl);
+            //        //HttpReq.Method = "POST";
+
+            //        //System.IO.StreamWriter sOut = new System.IO.StreamWriter(HttpReq.GetRequestStream());
+            //        //sOut.Write("ENC=" + Request.Form["tbRes"].ToString());
+            //        //sOut.Close();
+
+            //        endUrl += "?ENC=" + Request.Form["tbRes"].ToString();
+
+            //        Response.Redirect(endUrl);
+            //    }
+            //}
+
         }
     }
 }

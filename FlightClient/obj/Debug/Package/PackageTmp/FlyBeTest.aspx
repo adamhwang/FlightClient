@@ -7,8 +7,8 @@
     <title></title>
     
     <script type="text/javascript">
-        
 
+        //String padding additional functon
         if (!String.prototype.padStart) {
             String.prototype.padStart = function padStart(targetLength, padString) {
                 targetLength = targetLength >> 0; //truncate if number, or convert non-number to 0;
@@ -25,6 +25,7 @@
             };
         }
 
+        /********************* test functions **************/
         function showTravellers() {
             var tbRes = document.getElementById("<%=tbRes.ClientID %>");
             tbRes.value = createTravellers();
@@ -40,18 +41,34 @@
             tbReq.value = createString2Encrypt();
         }
 
+
+        /******************** functions to create the string to be encrypted ***********************/
+
         function createTimeStamp() {
+
             
             var d = new Date();
             //Apparently the datetimestamp FlyBe is using, is 2 hours less
+            /*
             d.setHours(d.getHours() - 2);
+            
             var timestamp = d.getFullYear().toString()
                             + String(d.getMonth() + 1).padStart(2, '0')
                             + String(d.getDate()).padStart(2, '0')
                             + String(d.getHours()).padStart(2, '0')
                             + String(d.getMinutes()).padStart(2, '0')
                             + String(d.getSeconds()).padStart(2, '0');
+
+            */
             
+
+            //Perhaps we need UTC time?
+            var timestamp = d.getUTCFullYear().toString()
+                + String(d.getUTCMonth() + 1).padStart(2, '0')
+                + String(d.getUTCDate()).padStart(2, '0')
+                + String(d.getUTCHours()).padStart(2, '0')
+                + String(d.getUTCMinutes()).padStart(2, '0')
+                + String(d.getUTCSeconds()).padStart(2, '0');
 
             return timestamp;
         }
@@ -97,10 +114,8 @@
             return string;
         }
 
-        
 
-        /****************************** FlyBe js code copied ***************************************/
-
+        /****************************** FlyBe js code; copied from Flybe website included js file (beautified) ***************************************/
         
         var Rcon = [1, 2, 4, 8, 16, 32, 64, 128, 27, 54, 108, 216, 171, 77, 154, 47, 94, 188, 99, 198, 151, 53, 106, 212, 179, 125, 250, 239, 197, 145];
         var S = [99, 124, 119, 123, 242, 107, 111, 197, 48, 1, 103, 43, 254, 215, 171, 118, 202, 130, 201, 125, 250, 89, 71, 240, 173, 212, 162, 175, 156, 164, 114, 192, 183, 253, 147, 38, 54, 63, 247, 204, 52, 165, 229, 241, 113, 216, 49, 21, 4, 199, 35, 195, 24, 150, 5, 154, 7, 18, 128, 226, 235, 39, 178, 117, 9, 131, 44, 26, 27, 110, 90, 160, 82, 59, 214, 179, 41, 227, 47, 132, 83, 209, 0, 237, 32, 252, 177, 91, 106, 203, 190, 57, 74, 76, 88, 207, 208, 239, 170, 251, 67, 77, 51, 133, 69, 249, 2, 127, 80, 60, 159, 168, 81, 163, 64, 143, 146, 157, 56, 245, 188, 182, 218, 33, 16, 255, 243, 210, 205, 12, 19, 236, 95, 151, 68, 23, 196, 167, 126, 61, 100, 93, 25, 115, 96, 129, 79, 220, 34, 42, 144, 136, 70, 238, 184, 20, 222, 94, 11, 219, 224, 50, 58, 10, 73, 6, 36, 92, 194, 211, 172, 98, 145, 149, 228, 121, 231, 200, 55, 109, 141, 213, 78, 169, 108, 86, 244, 234, 101, 122, 174, 8, 186, 120, 37, 46, 28, 166, 180, 198, 232, 221, 116, 31, 75, 189, 139, 138, 112, 62, 181, 102, 72, 3, 246, 14, 97, 53, 87, 185, 134, 193, 29, 158, 225, 248, 152, 17, 105, 217, 142, 148, 155, 30, 135, 233, 206, 85, 40, 223, 140, 161, 137, 13, 191, 230, 66, 104, 65, 153, 45, 15, 176, 84, 187, 22];
@@ -351,6 +366,11 @@
             var tbRes = document.getElementById("<%=tbRes.ClientID %>");
             
             tbRes.value = encryptLocal(val2Enc);
+
+            document.forms[0].action = "../FlyBeTestResult.aspx";
+            document.forms[0].method = "POST";
+            document.forms[0].submit();
+
         }
     </script>
 </head>
@@ -398,13 +418,13 @@
                 </td>
             </tr>
             <tr>
-                <td>DEP Date</td><td><asp:TextBox ID="DepDate" runat="server">201906070000</asp:TextBox></td>
+                <td>DEP Date</td><td><asp:TextBox ID="DepDate" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td>ORI</td><td><asp:TextBox ID="ORI" runat="server">AMS</asp:TextBox></td>
+                <td>ORI</td><td><asp:TextBox ID="ORI" runat="server"></asp:TextBox></td>
             </tr>
              <tr>
-                <td>DES</td><td><asp:TextBox ID="DES" runat="server">AGP</asp:TextBox>&nbsp;&nbsp; <a href="javascript:showString()">Create string</a></td>
+                <td>DES</td><td><asp:TextBox ID="DES" runat="server"></asp:TextBox>&nbsp;&nbsp; <a href="javascript:showString()">Create string</a></td>
             </tr>
         </table>
         <asp:TextBox ID="tbKey" runat="server" Columns="100" Rows="25" Width="800px" />

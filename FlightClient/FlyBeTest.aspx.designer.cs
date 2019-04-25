@@ -67,13 +67,31 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.DropDownList ddlINF;
         
         /// <summary>
-        /// DepDate control.
+        /// ddlTripType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox DepDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTripType;
+        
+        /// <summary>
+        /// DepDateOut control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DepDateOut;
+        
+        /// <summary>
+        /// DepDateRet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DepDateRet;
         
         /// <summary>
         /// ORI control.
