@@ -378,9 +378,9 @@
             }
 
 
-           var form = document.getElementById("<%=form1.ClientID %>");
+           <%--var form = document.getElementById("<%=form1.ClientID %>");
            form.action = "FlyBeTestResult.aspx";
-           form.submit();
+           form.submit();--%>
 
         }
 

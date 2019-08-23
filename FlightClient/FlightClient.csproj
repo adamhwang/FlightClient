@@ -146,6 +146,7 @@
     <Content Include="Masterpages\Site.Master" />
     <Content Include="Certificates\aiRES_FRMK_Cert.cer" />
     <Content Include="Certificates\aiRES_PYM_Cert.cer" />
+    <Content Include="Menu.html" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\FlightClient.pubxml" />
     <Content Include="Performance.aspx" />
@@ -285,6 +286,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="SHA.aspx" />
     <Content Include="SunExpressTest.aspx" />
     <Content Include="tessdata\eng.cube.bigrams" />
     <Content Include="tessdata\eng.cube.fold" />
@@ -453,6 +455,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SHA.aspx.cs">
+      <DependentUpon>SHA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SHA.aspx.designer.cs">
+      <DependentUpon>SHA.aspx</DependentUpon>
     </Compile>
     <Compile Include="SunExpressTest.aspx.cs">
       <DependentUpon>SunExpressTest.aspx</DependentUpon>

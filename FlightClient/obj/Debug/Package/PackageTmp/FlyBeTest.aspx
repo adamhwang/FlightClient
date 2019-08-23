@@ -105,8 +105,13 @@
 
         function createString2Encrypt()
         {
+            var tripType = document.getElementById("<%=ddlTripType.ClientID %>").options[document.getElementById("<%=ddlTripType.ClientID %>").selectedIndex].text
+
             var string = "ENC_TIME=" + createTimeStamp() + "&TRIP_FLOW=YES&BOOKING_FLOW=REVENUE&B_ANY_TIME_1=TRUE&B_ANY_TIME_2=TRUE&EXTERNAL_ID=BOOKING&PRICING_TYPE=O&DISPLAY_TYPE=2&ARRANGE_BY=R&COMMERCIAL_FARE_FAMILY_1=BECFF&DATE_RANGE_VALUE_1=3&DATE_RANGE_VALUE_2=3&DATE_RANGE_QUALIFIER_1=C&DATE_RANGE_QUALIFIER_2=C&EMBEDDED_TRANSACTION=FlexPricerAvailability";
-            string += "&B_DATE_1=" + document.getElementById("<%=DepDate.ClientID %>").value + "&TRIP_TYPE=O";
+            string += "&B_DATE_1=" + document.getElementById("<%=DepDateOut.ClientID %>").value;
+            if (tripType=="R")
+                string += "&B_DATE_2=" + document.getElementById("<%=DepDateRet.ClientID %>").value 
+            string += "&TRIP_TYPE=" + tripType;
             string += createORIDES();
             string += createTravellers();
             string += "&CONFIG_CHECKIN_URL=https://www.flybe.com/en/info-link/check-in&";
@@ -358,20 +363,28 @@
         function Go()
         {
             var tbReq = document.getElementById("<%=tbReq.ClientID %>");
-
-            tbReq.value = createString2Encrypt();
-
-            var val2Enc = tbReq.value;
-            
             var tbRes = document.getElementById("<%=tbRes.ClientID %>");
-            
-            tbRes.value = encryptLocal(val2Enc);
 
-            document.forms[0].action = "../FlyBeTestResult.aspx";
-            document.forms[0].method = "POST";
-            document.forms[0].submit();
+            try {
+
+                tbReq.value = createString2Encrypt();
+
+                var val2Enc = tbReq.value;
+
+                tbRes.value = encryptLocal(val2Enc);
+            }
+            catch{
+                tbRes.value = "NO ENC created"
+            }
+
+
+           <%--var form = document.getElementById("<%=form1.ClientID %>");
+           form.action = "FlyBeTestResult.aspx";
+           form.submit();--%>
 
         }
+
+        
     </script>
 </head>
 <body>
@@ -418,7 +431,17 @@
                 </td>
             </tr>
             <tr>
-                <td>DEP Date</td><td><asp:TextBox ID="DepDate" runat="server"></asp:TextBox></td>
+                <td>TripType</td>
+                <td><asp:DropDownList ID="ddlTripType" runat="server">
+                    <asp:ListItem>O</asp:ListItem>
+                    <asp:ListItem>R</asp:ListItem>
+                    </asp:DropDownList></td>
+            </tr>
+            <tr>
+                <td>DEP Date Outbound</td><td><asp:TextBox ID="DepDateOut" runat="server"></asp:TextBox></td>
+            </tr>
+             <tr>
+                <td>DEP Date Return</td><td><asp:TextBox ID="DepDateRet" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
                 <td>ORI</td><td><asp:TextBox ID="ORI" runat="server"></asp:TextBox></td>
@@ -430,6 +453,8 @@
         <asp:TextBox ID="tbKey" runat="server" Columns="100" Rows="25" Width="800px" />
         <a href="javascript:Go()">js encrypt</a><br />
         <asp:TextBox ID="tbRes" runat="server" TextMode="MultiLine" Columns="100" Rows="25" />
+
+        <input type="hidden" id="ENC" name="ENC" />
     </div>
     </form>
 </body>
