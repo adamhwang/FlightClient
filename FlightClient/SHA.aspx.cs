@@ -12,21 +12,76 @@ namespace FlightClient
 {
     public partial class SHA : System.Web.UI.Page
     {
+        private string _content = string.Empty;
+        private string _key = string.Empty;
+        private string _encType = string.Empty;
+        private bool _buttonClicked = false;
         protected void Page_Load(object sender, EventArgs e)
         {
             
+            if (!Page.IsPostBack)
+            {
+                if (!string.IsNullOrEmpty(Request["Content"]))
+                    _content = Request["Content"].ToString();
+
+                if (!string.IsNullOrEmpty(Request["Key"]))
+                    _key = Request["Key"].ToString();
+
+                if (!string.IsNullOrEmpty(Request["EncType"]))
+                    _encType = Request["EncType"].ToString();
+
+            }
+            /*
+            else
+            {
+                if (!string.IsNullOrEmpty(Request.Form["Content"]))
+                    _content = Request.Form["Content"].ToString();
+
+                if (!string.IsNullOrEmpty(Request.Form["Key"]))
+                    _key = Request.Form["Key"].ToString();
+
+                if (!string.IsNullOrEmpty(Request.Form["EncType"]))
+                    _encType = Request.Form["EncType"].ToString();
+
+            }
+            */
+            
+
+            //Button1.Click += new EventHandler(this.Button1_Click);
+
+
+            if (!string.IsNullOrEmpty(_content) && !string.IsNullOrEmpty(_encType) && !_buttonClicked)
+            {
+                tbContent.Text = _content;
+                tbKey.Text = _key;
+
+                if (ddlSHAType.Items.FindByText(_encType) != null)
+                {
+                    ddlSHAType.ClearSelection();
+                    ddlSHAType.Items.FindByText(_encType).Selected = true;
+                }
+
+                doEncrypt();
+            }
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
+        {
+            _buttonClicked = true;
+            doEncrypt();
+        }
+
+        private void doEncrypt()
         {
             lblMess.Visible = false;
             if (!string.IsNullOrEmpty(tbContent.Text))
             {
                 var encoding = Encoding.UTF8;
 
-                if (ddlSHAType.SelectedValue.Equals("1"))
+                if (ddlSHAType.SelectedValue.Equals("SHA1"))
                 {
-                    
+
                     using (SHA1Managed hmac = new SHA1Managed())
                     {
                         var msg = encoding.GetBytes(tbContent.Text);
@@ -36,7 +91,7 @@ namespace FlightClient
                     }
                 }
 
-                if (ddlSHAType.SelectedValue.Equals("256"))
+                if (ddlSHAType.SelectedValue.Equals("SHA256"))
                 {
                     using (HMACSHA256 hmac = new HMACSHA256(encoding.GetBytes(tbKey.Text)))
                     {
@@ -47,7 +102,7 @@ namespace FlightClient
                     }
                 }
 
-                if (ddlSHAType.SelectedValue.Equals("512"))
+                if (ddlSHAType.SelectedValue.Equals("SHA512"))
                 {
                     using (HMACSHA512 hmac = new HMACSHA512(encoding.GetBytes(tbKey.Text)))
                     {

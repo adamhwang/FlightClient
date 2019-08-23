@@ -16,9 +16,9 @@
                 <td valign="top">
                     <asp:DropDownList ID="ddlSHAType" runat="server">
                         <asp:ListItem>Select a SHA type</asp:ListItem>
-                        <asp:ListItem>1</asp:ListItem>
-                        <asp:ListItem>256</asp:ListItem>
-                        <asp:ListItem>512</asp:ListItem>
+                        <asp:ListItem>SHA1</asp:ListItem>
+                        <asp:ListItem>SHA256</asp:ListItem>
+                        <asp:ListItem>SHA512</asp:ListItem>
                     </asp:DropDownList>
                     <asp:Button ID="Button1" Text="SHA Encode" runat="server" OnClick="Button1_Click" />
                     <br />
