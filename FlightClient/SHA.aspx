@@ -18,6 +18,7 @@
                         <asp:ListItem>Select a SHA type</asp:ListItem>
                         <asp:ListItem>SHA1</asp:ListItem>
                         <asp:ListItem>SHA256</asp:ListItem>
+                        <asp:ListItem>SHA384</asp:ListItem>
                         <asp:ListItem>SHA512</asp:ListItem>
                     </asp:DropDownList>
                     <asp:Button ID="Button1" Text="SHA Encode" runat="server" OnClick="Button1_Click" />

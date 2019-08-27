@@ -81,11 +81,11 @@ namespace FlightClient
 
                 if (ddlSHAType.SelectedValue.Equals("SHA1"))
                 {
-
-                    using (SHA1Managed hmac = new SHA1Managed())
+                    using (HMACSHA1 sha = new HMACSHA1())
+                    //using (SHA1Managed sha = new SHA1Managed())
                     {
                         var msg = encoding.GetBytes(tbContent.Text);
-                        var hash = hmac.ComputeHash(msg);
+                        var hash = sha.ComputeHash(msg);
 
                         tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
                     }
@@ -93,10 +93,22 @@ namespace FlightClient
 
                 if (ddlSHAType.SelectedValue.Equals("SHA256"))
                 {
-                    using (HMACSHA256 hmac = new HMACSHA256(encoding.GetBytes(tbKey.Text)))
+                    
+                    using (HMACSHA256 sha = new HMACSHA256(encoding.GetBytes(tbKey.Text)))
                     {
                         var msg = encoding.GetBytes(tbContent.Text);
-                        var hash = hmac.ComputeHash(msg);
+                        var hash = sha.ComputeHash(msg);
+
+                        tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
+                    }
+                }
+
+                if (ddlSHAType.SelectedValue.Equals("SHA384"))
+                {
+                    using (HMACSHA384 sha = new HMACSHA384(encoding.GetBytes(tbKey.Text)))
+                    {
+                        var msg = encoding.GetBytes(tbContent.Text);
+                        var hash = sha.ComputeHash(msg);
 
                         tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
                     }
@@ -104,10 +116,11 @@ namespace FlightClient
 
                 if (ddlSHAType.SelectedValue.Equals("SHA512"))
                 {
-                    using (HMACSHA512 hmac = new HMACSHA512(encoding.GetBytes(tbKey.Text)))
+                    
+                    using (HMACSHA512 sha = new HMACSHA512(encoding.GetBytes(tbKey.Text)))
                     {
                         var msg = encoding.GetBytes(tbContent.Text);
-                        var hash = hmac.ComputeHash(msg);
+                        var hash = sha.ComputeHash(msg);
 
                         tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
                     }
