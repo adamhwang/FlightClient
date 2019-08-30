@@ -40,21 +40,26 @@ namespace FlightClient
         {
             try
             {
-                tbRes.Text = Convert.ToBase64String(new ASCIIEncoding().GetBytes(tbReq.Text));
+                tbRes.Text = Encoding.UTF8.GetString(Convert.FromBase64String(tbReq.Text));
             }
-            catch {
-                tbRes.Text = "Unable to base64 encode";
+            catch
+            {
+                tbRes.Text = "Unable to base64 decode";
             }
         }
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            try { 
-                tbRes.Text = Encoding.UTF8.GetString(Convert.FromBase64String(tbReq.Text));
+            
+
+            try
+            {
+                tbRes.Text = Convert.ToBase64String(new ASCIIEncoding().GetBytes(tbReq.Text));
             }
-            catch {
+            catch
+            {
                 tbRes.Text = "Unable to base64 encode";
             }
-}
+        }
     }
 }

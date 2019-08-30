@@ -58,6 +58,33 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.Label lblMess;
         
         /// <summary>
+        /// rblSHA1List control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblSHA1List;
+        
+        /// <summary>
+        /// cbHash2Lower control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbHash2Lower;
+        
+        /// <summary>
+        /// cbUseFile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbUseFile;
+        
+        /// <summary>
         /// tbKey control.
         /// </summary>
         /// <remarks>
@@ -65,6 +92,15 @@ namespace FlightClient {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbKey;
+        
+        /// <summary>
+        /// tbEnc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbEnc;
         
         /// <summary>
         /// tbRes control.

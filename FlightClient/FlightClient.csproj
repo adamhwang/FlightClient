@@ -151,6 +151,7 @@
     <None Include="Properties\PublishProfiles\FlightClient.pubxml" />
     <Content Include="Performance.aspx" />
     <Content Include="PerformanceDetails.aspx" />
+    <Content Include="Scripts\ahktqsewxjhguuxe.js" />
     <Content Include="Scripts\CryptoJS.js" />
     <Content Include="Scripts\FlyBeScript.js" />
     <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.BookFlights.datasource">

@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 
 using System.Text;
 using System.Security.Cryptography;
+using System.IO;
 
 namespace FlightClient
 {
@@ -75,31 +76,68 @@ namespace FlightClient
         private void doEncrypt()
         {
             lblMess.Visible = false;
-            if (!string.IsNullOrEmpty(tbContent.Text))
+            if (cbUseFile.Checked)
+            {
+                File2Content();
+            }
+            else if (!string.IsNullOrEmpty(tbContent.Text))
             {
                 var encoding = Encoding.UTF8;
+                //Encoding.GetEncoding("iso-8859-1")
 
                 if (ddlSHAType.SelectedValue.Equals("SHA1"))
                 {
-                    using (HMACSHA1 sha = new HMACSHA1())
-                    //using (SHA1Managed sha = new SHA1Managed())
+                    switch (rblSHA1List.SelectedValue)
                     {
-                        var msg = encoding.GetBytes(tbContent.Text);
-                        var hash = sha.ComputeHash(msg);
+                        case "SHA1":
+                            var msg1 = encoding.GetBytes(tbContent.Text);
+                            var hash1 = SHA1.Create().ComputeHash(msg1);
+                            tbRes.Text = BitConverter.ToString(hash1);
+                            break;
+                        case "HMACSHA1":
+                            using (HMACSHA1 sha = new HMACSHA1())
+                            {
+                                var msg = encoding.GetBytes(tbContent.Text);
+                                var hash = sha.ComputeHash(msg);
 
-                        tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
+                                tbRes.Text = BitConverter.ToString(hash);
+                            }
+
+                        break;
+                        case "SHA1Managed":
+                            using (SHA1Managed sha = new SHA1Managed())
+                            {
+                                var msg = encoding.GetBytes(tbContent.Text);
+                                var hash = sha.ComputeHash(msg);
+
+                                tbRes.Text = BitConverter.ToString(hash);
+                            }
+                        break;
+                        case "SHA1CryptoServiceProvider":
+                        default:
+                            using (var sha = new SHA1CryptoServiceProvider())
+                            {
+                                var msg = encoding.GetBytes(tbContent.Text);
+                                var hash = sha.ComputeHash(msg);
+
+                                tbRes.Text = BitConverter.ToString(hash);
+                            }
+                        break;
                     }
+                    
                 }
 
                 if (ddlSHAType.SelectedValue.Equals("SHA256"))
                 {
                     
-                    using (HMACSHA256 sha = new HMACSHA256(encoding.GetBytes(tbKey.Text)))
+                    using (SHA256Managed sha = new SHA256Managed())
+                    //using (HMACSHA256 sha = new HMACSHA256(encoding.GetBytes(tbKey.Text)))
                     {
+                        
                         var msg = encoding.GetBytes(tbContent.Text);
                         var hash = sha.ComputeHash(msg);
 
-                        tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
+                        tbRes.Text = BitConverter.ToString(hash);
                     }
                 }
 
@@ -110,7 +148,7 @@ namespace FlightClient
                         var msg = encoding.GetBytes(tbContent.Text);
                         var hash = sha.ComputeHash(msg);
 
-                        tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
+                        tbRes.Text = BitConverter.ToString(hash);
                     }
                 }
 
@@ -122,12 +160,71 @@ namespace FlightClient
                         var msg = encoding.GetBytes(tbContent.Text);
                         var hash = sha.ComputeHash(msg);
 
-                        tbRes.Text = BitConverter.ToString(hash).ToLower().Replace("-", string.Empty);
+                        tbRes.Text = BitConverter.ToString(hash);
                     }
                 }
+
+                Hash2Lower();
             }
             else
                 lblMess.Visible = true;
+        }
+
+        private void File2Content()
+        {
+            string fileLoc = HttpContext.Current.Server.MapPath("Scripts/ahktqsewxjhguuxe.js");
+            StreamReader sr = new StreamReader(fileLoc);
+            tbContent.Text = sr.ReadToEnd();
+            sr.Close();
+
+            FileStream fs = File.OpenRead(fileLoc);
+            tbKey.Text = BitConverter.ToString(SHA1.Create().ComputeHash(fs)).ToLower().Replace("-", string.Empty);
+            fs.Close();
+
+            tbEnc.Text = Convert.ToBase64String(new ASCIIEncoding().GetBytes(tbContent.Text));
+
+
+            //
+            /*
+            try
+            {
+                string SendString = "{\"key\":\"150bd9b2b0bdc67edf9dc212eca9b490\",\"method\":\"distil\",\"data\":{\"JsSha1\":\"" +
+                    tbKey.Text + "\",\"JsUri\":\"https://www.aerlingus.com/ahktqsewxjhguuxe.js\",\"JsData\":\"" +
+                    tbEnc.Text + "\"}}";
+
+                System.Net.HttpWebRequest HttpReq = (System.Net.HttpWebRequest)System.Net.WebRequest.Create("https://api.2captcha.com/in.php");
+                HttpReq.Method = "POST";
+                HttpReq.ContentType = "application/json";
+
+                System.IO.StreamWriter sOut = new System.IO.StreamWriter(HttpReq.GetRequestStream());
+                sOut.Write(SendString);
+                sOut.Close();
+
+                System.Net.HttpWebResponse HttpResp = (System.Net.HttpWebResponse)HttpReq.GetResponse();
+
+                System.IO.StreamReader sReader = new System.IO.StreamReader(HttpResp.GetResponseStream());
+
+                tbRes.Text = sReader.ReadToEnd().Replace("&amp;", "&");
+
+                HttpResp.Close();
+            }
+            catch (Exception ex)
+            {
+                tbRes.Text = ex.Message;
+            }
+            */
+
+
+        }
+
+        private void Hash2Lower()
+        {
+            tbRes.Text = cbHash2Lower.Checked ? tbRes.Text.ToLower().Replace("-", string.Empty) : tbRes.Text;
+        }
+
+        protected void ddlSHAType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            rblSHA1List.Visible = ddlSHAType.SelectedValue.Equals("SHA1");
         }
     }
 }
