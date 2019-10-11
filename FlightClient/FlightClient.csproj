@@ -134,8 +134,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="BlueAirEnc.aspx" />
     <Content Include="CondorTest.aspx" />
     <Content Include="DeEncode.aspx" />
+    <Content Include="Eastern.aspx" />
     <Content Include="EzeegoTest.aspx" />
     <Content Include="FlyBeTest.aspx" />
     <Content Include="FlyBeTestResult.aspx" />
@@ -152,7 +154,14 @@
     <Content Include="Performance.aspx" />
     <Content Include="PerformanceDetails.aspx" />
     <Content Include="Scripts\ahktqsewxjhguuxe.js" />
+    <Content Include="Scripts\BlueAirMain.js" />
+    <Content Include="Scripts\BlueAirPolyFills.js" />
+    <Content Include="Scripts\BlueAirStyles.js" />
+    <Content Include="Scripts\BlueAirVE.js" />
+    <Content Include="Scripts\BlueAirVendor.js" />
     <Content Include="Scripts\CryptoJS.js" />
+    <Content Include="Scripts\Eastern_akam.js" />
+    <Content Include="Scripts\Eastern_akam2.js" />
     <Content Include="Scripts\FlyBeScript.js" />
     <Content Include="Service References\ElsyAPI\FlightClient.ElsyAPI.BookFlights.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -364,6 +373,13 @@
     <Compile Include="Autward.aspx.designer.cs">
       <DependentUpon>Autward.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BlueAirEnc.aspx.cs">
+      <DependentUpon>BlueAirEnc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlueAirEnc.aspx.designer.cs">
+      <DependentUpon>BlueAirEnc.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CondorTest.aspx.cs">
       <DependentUpon>CondorTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -384,6 +400,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eastern.aspx.cs">
+      <DependentUpon>Eastern.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eastern.aspx.designer.cs">
+      <DependentUpon>Eastern.aspx</DependentUpon>
     </Compile>
     <Compile Include="EzeegoTest.aspx.cs">
       <DependentUpon>EzeegoTest.aspx</DependentUpon>
