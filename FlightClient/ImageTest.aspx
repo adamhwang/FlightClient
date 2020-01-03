@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="txtBinData" runat="server" Width="400px" Height="200px" TextMode="MultiLine" ></asp:TextBox>
+        <asp:CheckBox ID="cbIsImgURL" runat="server" Text="Is image" />
         &nbsp;<asp:Button ID="btnCheckData" Text="CheckData" runat="server" OnClick="btnCheckData_Click" />
         <br /><br />
         <asp:PlaceHolder ID="phImg" runat="server" Visible="false">

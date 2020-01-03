@@ -28,24 +28,33 @@ namespace FlightClient
         protected void btnCheckData_Click(object sender, EventArgs e)
         {
             string rndStr = RandomString(10);
+            string imgURL = string.Format("Images/tmp_{0}.png", rndStr);
+
+            
+
             if (!string.IsNullOrEmpty(txtBinData.Text))
             {
-                string strPath = Server.MapPath(string.Format("Images/tmp_{0}.png", rndStr));
-                MemoryStream stream = new MemoryStream(Convert.FromBase64String(txtBinData.Text));
-                System.Drawing.Image img = System.Drawing.Image.FromStream(stream);
-                img.Save(strPath);
+                if (!cbIsImgURL.Checked)
+                {
+                    string strPath = Server.MapPath(imgURL);
+                    MemoryStream stream = new MemoryStream(Convert.FromBase64String(txtBinData.Text));
+                    System.Drawing.Image img = System.Drawing.Image.FromStream(stream);
+                    img.Save(strPath);
+                }
+                else
+                    imgURL = txtBinData.Text;
             }
-            phImg.Visible = File.Exists(Server.MapPath(string.Format("Images/tmp_{0}.png", rndStr)));
+            phImg.Visible = File.Exists(Server.MapPath(imgURL));
 
             string imgText = string.Empty;
 
-            if (File.Exists(Server.MapPath(string.Format("Images/tmp_{0}.png", rndStr))))
+            if (File.Exists(Server.MapPath(imgURL)))
             {
-                imgPNG.ImageUrl = string.Format("Images/tmp_{0}.png", rndStr);
+                imgPNG.ImageUrl = imgURL;
 
                 using (var engine = new TesseractEngine(Server.MapPath("tessdata"), "eng", EngineMode.Default))
                 {
-                    using (var img = Pix.LoadFromFile(Server.MapPath(string.Format("Images/tmp_{0}.png", rndStr))))
+                    using (var img = Pix.LoadFromFile(Server.MapPath(imgURL)))
                     {
                         using (var page = engine.Process(img))
                         {
