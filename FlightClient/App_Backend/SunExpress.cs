@@ -77,10 +77,10 @@ namespace SunExpress
                     string str = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_STR");
                     string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
 
-                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_"))
+                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_") || locat.ToUpper().Contains("_OVERWRITE_"))
                     //if (File.Exists(locat))
                     {
-                        sb.Append(string.Format("<ITEM>{0}</ITEM>", cipherRequest(str, locat)));
+                        sb.Append(string.Format("<ITEM>{0}</ITEM>", cipherRequest(str, locat, pScrapeInfo)));
                     }
                     else
                         sb.Append("<ERROR>No proper certificate name</ERROR>");
@@ -124,13 +124,13 @@ namespace SunExpress
                     string ExpDate = pScrapeInfo.CheckIfVariableExists("REQ_BOO_CREDITCARD_VALID_MONTH") + "/" + pScrapeInfo.CheckIfVariableExists("REQ_BOO_CREDITCARD_VALID_YEAR");
                     string locat = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_LOC");
 
-                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_"))
+                    if (locat.ToUpper().Contains("_PYM_") || locat.ToUpper().Contains("_PYMTEST_") || locat.ToUpper().Contains("_FRMK_") || locat.ToUpper().Contains("_OVERWRITE_"))
                     //if (File.Exists(locat))
                     {
-                        sb.Append(string.Format("<CCNR>{0}</CCNR>", cipherRequest(CCNR, locat)));
-                        sb.Append(string.Format("<CCV>{0}</CCV>", cipherRequest(CCV, locat)));
-                        sb.Append(string.Format("<CCHolder>{0}</CCHolder>", cipherRequest(CCHolder, locat)));
-                        sb.Append(string.Format("<ExpDate>{0}</ExpDate>", cipherRequest(ExpDate, locat)));
+                        sb.Append(string.Format("<CCNR>{0}</CCNR>", cipherRequest(CCNR, locat, pScrapeInfo)));
+                        sb.Append(string.Format("<CCV>{0}</CCV>", cipherRequest(CCV, locat, pScrapeInfo)));
+                        sb.Append(string.Format("<CCHolder>{0}</CCHolder>", cipherRequest(CCHolder, locat, pScrapeInfo)));
+                        sb.Append(string.Format("<ExpDate>{0}</ExpDate>", cipherRequest(ExpDate, locat, pScrapeInfo)));
                     }
                     else
                         sb.Append("<ERROR>No proper certificate name</ERROR>");
@@ -154,7 +154,9 @@ namespace SunExpress
         }
 
 
-        private static string cipherRequest(string stringToEncrypt, string locat)
+        
+
+        private static string cipherRequest(string stringToEncrypt, string locat, ScrapeInfo pScrapeInfo)
         {
             try
             {
@@ -178,6 +180,26 @@ namespace SunExpress
                 else if (locat.ToUpper().Contains("_FRMK_"))
                     //aiRES_FRMK_Cert.cer
                     certPubKey = "<RSAKeyValue><Modulus>rFxUl9/aGuybV3EIdudy2dWY1xB2NmBf/qdFLfa5d44xVNgLONGMB3rD+UrlzCNuLyJor3z0nf9qg50Ob2quKPlv2XhYKVu3aJl+uh2SXZ4BVwIYKIvvxTH7eKGbj3UdkrVCw9oQs/AClpK4MaHXzBe3t4YzC77DJykM2Ih27Q2bMwU2XvZhBhq6Zz2N717fPi+Md3Pyack0revPtZ+bNfSMjV+M8+poV9rBBGGZoAF1vt8hJIXyg9hZaWZzPUAdiYP1wvSgaJpoNKyL5/smFxq8sQjeEB8zpP9kfb/3gU7aRvM5YJTGhzrnEF16ADenL9+uOyBkIBFX0wKIiFSmSQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+                else if (locat.ToUpper().Contains("_OVERWRITE_"))
+                {
+                    //Overwrite the certPubKey with given value
+                    if (pScrapeInfo.CheckIfVariableExists("WS_ENCRYPT_CER_VAL") && !string.IsNullOrEmpty(pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_VAL")))
+                    {
+                        try
+                        {
+                            XmlDocument xdoc = new XmlDocument();
+                            xdoc.LoadXml(pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_VAL"));
+                            if (xdoc != null && xdoc.SelectSingleNode("RSAKeyValue/Modulus") != null)
+                                certPubKey = pScrapeInfo.GetScrapeInfoValueFromName("WS_ENCRYPT_CER_VAL");
+                        }
+                        catch
+                        {
+                            return "ERROR: No proper certificate value";
+                        }
+                    }
+                    
+
+                }
 
 
                 if (string.IsNullOrEmpty(certPubKey))

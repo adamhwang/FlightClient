@@ -521,7 +521,7 @@
             <td valign="top">Return date&nbsp;</td>
             <td valign="top"><asp:Calendar ID="calReturn" runat="server" OnDayRender="Calendar2_DayRender"></asp:Calendar></td>
             </asp:PlaceHolder>
-            <asp:PlaceHolder ID="phPayment" runat="server" Visible="false">
+            <asp:PlaceHolder ID="phPayment" runat="server" >
             <td valign="top" style="width:20px"></td>
             <td valign="top">Creditcard&nbsp;&nbsp;<br /><br /><br /><br /><br />CCV&nbsp;&nbsp;</td>
             <td valign="top"><asp:DropDownList ID="ddlCard" runat="server" onselectedindexchanged="ddlCard_SelectedIndexChanged" AutoPostBack="true">
@@ -564,7 +564,9 @@
             </tr>
             </table>
             
-            <br /><br /><asp:TextBox ID="tbCCV" runat="server" Text="321" />&nbsp;&nbsp;&nbsp;<asp:Button ID="btnEncryptCC" runat="server" Text="Encrypt CC" OnClick="btnEncryptCC_Click" />
+            <br /><br />
+            <asp:CheckBox ID="cbOverWriteWithContent" runat="server" Text="Overwrite with content" />    
+            <asp:TextBox ID="tbCCV" runat="server" Text="321" />&nbsp;&nbsp;&nbsp;<asp:Button ID="btnEncryptCC" runat="server" Text="Encrypt CC" OnClick="btnEncryptCC_Click" />
             </td>
             </asp:PlaceHolder>
             

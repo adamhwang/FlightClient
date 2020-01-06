@@ -274,6 +274,15 @@ namespace FlightClient {
         protected global::System.Web.UI.WebControls.DropDownList ddlValidYear;
         
         /// <summary>
+        /// cbOverWriteWithContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbOverWriteWithContent;
+        
+        /// <summary>
         /// tbCCV control.
         /// </summary>
         /// <remarks>

@@ -605,7 +605,7 @@ namespace FlightClient
             tbRes.Text = string.Empty;
 
             phReturnDate.Visible = false;
-            phPayment.Visible = false;
+            //phPayment.Visible = false;
             //phOutFlightSelect.Visible = false;
             //phPNR.Visible = false;
             //tbPNR.Text = string.Empty;
@@ -1531,7 +1531,11 @@ namespace FlightClient
                 _scrapeInfo.InsertVariable("REQ_BOO_CREDITCARD_VALID_YEAR_4D", ddlValidYear.SelectedValue, true);
                 _scrapeInfo.InsertVariable("REQ_BOO_CREDITCARD_VALID_YEARD", ddlValidYear.SelectedValue.Substring(2, 2), true);
                 _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", System.Configuration.ConfigurationManager.AppSettings["Encrypt.Cer"], true);
-
+                if (cbOverWriteWithContent.Checked)
+                {
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_LOC", "_OVERWRITE_", true);
+                    _scrapeInfo.InsertVariable("WS_ENCRYPT_CER_VAL", tbReq.Text, true);
+                }
 
                 SunExpress.SunExpressMain se = new SunExpress.SunExpressMain();
                 NameValueCollection poScrapeData = new NameValueCollection();
